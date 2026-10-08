@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-SOURCES/Commentaries/རྣམ་འགྲེལ་ཐར་ལམ་གསལ་བྱེད།.md",
+                "file": "1-SOURCES/Commentaries/namdel_delwa.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "རྣམ་འགྲེལ་ཐར་ལམ་གསལ་བྱེད།"
+              "title": "namdel_delwa"
             }
           }
         ]
@@ -199,13 +199,14 @@
   },
   "active": "939559fd60856cf0",
   "lastOpenFiles": [
-    "1-SOURCES/Commentaries/ཚད་མ་རྣམ་འགྲེལ་གྱི་འགྲེལ་པ། སྨད་ཆ།.md",
-    "1-SOURCES/Commentaries/ཚད་མ་རྣམ་འགྲེལ་གྱི་འགྲེལ་པ། སྟོད་ཆ།.md",
-    "1-SOURCES/Commentaries/ཚད་མ་རྣམ་འགྲེལ་གྱི་འགྲེལ་པ་ལེགས་བཤད་སྣང་བའི་གཏེར།.md",
-    "1-SOURCES/Commentaries/ཚད་མ་རྣམ་འགྲེལ་གྱི་ཊཱིཀ་ཆེན་རིགས་པའི་རྒྱ་མཚོ། སྨད་ཆ།.md",
-    "1-SOURCES/Commentaries/ཚད་མ་རྣམ་འགྲེལ་གྱི་ཊཱིཀ་ཆེན་རིགས་པའི་རྒྱ་མཚོ། སྟོད་ཆ།.md",
     "1-SOURCES/Commentaries/དཀའ་འགྲེལ་དགོངས་པ་རབ་གསལ།.md",
+    "1-SOURCES/Commentaries/ཚད་མ་རྣམ་འགྲེལ་གྱི་ཊཱིཀ་ཆེན་རིགས་པའི་རྒྱ་མཚོ། སྨད་ཆ།.md",
     "1-SOURCES/Commentaries/རྣམ་འགྲེལ་ཐར་ལམ་གསལ་བྱེད།.md",
+    "1-SOURCES/Commentaries/ཚད་མ་རྣམ་འགྲེལ་གྱི་འགྲེལ་པ། སྟོད་ཆ།.md",
+    "1-SOURCES/Commentaries/ཚད་མ་རྣམ་འགྲེལ་གྱི་འགྲེལ་པ། སྨད་ཆ།.md",
+    "1-SOURCES/Commentaries/ཚད་མ་རྣམ་འགྲེལ་གྱི་འགྲེལ་པ་ལེགས་བཤད་སྣང་བའི་གཏེར།.md",
+    "1-SOURCES/Commentaries/ཚད་མ་རྣམ་འགྲེལ་གྱི་ཊཱིཀ་ཆེན་རིགས་པའི་རྒྱ་མཚོ། སྟོད་ཆ།.md",
+    "1-SOURCES/Text/ཚད་མ་རྣམ་འགྲེལ།.md",
     "README.md",
     "gemini-scribe/Scheduled-Tasks/Runs",
     "gemini-scribe/Skills",
@@ -233,7 +234,6 @@
     "4-SYSTEM/Skills/json-to-source-text/SKILL.md",
     "4-SYSTEM/Skills/local-wiki-article/SKILL.md",
     "4-SYSTEM/Skills/json-to-commentary/SKILL.md",
-    "4-SYSTEM/Skills/glossary-select/SKILL.md",
-    "4-SYSTEM/Skills/interlinear-gloss/SKILL.md"
+    "4-SYSTEM/Skills/glossary-select/SKILL.md"
   ]
 }

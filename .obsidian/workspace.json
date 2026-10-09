@@ -11,10 +11,14 @@
             "id": "efc190e34009dd8a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "1-SOURCES/Commentaries/ཚད་མ་རྣམ་འགྲེལ་གྱི་ཊཱིཀ་ཆེན་རིགས་པའི་རྒྱ་མཚོ། སྨད་ཆ།.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "ཚད་མ་རྣམ་འགྲེལ་གྱི་ཊཱིཀ་ཆེན་རིགས་པའི་རྒྱ་མཚོ། སྨད་ཆ།"
             }
           }
         ]
@@ -195,6 +199,10 @@
   },
   "active": "efc190e34009dd8a",
   "lastOpenFiles": [
+    "1-SOURCES/Commentaries/ཚད་མ་རྣམ་འགྲེལ་གྱི་འགྲེལ་པ་ལེགས་བཤད་སྣང་བའི་གཏེར།.md",
+    "1-SOURCES/Commentaries/ཚད་མ་རྣམ་འགྲེལ་གྱི་འགྲེལ་པ། སྨད་ཆ།.md",
+    "1-SOURCES/Commentaries/རྣམ་འགྲེལ་ཐར་ལམ་གསལ་བྱེད།.md",
+    "Untitled",
     "1-SOURCES/Text/ཚད་མ་རྣམ་འགྲེལ།.md",
     "1-SOURCES/Commentaries/namdel_delwa.md",
     "1-SOURCES/Text/nalanda.md",
@@ -202,13 +210,10 @@
     "1-SOURCES/Commentaries/ཚད་མ་རྣམ་འགྲེལ་གྱི་ཊཱིཀ་ཆེན་རིགས་པའི་རྒྱ་མཚོ། སྟོད་ཆ།.md",
     "1-SOURCES/Commentaries/ཚད་མ་རྣམ་འགྲེལ་གྱི་འགྲེལ་པ། སྟོད་ཆ།.md",
     "1-SOURCES/Commentaries/ཚད་མ་རྣམ་འགྲེལ་གྱི་ཊཱིཀ་ཆེན་རིགས་པའི་རྒྱ་མཚོ། སྨད་ཆ།.md",
-    "1-SOURCES/Commentaries/ཚད་མ་རྣམ་འགྲེལ་གྱི་འགྲེལ་པ། སྨད་ཆ།.md",
     "gemini-scribe/Scheduled-Tasks/Runs",
     "gemini-scribe/Skills",
     "gemini-scribe/Background-Tasks",
     "gemini-scribe/Agent-Sessions",
-    "1-SOURCES/Commentaries/རྣམ་འགྲེལ་ཐར་ལམ་གསལ་བྱེད།.md",
-    "1-SOURCES/Commentaries/ཚད་མ་རྣམ་འགྲེལ་གྱི་འགྲེལ་པ་ལེགས་བཤད་སྣང་བའི་གཏེར།.md",
     "README.md",
     "gemini-scribe/Scheduled-Tasks/scheduled-tasks-state.json",
     "gemini-scribe/Prompts/example-expert.md",
@@ -217,7 +222,6 @@
     "gemini-scribe",
     "CLAUDE.md",
     "4-SYSTEM/Skills/json-to-commentary/scripts/converters/__pycache__/tipitaka_org_atthakatha.cpython-310.pyc",
-    "4-SYSTEM/Skills/json-to-commentary/scripts/converters/tipitaka_org_atthakatha.py",
     "4-SYSTEM/Skills/epub-to-markdown/converters/README.md",
     "4-SYSTEM/Skills/verse-context/SKILL.md",
     "4-SYSTEM/Skills/vault-audit/SKILL.md",
@@ -229,7 +233,6 @@
     "4-SYSTEM/Skills/root-text-frontmatter/SKILL.md",
     "4-SYSTEM/Skills/reference-frontmatter/SKILL.md",
     "4-SYSTEM/Skills/property-creator/SKILL.md",
-    "4-SYSTEM/Skills/json-to-source-text/SKILL.md",
-    "4-SYSTEM/Skills/local-wiki-article/SKILL.md"
+    "4-SYSTEM/Skills/json-to-source-text/SKILL.md"
   ]
 }

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-SOURCES/Commentaries/དཀའ་འགྲེལ་དགོངས་པ་རབ་གསལ།.md",
+                "file": "1-SOURCES/Commentaries/རྣམ་འགྲེལ་ཐར་ལམ་གསལ་བྱེད།.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "དཀའ་འགྲེལ་དགོངས་པ་རབ་གསལ།"
+              "title": "རྣམ་འགྲེལ་ཐར་ལམ་གསལ་བྱེད།"
             }
           }
         ]
@@ -199,12 +199,16 @@
   },
   "active": "37a17aad93769ba6",
   "lastOpenFiles": [
-    "1-SOURCES/Commentaries/གཏུབ་ཟིན་ཡིག་ཆ་༣.md",
-    "1-SOURCES/Commentaries/དཀའ་འགྲེལ་དགོངས་པ་རབ་གསལ།.md",
-    "1-SOURCES/Commentaries/རྣམ་འགྲེལ་ཐར་ལམ་གསལ་བྱེད།.md",
     "1-SOURCES/Commentaries/ཚད་མ་རྣམ་འགྲེལ་གྱི་འགྲེལ་པ། སྨད་ཆ།.md",
     "1-SOURCES/Commentaries/ཚད་མ་རྣམ་འགྲེལ་གྱི་འགྲེལ་པ། སྟོད་ཆ།.md",
     "1-SOURCES/Commentaries/ཚད་མ་རྣམ་འགྲེལ་གྱི་འགྲེལ་པ་ལེགས་བཤད་སྣང་བའི་གཏེར།.md",
+    "1-SOURCES/Commentaries/དཀའ་འགྲེལ་དགོངས་པ་རབ་གསལ།.md",
+    "1-SOURCES/Commentaries/གཏུབ་ཟིན་ཡིག་ཆ་7.md",
+    "1-SOURCES/Commentaries/གཏུབ་ཟིན་ཡིག་ཆ་6.md",
+    "1-SOURCES/Commentaries/གཏུབ་ཟིན་ཡིག་ཆ་5.md",
+    "1-SOURCES/Commentaries/རྣམ་འགྲེལ་ཐར་ལམ་གསལ་བྱེད།.md",
+    "1-SOURCES/Commentaries/གཏུབ་ཟིན་ཡིག་ཆ་4.md",
+    "1-SOURCES/Commentaries/གཏུབ་ཟིན་ཡིག་ཆ་༣.md",
     "1-SOURCES/Text/ཚད་མ་རྣམ་འགྲེལ།.md",
     "conflict-files-obsidian-git.md",
     "1-SOURCES/Text/ཚད་མ་རྣམ་འགྲེལ་ཤོ་ལོ་ཀ་ཡིག་རྐྱང་མེད།.md",
@@ -230,10 +234,6 @@
     "CLAUDE.md",
     "4-SYSTEM/Skills/json-to-commentary/scripts/converters/__pycache__/tipitaka_org_atthakatha.cpython-310.pyc",
     "4-SYSTEM/Skills/json-to-commentary/scripts/converters/tipitaka_org_atthakatha.py",
-    "4-SYSTEM/Skills/epub-to-markdown/converters/README.md",
-    "4-SYSTEM/Skills/verse-context/SKILL.md",
-    "4-SYSTEM/Skills/vault-audit/SKILL.md",
-    "4-SYSTEM/Skills/translation-frontmatter/SKILL.md",
-    "4-SYSTEM/Skills/source-property-extractor/SKILL.md"
+    "4-SYSTEM/Skills/epub-to-markdown/converters/README.md"
   ]
 }

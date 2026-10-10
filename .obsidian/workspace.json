@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-SOURCES/Text/ཚད་མ་རྣམ་འགྲེལ།.md",
+                "file": "1-SOURCES/Commentaries/རྣམ་འགྲེལ་ཐར་ལམ་གསལ་བྱེད།.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ཚད་མ་རྣམ་འགྲེལ།"
+              "title": "རྣམ་འགྲེལ་ཐར་ལམ་གསལ་བྱེད།"
             }
           }
         ]
@@ -199,6 +199,9 @@
   },
   "active": "37a17aad93769ba6",
   "lastOpenFiles": [
+    "1-SOURCES/Commentaries/ཚད་མ་རྣམ་འགྲེལ་གྱི་འགྲེལ་པ། སྨད་ཆ།.md",
+    "1-SOURCES/Commentaries/ཚད་མ་རྣམ་འགྲེལ་གྱི་འགྲེལ་པ། སྟོད་ཆ།.md",
+    "1-SOURCES/Commentaries/ཚད་མ་རྣམ་འགྲེལ་གྱི་འགྲེལ་པ་ལེགས་བཤད་སྣང་བའི་གཏེར།.md",
     "1-SOURCES/Commentaries/དཀའ་འགྲེལ་དགོངས་པ་རབ་གསལ།.md",
     "1-SOURCES/Text/ཚད་མ་རྣམ་འགྲེལ།.md",
     "1-SOURCES/Commentaries/རྣམ་འགྲེལ་ཐར་ལམ་གསལ་བྱེད།.md",
@@ -206,9 +209,6 @@
     "1-SOURCES/Text/ཚད་མ་རྣམ་འགྲེལ་ཤོ་ལོ་ཀ་ཡིག་རྐྱང་མེད།.md",
     "1-SOURCES/Commentaries/file13.md",
     "1-SOURCES/Commentaries/file12.md",
-    "1-SOURCES/Commentaries/ཚད་མ་རྣམ་འགྲེལ་གྱི་འགྲེལ་པ། སྟོད་ཆ།.md",
-    "1-SOURCES/Commentaries/ཚད་མ་རྣམ་འགྲེལ་གྱི་འགྲེལ་པ། སྨད་ཆ།.md",
-    "1-SOURCES/Commentaries/ཚད་མ་རྣམ་འགྲེལ་གྱི་འགྲེལ་པ་ལེགས་བཤད་སྣང་བའི་གཏེར།.md",
     "1-SOURCES/Commentaries/ཚད་མ་རྣམ་འགྲེལ་གྱི་འགྲེལ་པ་དང་པོ།-བར་སྟོང་མེད་པ།.md",
     "1-SOURCES/Commentaries/ཚད་མ་རྣམ་འགྲེལ་གྱི་འགྲེལ་པ་སྨད་ཆ།-བར་སྟོང་མེད་པ།.md",
     "1-SOURCES/Commentaries/ཚད་མ་རྣམ་འགྲེལ་གྱི་ཊཱིཀ་ཆེན་རིགས་པའི་རྒྱ་མཚོ། སྨད་ཆ།.md",

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-SOURCES/Text/ཚད་མ་རྣམ་འགྲེལ།.md",
+                "file": "1-SOURCES/Commentaries/ཚད་མ་རྣམ་འགྲེལ་གྱི་འགྲེལ་པ་ལེགས་བཤད་སྣང་བའི་གཏེར།.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ཚད་མ་རྣམ་འགྲེལ།"
+              "title": "ཚད་མ་རྣམ་འགྲེལ་གྱི་འགྲེལ་པ་ལེགས་བཤད་སྣང་བའི་གཏེར།"
             }
           }
         ]
@@ -199,19 +199,19 @@
   },
   "active": "37a17aad93769ba6",
   "lastOpenFiles": [
-    "1-SOURCES/Text/sedIYkuXh",
-    "1-SOURCES/Text/sedqsWHGR",
-    "1-SOURCES/Commentaries/རྣམ་འགྲེལ་ཐར་ལམ་གསལ་བྱེད།.md",
-    "1-SOURCES/Commentaries/ཚད་མ་རྣམ་འགྲེལ་གྱི་འགྲེལ་པ། སྨད་ཆ།.md",
     "1-SOURCES/Commentaries/ཚད་མ་རྣམ་འགྲེལ་གྱི་འགྲེལ་པ། སྟོད་ཆ།.md",
+    "1-SOURCES/Commentaries/ཚད་མ་རྣམ་འགྲེལ་གྱི་འགྲེལ་པ། སྨད་ཆ།.md",
+    "1-SOURCES/Commentaries/རྣམ་འགྲེལ་ཐར་ལམ་གསལ་བྱེད།.md",
     "1-SOURCES/Commentaries/ཚད་མ་རྣམ་འགྲེལ་གྱི་འགྲེལ་པ་ལེགས་བཤད་སྣང་བའི་གཏེར།.md",
     "1-SOURCES/Commentaries/དཀའ་འགྲེལ་དགོངས་པ་རབ་གསལ།.md",
+    "1-SOURCES/Text/ཚད་མ་རྣམ་འགྲེལ།.md",
+    "1-SOURCES/Text/sedIYkuXh",
+    "1-SOURCES/Text/sedqsWHGR",
     "0-INBOX/TOCs",
     "gemini-scribe/Scheduled-Tasks/Runs",
     "gemini-scribe/Skills",
     "gemini-scribe/Background-Tasks",
     "gemini-scribe/Agent-Sessions",
-    "1-SOURCES/Text/ཚད་མ་རྣམ་འགྲེལ།.md",
     "1-SOURCES/Text/pramanavarttika_sloka.md",
     "1-SOURCES/Text/ཚད་མ་རྣམ་འགྲེལ།_བཏུབ་ཟིན།.md",
     "1-SOURCES/Text/ཚད་མ་རྣམ་འགྲེལ། 1.md",
@@ -233,7 +233,6 @@
     "1-SOURCES/Commentaries/ཚད་མ་རྣམ་འགྲེལ་གྱི་ཊཱིཀ་ཆེན་རིགས་པའི་རྒྱ་མཚོ། སྟོད་ཆ།.md",
     "gemini-scribe/Scheduled-Tasks/scheduled-tasks-state.json",
     "gemini-scribe/Scheduled-Tasks",
-    "gemini-scribe/Prompts",
-    "gemini-scribe"
+    "gemini-scribe/Prompts"
   ]
 }

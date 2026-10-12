@@ -199,6 +199,8 @@
   },
   "active": "37a17aad93769ba6",
   "lastOpenFiles": [
+    "1-SOURCES/Text/sedIYkuXh",
+    "1-SOURCES/Text/sedqsWHGR",
     "1-SOURCES/Commentaries/རྣམ་འགྲེལ་ཐར་ལམ་གསལ་བྱེད།.md",
     "1-SOURCES/Commentaries/ཚད་མ་རྣམ་འགྲེལ་གྱི་འགྲེལ་པ། སྨད་ཆ།.md",
     "1-SOURCES/Commentaries/ཚད་མ་རྣམ་འགྲེལ་གྱི་འགྲེལ་པ། སྟོད་ཆ།.md",
@@ -232,7 +234,6 @@
     "gemini-scribe/Scheduled-Tasks/scheduled-tasks-state.json",
     "gemini-scribe/Scheduled-Tasks",
     "gemini-scribe/Prompts",
-    "gemini-scribe",
-    "4-SYSTEM/Skills/json-to-commentary/scripts/converters/__pycache__/tipitaka_org_atthakatha.cpython-310.pyc"
+    "gemini-scribe"
   ]
 }

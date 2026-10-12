@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1-SOURCES/Commentaries/ཚད་མ་རྣམ་འགྲེལ་གྱི་འགྲེལ་པ་ལེགས་བཤད་སྣང་བའི་གཏེར།.md",
+                "file": "1-SOURCES/Commentaries/རྣམ་འགྲེལ་ཐར་ལམ་གསལ་བྱེད།.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ཚད་མ་རྣམ་འགྲེལ་གྱི་འགྲེལ་པ་ལེགས་བཤད་སྣང་བའི་གཏེར།"
+              "title": "རྣམ་འགྲེལ་ཐར་ལམ་གསལ་བྱེད།"
             }
           }
         ]
@@ -80,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 296.8333435058594
   },
   "right": {
     "id": "08fb4a0a47ab3b49",
@@ -197,12 +197,17 @@
       "gemini-scribe:Gemini Scribe: Agent Mode": false
     }
   },
-  "active": "37a17aad93769ba6",
+  "active": "eb2538ea3fa47051",
   "lastOpenFiles": [
+    "0-INBOX/temp/TOC-thar-lam-gsal-byed/candidates/chunk_000.md",
+    "0-INBOX/temp/TOC-thar-lam-gsal-byed/enumerations",
+    "0-INBOX/temp/TOC-thar-lam-gsal-byed/candidates",
+    "0-INBOX/temp/TOC-thar-lam-gsal-byed/chunk-index.tsv",
+    "0-INBOX/temp/TOC-thar-lam-gsal-byed",
+    "1-SOURCES/Commentaries/ཚད་མ་རྣམ་འགྲེལ་གྱི་འགྲེལ་པ་ལེགས་བཤད་སྣང་བའི་གཏེར།.md",
     "1-SOURCES/Commentaries/ཚད་མ་རྣམ་འགྲེལ་གྱི་འགྲེལ་པ། སྟོད་ཆ།.md",
     "1-SOURCES/Commentaries/ཚད་མ་རྣམ་འགྲེལ་གྱི་འགྲེལ་པ། སྨད་ཆ།.md",
     "1-SOURCES/Commentaries/རྣམ་འགྲེལ་ཐར་ལམ་གསལ་བྱེད།.md",
-    "1-SOURCES/Commentaries/ཚད་མ་རྣམ་འགྲེལ་གྱི་འགྲེལ་པ་ལེགས་བཤད་སྣང་བའི་གཏེར།.md",
     "1-SOURCES/Commentaries/དཀའ་འགྲེལ་དགོངས་པ་རབ་གསལ།.md",
     "1-SOURCES/Text/ཚད་མ་རྣམ་འགྲེལ།.md",
     "1-SOURCES/Text/sedIYkuXh",
@@ -211,7 +216,6 @@
     "gemini-scribe/Scheduled-Tasks/Runs",
     "gemini-scribe/Skills",
     "gemini-scribe/Background-Tasks",
-    "gemini-scribe/Agent-Sessions",
     "1-SOURCES/Text/pramanavarttika_sloka.md",
     "1-SOURCES/Text/ཚད་མ་རྣམ་འགྲེལ།_བཏུབ་ཟིན།.md",
     "1-SOURCES/Text/ཚད་མ་རྣམ་འགྲེལ། 1.md",
@@ -230,9 +234,6 @@
     "1-SOURCES/Commentaries/ཚད་མ་རྣམ་འགྲེལ་གྱི་འགྲེལ་པ་དང་པོ།-བར་སྟོང་མེད་པ།.md",
     "1-SOURCES/Commentaries/ཚད་མ་རྣམ་འགྲེལ་གྱི་འགྲེལ་པ་སྨད་ཆ།-བར་སྟོང་མེད་པ།.md",
     "1-SOURCES/Commentaries/ཚད་མ་རྣམ་འགྲེལ་གྱི་ཊཱིཀ་ཆེན་རིགས་པའི་རྒྱ་མཚོ། སྨད་ཆ།.md",
-    "1-SOURCES/Commentaries/ཚད་མ་རྣམ་འགྲེལ་གྱི་ཊཱིཀ་ཆེན་རིགས་པའི་རྒྱ་མཚོ། སྟོད་ཆ།.md",
-    "gemini-scribe/Scheduled-Tasks/scheduled-tasks-state.json",
-    "gemini-scribe/Scheduled-Tasks",
-    "gemini-scribe/Prompts"
+    "1-SOURCES/Commentaries/ཚད་མ་རྣམ་འགྲེལ་གྱི་ཊཱིཀ་ཆེན་རིགས་པའི་རྒྱ་མཚོ། སྟོད་ཆ།.md"
   ]
 }

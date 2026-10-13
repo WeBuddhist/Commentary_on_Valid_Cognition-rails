@@ -20,6 +20,20 @@
               "icon": "lucide-file",
               "title": "རྣམ་འགྲེལ་ཐར་ལམ་གསལ་བྱེད།"
             }
+          },
+          {
+            "id": "5b377d1438504b3d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1-SOURCES/Text/ཚད་མ་རྣམ་འགྲེལ།.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ཚད་མ་རྣམ་འགྲེལ།"
+            }
           }
         ]
       }
@@ -199,11 +213,11 @@
   },
   "active": "37a17aad93769ba6",
   "lastOpenFiles": [
+    "1-SOURCES/Text/ཚད་མ་རྣམ་འགྲེལ།.md",
+    "1-SOURCES/Commentaries/རྣམ་འགྲེལ་ཐར་ལམ་གསལ་བྱེད།.md",
     "1-SOURCES/Commentaries/ཚད་མ་རྣམ་འགྲེལ་གྱི་འགྲེལ་པ་ལེགས་བཤད་སྣང་བའི་གཏེར།.md",
     "0-INBOX/transclusion-ch1-proposal.md",
     "1-SOURCES/Commentaries/ཚད་མ་རྣམ་འགྲེལ་གྱི་འགྲེལ་པ། སྟོད་ཆ།.md",
-    "1-SOURCES/Commentaries/རྣམ་འགྲེལ་ཐར་ལམ་གསལ་བྱེད།.md",
-    "1-SOURCES/Text/ཚད་མ་རྣམ་འགྲེལ།.md",
     "0-INBOX/temp/TOC-legs-bshad-snang-ba-gter/enumerations/chunk_022.md",
     "0-INBOX/temp/TOC-legs-bshad-snang-ba-gter/enumerations/chunk_025.md",
     "0-INBOX/temp/TOC-legs-bshad-snang-ba-gter/enumerations/chunk_023.md",

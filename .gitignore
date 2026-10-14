@@ -13,3 +13,6 @@
 
 # Claude Code worktrees (local only)
 .claude/worktrees/
+
+# Secrets (never commit)
+.env

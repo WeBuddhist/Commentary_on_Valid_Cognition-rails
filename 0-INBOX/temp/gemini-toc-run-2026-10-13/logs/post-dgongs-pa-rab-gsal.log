@@ -1,0 +1,5 @@
+dgongs-pa-rab-gsal round 0: qc_check_tree=163 qc_tree_vs_source=249
+dgongs-pa-rab-gsal round 1: qc_check_tree=16 qc_tree_vs_source=198
+dgongs-pa-rab-gsal round 2: qc_check_tree=8 qc_tree_vs_source=193
+dgongs-pa-rab-gsal round 3: qc_check_tree=6 qc_tree_vs_source=183
+dgongs-pa-rab-gsal DONE before=(163,249) after=(6,183) rounds=3

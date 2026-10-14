@@ -1,0 +1,5 @@
+grel-pa-smad round 0: qc_check_tree=0 qc_tree_vs_source=3
+grel-pa-smad round 1: qc_check_tree=0 qc_tree_vs_source=8
+grel-pa-smad round 2: qc_check_tree=1 qc_tree_vs_source=8
+grel-pa-smad round 3: qc_check_tree=1 qc_tree_vs_source=8
+grel-pa-smad DONE before=(0,3) after=(1,8) rounds=3

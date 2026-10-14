@@ -1,0 +1,14 @@
+# TOC tree QC report
+
+issues: 8
+
+## Issues
+
+- L216: Tibetan ordinal = 2 but decimal last segment = 4  ->  3.3.1.1.4 གཉིས་པ་ཐུབ་པའང་མཚན་ཉིད་དེ་དང་ལྡན་པར་བསྟན
+- L280: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.3.1.2.2.2.2.2 གཉིས་པ་ལན་ [[2121]]
+- L323: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.3.3.1.1.1 དང་པོ་དངོས་ [[2458]]
+- L393: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.3.3.2.1.1.1.1.1.1.2.1 དང་པོ་དངོས་ [[?]]
+- L425: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.3.3.2.1.1.1.2.2.2.1 དང་པོ་དངོས་ [[?]]
+- L644: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.3.4.2.1.1.2.2.1 དང་པོ་དངོས་ [[?]]
+- L669: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.3.4.2.1.1.2.2.2.2 གཉིས་པ་ལན་ [[5307]]
+- L733: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.3.4.2.1.1.2.3.1.2.2.2 གཉིས་པ་ལན་ [[?]]

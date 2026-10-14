@@ -1,0 +1,22 @@
+# TOC tree QC report
+
+issues: 16
+
+## Issues
+
+- L272: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.3.1.2.2.2.2.2 གཉིས་པ་ལན་ [[2121]]
+- L315: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.3.3.1.1.1 དང་པོ་དངོས་ [[2458]]
+- L385: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.3.3.2.1.1.1.1.1.1.2.1 དང་པོ་དངོས་ [[?]]
+- L417: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.3.3.2.1.1.1.2.2.2.1 དང་པོ་དངོས་ [[?]]
+- L639: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.3.4.2.1.1.2.2.1 དང་པོ་དངོས་ [[?]]
+- L664: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.3.4.2.1.1.2.2.2.2 གཉིས་པ་ལན་ [[5307]]
+- L731: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.3.4.2.1.1.2.3.1.3.1.1 དང་པོ་ [[?]]
+- L745: duplicate decimal 3.3.4.2.1.2 (also at L732)
+- L765: duplicate decimal 3.3.4.2.2 (also at L733)
+- children of 3.3.3.1.4.2.1.1: numbered [2], expected [1]
+- children of 3.3.3.1.4.2.1: numbered [2], expected [1]
+- children of 3.3.3.1.4.2: numbered [2], expected [1]
+- children of 3.3.3.1.4: numbered [3], expected [1]
+- children of 3.3.3.3.1.2.2.1.2.1.1: numbered [2], expected [1]
+- children of 3.3.4.2: numbered [1, 2, 2], expected [1, 2, 3]
+- children of 3.3.4.2.1: numbered [1, 2, 2], expected [1, 2, 3]

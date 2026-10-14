@@ -1,8 +1,8 @@
-# source: 1-SOURCES\Commentaries\རྣམ་འགྲེལ་ཐར་ལམ་གསལ་བྱེད།.md
-# total_lines: 2958
+# source: 1-SOURCES/Commentaries/རྣམ་འགྲེལ་ཐར་ལམ་གསལ་བྱེད།.md
+# total_lines: 3522
 # chunk_size: 150
 # overlap: 25
-# total_chunks: 24
+# total_chunks: 28
 # columns: chunk_id	start_line	end_line  (1-based, inclusive; read with: sed -n 'START,ENDp' <source>)
 000	1	150
 001	126	275
@@ -27,4 +27,8 @@
 020	2501	2650
 021	2626	2775
 022	2751	2900
-023	2876	2958
+023	2876	3025
+024	3001	3150
+025	3126	3275
+026	3251	3400
+027	3376	3522

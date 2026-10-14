@@ -1,0 +1,18 @@
+# TOC tree QC report
+
+issues: 6
+
+## Issues
+
+- L283: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.3.1.2.2.2.2.2 གཉིས་པ་ལན་ [[2121]]
+- L326: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.3.3.1.1.1 དང་པོ་དངོས་ [[2458]]
+- L396: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.3.3.2.1.1.1.1.1.1.2.1 དང་པོ་དངོས་ [[?]]
+- L428: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.3.3.2.1.1.1.2.2.2.1 དང་པོ་དངོས་ [[?]]
+- L648: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.3.4.2.1.1.2.2.1 དང་པོ་དངོས་ [[?]]
+- L673: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.3.4.2.1.1.2.2.2.2 གཉིས་པ་ལན་ [[5307]]
+
+---
+issues_before: 163
+issues_after: 6
+repair_rounds: 3
+repair_model: gemini

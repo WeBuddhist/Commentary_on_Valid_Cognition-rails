@@ -1,0 +1,6 @@
+legs-bshad-snang-ba-gter round 0: qc_check_tree=116 qc_tree_vs_source=9
+legs-bshad-snang-ba-gter round 1: qc_check_tree=144 qc_tree_vs_source=9
+legs-bshad-snang-ba-gter round 2: qc_check_tree=134 qc_tree_vs_source=29
+22:11 legs-bshad-snang-ba-gter resume from round 2: qc1=134 qc2=542
+22:29 legs-bshad-snang-ba-gter round 3: qc1=124 qc2=528
+22:29 legs-bshad-snang-ba-gter RESUME DONE

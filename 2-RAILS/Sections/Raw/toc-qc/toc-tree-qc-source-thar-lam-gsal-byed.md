@@ -1,700 +1,794 @@
 # TOC tree vs. source QC report
 
-issues: 684
+issues: 769
 
 ## Issues
 
-- 3.1 དང་པོ་བཤད་པ་ལ་འཇུག་པ་: title attested in the source but not near pointer [[51]] (found near line 59) — possible cursor loss
-- 3.2.1.1.1.2 གཉིས་པ་མཚན་གཞིའི་དབྱེ་བ་: title attested in the source but not near pointer [[123]] (found near line 98) — possible cursor loss
-- 3.2.1.1.1.2.1.3.1 དང་པོ་མི་སྣང་བ་མ་དམིགས་པ་: title attested in the source but not near pointer [[125]] (found near line 137) — possible cursor loss
-- 3.2.1.1.1.2.1.3.1.1 དང་པོ་ཚིག་དོན་: title attested in the source but not near pointer [[125]] (found near line 59) — possible cursor loss
-- 3.2.1.1.1.2.1.3.2.1 དང་པོ་སྣང་རུང་མ་དམིགས་པའི་རྟགས་ཀྱི་མཚན་ཉ: title attested in the source but not near pointer [[137]] (found near line 151) — possible cursor loss
-- 3.2.1.1.1.2.1.3.2.2 གཉིས་པ་མཚན་གཞིའི་དབྱེ་བ་: title attested in the source but not near pointer [[139]] (found near line 98) — possible cursor loss
-- 3.2.1.1.1.2.1.3.2.3 གསུམ་པ་དེ་ལ་རྩོད་སྤང་: title attested in the source but not near pointer [[167]] (found near line 151) — possible cursor loss
-- 3.2.1.1.1.2.2 གཉིས་པ་གསུམ་ཉིད་དུ་ངེས་པར་སྒྲུབ་པ་: title attested in the source but not near pointer [[167]] (found near line 123) — possible cursor loss
-- 3.2.1.1.1.2.2.2 གཉིས་པ་ལྟར་སྣང་གི་ཁྱད་པར་ཡང་དག་ཏུ་འདུས་པ: title attested in the source but not near pointer [[189]] (found near line 173) — possible cursor loss
-- 3.2.1.1.1.3.1.1.3.1 དང་པོ་ལུགས་གཞན་དགག་པ་: title attested in the source but not near pointer [[217]] (found near line 241) — possible cursor loss
-- 3.2.1.1.1.3.1.1.3.2.1 དང་པོ་སློབ་དཔོན་གྱི་བརྗོད་པ་འཁྲུལ་བར་ཐལ་: title attested in the source but not near pointer [[223]] (found near line 262) — possible cursor loss
-- 3.2.1.1.1.3.1.1.3.2.2 གཉིས་པ་མངོན་སུམ་གྱི་གནོད་པ་བསྟན་པ་: title attested in the source but not near pointer [[225]] (found near line 262) — possible cursor loss
-- 3.2.1.1.1.3.1.2 གཉིས་པ་བཀག་པས་གྲུབ་པའི་དོན་: title attested in the source but not near pointer [[247]] (found near line 217) — possible cursor loss
-- 3.2.1.1.1.3.1.2.1 དང་པོ་ཁྱབ་པ་འགྲུབ་པ་རྟགས་མི་མཐུན་པ་མཐའ་ད: title attested in the source but not near pointer [[266]] (found near line 316) — possible cursor loss
-- 3.2.1.1.1.3.1.2.2 གཉིས་པ་དེ་ལ་བལྟོས་ཀྱང་མི་མཐུན་ཕྱོགས་མཐའ་: title attested in the source but not near pointer [[328]] (found near line 316) — possible cursor loss
-- 3.2.1.1.1.3.1.2.3 གསུམ་པ་ཐོག་མར་དེ་སྒྲུབ་རྟགས་གཉིས་ལ་བརྟེན: title attested in the source but not near pointer [[344]] (found near line 316) — possible cursor loss
-- 3.2.1.1.1.3.1.3 གསུམ་པ་མཇུག་བསྡུ་བ་: title attested in the source but not near pointer [[356]] (found near line 217) — possible cursor loss
-- 3.2.1.1.1.3.2.1.1.1.2 གཉིས་པ་དོན་བསྡུ་བ་: title attested in the source but not near pointer [[370]] (found near line 199) — possible cursor loss
-- 3.2.1.1.1.3.2.1.1.2 གཉིས་པ་རང་བཞིན་རྟགས་ཀྱི་འབྲེལ་བ་ངེས་བྱེད: title attested in the source but not near pointer [[398]] (found near line 366) — possible cursor loss
-- 3.2.1.1.1.3.2.1.1.2.2.2 གཉིས་པ་རྒྱས་བཤད་: title attested in the source but not near pointer [[439]] (found near line 108) — possible cursor loss
-- 3.2.1.1.1.3.2.1.1.2.2.2.1.1.1.2 གཉིས་པ་བྱེ་བྲག་ཏུ་བསྟན་པ་: title attested in the source but not near pointer [[461]] (found near line 449) — possible cursor loss
-- 3.2.1.1.1.3.2.1.1.2.2.2.1.1.2 གཉིས་པ་དེ་གྲུབ་ན་གཞན་སེལ་གྱི་ཡུལ་ཅན་དུ་ག: title attested in the source but not near pointer [[477]] (found near line 449) — possible cursor loss
-- 3.2.1.1.1.3.2.1.1.2.2.2.1.2 གཉིས་པ་གཞན་སེལ་ལ་འཇུག་པར་བསྒྲུབ་པ་: title attested in the source but not near pointer [[481]] (found near line 447) — possible cursor loss
-- 3.2.1.1.1.3.2.1.1.2.2.2.1.3 གསུམ་པ་དེ་ལ་རྩོད་པ་སྤང་བ་: title attested in the source but not near pointer [[493]] (found near line 447) — possible cursor loss
-- 3.2.1.1.1.3.2.1.1.2.2.2.1.3.2 གཉིས་པ་རྟོག་པས་ཀུན་གཟུང་ཡང་མ་ངེས་པ་དགག་པ: title attested in the source but not near pointer [[505]] (found near line 493) — possible cursor loss
-- 3.2.1.1.1.3.2.1.1.2.2.2.1.3.2.1.2 གཉིས་པ་སྒྲ་དངོས་དབང་གིས་འཇུག་པ་ལ་ཉེས་པ་ཡ: title attested in the source but not near pointer [[525]] (found near line 519) — possible cursor loss
-- 3.2.1.1.1.3.2.1.1.2.2.2.1.3.2.1.3 གསུམ་པ་དེས་ན་བརྗོད་འདོད་ཀྱི་དབང་གིས་འཇུག: title attested in the source but not near pointer [[539]] (found near line 519) — possible cursor loss
-- 3.2.1.1.1.3.2.1.1.2.2.2.1.3.2.2 གཉིས་པ་གཞན་སེལ་གྱི་སྤྱི་ངོས་གཟུང་བ་: title attested in the source but not near pointer [[539]] (found near line 519) — possible cursor loss
-- 3.2.1.1.1.3.2.1.1.2.2.2.1.3.2.2.1 དང་པོ་རྣམ་དབྱེ་ཐ་དད་མི་འཐད་པར་ཐལ་བ་སྤང་བ: title attested in the source but not near pointer [[550]] (found near line 525) — possible cursor loss
-- 3.2.1.1.1.3.2.1.1.2.2.2.1.3.2.2.2 གཉིས་པ་སྒྲ་ཐ་དད་དུ་སྦྱོར་བའི་དགོས་པ་: title attested in the source but not near pointer [[550]] (found near line 525) — possible cursor loss
-- 3.2.1.1.1.3.2.1.1.2.2.2.1.3.2.2.2.1 དང་པོ་ཆོས་ཆོས་ཅན་ཐ་དད་པ་འདོད་པའི་རྗེས་སུ: title attested in the source but not near pointer [[556]] (found near line 529) — possible cursor loss
-- 3.2.1.1.1.3.2.1.1.2.2.2.1.3.2.2.2.2 གཉིས་པ་རྫས་ཐ་དད་ཞེན་ཡུལ་དུ་བྱེད་ཀྱང་དེ་ད: title attested in the source but not near pointer [[558]] (found near line 529) — possible cursor loss
-- 3.2.1.1.1.3.2.1.1.2.2.2.1.3.2.2.2.3 གསུམ་པ་སྒྲའི་སྦྱོར་ཚུལ་ཇི་ལྟར་བྱས་ཀྱང་འད: title attested in the source but not near pointer [[575]] (found near line 529) — possible cursor loss
-- 3.2.1.1.1.3.2.1.1.2.2.2.1.3.2.3 གསུམ་པ་བརྡའི་ཡུལ་ངོས་གཟུང་བ་: title attested in the source but not near pointer [[593]] (found near line 519) — possible cursor loss
-- 3.2.1.1.1.3.2.1.1.2.2.2.1.3.2.3.1 དང་པོ་དངོས་: title attested in the source but not near pointer [[597]] (found near line 15) — possible cursor loss
-- 3.2.1.1.1.3.2.1.1.2.2.2.1.3.2.3.2 གཉིས་པ་གཞན་ལ་མང་ཚིག་སོགས་མི་རུང་བའི་རྒྱུ: title attested in the source but not near pointer [[604]] (found near line 546) — possible cursor loss
-- 3.2.1.1.1.3.2.1.1.2.2.2.2 གཉིས་པ་ཡུལ་ཅན་བློའི་འཛིན་སྟངས་: title attested in the source but not near pointer [[614]] (found near line 433) — possible cursor loss
-- 3.2.1.1.1.3.2.1.1.2.2.2.2.1 དང་པོ་ཡུལ་སྤྱིའི་གནས་ཚུལ་: title attested in the source but not near pointer [[620]] (found near line 556) — possible cursor loss
-- 3.2.1.1.1.3.2.1.1.2.2.2.2.1.1 དང་པོ་ཀུན་རྫོབ་བདེན་པའི་ཀུན་རྫོབ་ཀྱི་སྒྲ: title attested in the source but not near pointer [[636]] (found near line 556) — possible cursor loss
-- 3.2.1.1.1.3.2.1.1.2.2.2.2.1.2 གཉིས་པ་དེ་ལ་སྣང་བ་བསམ་ངོའི་བདེན་པ་ཙམ་དུ་: title attested in the source but not near pointer [[636]] (found near line 556) — possible cursor loss
-- 3.2.1.1.1.3.2.1.1.2.2.2.2.1.3 གསུམ་པ་དོན་དམ་དུ་བདེན་པ་དགག་པ་: title attested in the source but not near pointer [[658]] (found near line 556) — possible cursor loss
-- 3.2.1.1.1.3.2.1.1.2.2.2.2.1.3.2 གཉིས་པ་ཤེས་པའི་རྫས་ཕྱི་རོལ་གྱི་སྤྱི་ཡིན་: title attested in the source but not near pointer [[658]] (found near line 575) — possible cursor loss
-- 3.2.1.1.1.3.2.1.1.2.2.2.2.1.4 བཞི་པ་དེས་ན་དེ་འཛིན་འཁྲུལ་བར་བསྒྲུབ་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.1.1.2.2.2.2.1.5 ལྔ་པ་འཁྲུལ་བ་གཞི་མེད་དུ་འབྱུང་བར་ཐལ་བ་སྤ: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.1.1.2.2.2.2.1.5.1 དང་པོ་འཁྲུལ་གཞི་ངོས་བཟུང་བ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.1.1.2.2.2.2.1.5.2 གཉིས་པ་དུ་མས་འབྲས་བུ་གཅིག་བསྐྱེད་པའི་དཔེ: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.1.1.2.2.2.2.1.5.3 གསུམ་པ་སྨན་དགོད་པ་: title attested in the source but not near pointer [[666]] (found near line 589) — possible cursor loss
-- 3.2.1.1.1.3.2.1.1.2.2.2.2.2 གཉིས་པ་དེ་སྣང་གི་བློའི་འཇུག་ཚུལ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.1.1.2.2.2.2.2.1 དང་པོ་སྤྱི་བློའི་འཇུག་ཚུལ་མདོར་བསྟན་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.1.1.2.2.2.2.2.1.1 དང་པོ་གཞུང་འདི་གང་ལས་འཕྲོས་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.1.1.2.2.2.2.2.1.2 གཉིས་པ་ཇི་ལྟར་འཕྲོས་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.1.1.2.2.2.2.2.1.3 གསུམ་པ་ཚིག་དོན་རྣམས་ཀྱིས་ཤེས་པར་བྱ་བ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.1.1.2.2.2.2.2.2 གཉིས་པ་རྒྱས་པར་བཤད་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.1.1.2.2.2.2.2.2.1 དང་པོ་སྤྱི་དང་གཞི་མཐུན་སོགས་ཀྱི་ཐ་སྙད་འཇ: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.1.1.2.2.2.2.2.2.2 གཉིས་པ་ཐ་སྙད་དེ་དག་འཇུག་པའི་རྒྱུ་མཚན་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.1.1.2.2.2.2.2.2.3 གསུམ་པ་རྣམ་གཞག་དེ་དག་བྱས་པའི་དགོས་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.1.1.2.2.2.2.2.3 གསུམ་པ་དོན་བསྡུ་བ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.1.1.2.2.2.2.2.3.1 དང་པོ་སྤྱི་གཞི་མཐུན་རྟོག་པ་ལ་གྲགས་པ་བཞིན: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.1.1.2.2.2.2.2.3.2 གཉིས་པ་བཞག་པའི་དགོས་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.1.1.2.2.2.2.2.3.3 གསུམ་པ་རང་མཚན་ཁོ་ན་ཡིན་པ་དགག་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.1.1.2.2.2.2.2.3.3.1 དང་པོ་རང་མཚན་དུ་མི་རིགས་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.1.1.2.2.2.2.2.3.3.2 གཉིས་པ་སྒྲ་དོན་དུ་རིགས་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.1.1.2.2.2.3.1.2 གཉིས་པ་སྤྱི་རྐྱང་པ་མི་རུང་: title attested in the source but not near pointer [[687]] (found near line 672) — possible cursor loss
-- 3.2.1.1.1.3.2.1.1.2.2.2.3.1.3 གསུམ་པ་སྤྱི་དང་བཅས་པའི་བསལ་བ་བརྡའི་ཡུལ་ད: title attested in the source but not near pointer [[689]] (found near line 672) — possible cursor loss
-- 3.2.1.1.1.3.2.1.1.2.2.2.3.2 གཉིས་པ་གཞན་སེལ་བརྡའི་ཡུལ་དུ་བསྒྲུབ་པ་: title attested in the source but not near pointer [[693]] (found near line 670) — possible cursor loss
-- 3.2.1.1.1.3.2.1.1.2.2.2.3.3 གསུམ་པ་སྤྱི་དོན་གཞན་བཀག་པ་མི་འཐད་པའི་རྩོ: title attested in the source but not near pointer [[701]] (found near line 670) — possible cursor loss
-- 3.2.1.1.1.3.2.1.1.2.2.2.3.3.3.2 གཉིས་པ་རྗོད་བྱེད་ཀྱི་ཚིག་ལ་རྣམ་གཅོད་ཀྱི་: title attested in the source but not near pointer [[774]] (found near line 754) — possible cursor loss
-- 3.2.1.1.1.3.2.1.1.2.2.2.3.3.3.3 གསུམ་པ་དངོས་པོ་སྒྲས་བརྗོད་ན་སྒྲ་དང་ཚད་མ་: title attested in the source but not near pointer [[792]] (found near line 754) — possible cursor loss
-- 3.2.1.1.1.3.2.1.1.2.2.2.3.3.3.3.2.2 གཉིས་པ་དངོས་དབང་གིས་འཇུག་པ་ལ་མི་འཐད་པ: title attested in the source but not near pointer [[806]] (found near line 814) — possible cursor loss
-- 3.2.1.1.1.3.2.1.1.2.2.2.3.3.3.3.2.2.1 དང་པོ་གཞི་མཐུན་མི་སྲིད་པ་: title attested in the source but not near pointer [[814]] (found near line 223) — possible cursor loss
-- 3.2.1.1.1.3.2.1.1.2.2.2.3.3.3.3.2.2.2 གཉིས་པ་སྤྱི་སྒྲ་མི་འཐད་པ་: title attested in the source but not near pointer [[838]] (found near line 818) — possible cursor loss
-- 3.2.1.1.1.3.2.1.1.2.2.2.3.3.3.3.2.2.2.2.2.1 དང་པོ་མི་ཕན་པའི་གསལ་བྱེད་མི་འཐད: title attested in the source but not near pointer [[840]] (found near line 848) — possible cursor loss
-- 3.2.1.1.1.3.2.1.1.2.2.2.3.3.3.3.2.2.3.2 གཉིས་པ་སྒྲུབ་བྱེད་ལྟར་སྣང་དུ་བསྟན་པ: title attested in the source but not near pointer [[874]] (found near line 852) — possible cursor loss
-- 3.2.1.1.1.3.2.1.1.2.2.2.3.3.3.3.2.2.3.3 གསུམ་པ་རང་ལ་རྩོད་པ་སྤང་བ: title attested in the source but not near pointer [[888]] (found near line 852) — possible cursor loss
-- 3.2.1.1.1.3.2.1.1.2.2.2.3.3.3.3.2.2.3.3.1.2.1 དང་པོ་རྒྱུ་དུ་མ་དོན་མེད་དུ་ཐལ་བ་: title attested in the source but not near pointer [[892]] (found near line 896) — possible cursor loss
-- 3.2.1.1.1.3.2.1.1.2.2.2.3.3.3.3.2.2.3.3.1.2.2.2.1 དང་པོ་རང་བཞིན་ཐ་དད་ལ་ཉེས་པ་མེད་པ: title attested in the source but not near pointer [[896]] (found near line 902) — possible cursor loss
-- 3.2.1.1.1.3.2.1.1.2.2.2.3.3.3.3.2.2.3.3.1.2.2.2.3 གསུམ་པ་ཐ་དད་ལ་ཉེས་པ་མེད་པའི་དོན་བསྡུ་བ: title attested in the source but not near pointer [[938]] (found near line 902) — possible cursor loss
-- 3.2.1.1.1.3.2.1.1.2.2.2.3.3.3.3.2.2.3.3.1.2.3 གསུམ་པ་འཇུག་པ་འཆོལ་བར་ཐལ་བ: title attested in the source but not near pointer [[956]] (found near line 896) — possible cursor loss
-- 3.2.1.1.1.3.2.1.1.2.2.2.3.3.3.3.2.2.3.3.1.2.3.1 དང་པོ་རྒྱུ་འབྲས་ལ་བྱ་བྱེད་འཆོལ་བར་ཐལ་བ་: title attested in the source but not near pointer [[956]] (found near line 944) — possible cursor loss
-- 3.2.1.1.1.3.2.1.1.2.2.2.3.3.3.3.2.2.3.3.1.2.3.2 གཉིས་པ་སྤྱི་གསལ་གཅིག་དང་ཐ་དད་འཆོལ་བར་ཐལ་: title attested in the source but not near pointer [[960]] (found near line 944) — possible cursor loss
-- 3.2.1.1.1.3.2.1.1.2.2.2.3.3.3.3.2.2.3.3.1.2.3.2.1 དང་པོ་རང་ལ་འཇུག་པ་འཆོལ་བའི་ཉེས་པ་མེད་པ: title attested in the source but not near pointer [[964]] (found near line 956) — possible cursor loss
-- 3.2.1.1.1.3.2.1.1.2.2.2.3.3.3.3.2.2.3.3.1.2.3.2.2 གཉིས་པ་གཞན་ལ་ཡོད་པ: title attested in the source but not near pointer [[964]] (found near line 956) — possible cursor loss
-- 3.2.1.1.1.3.2.1.1.2.2.2.3.3.3.3.2.2.3.3.2 གཉིས་པ་རིགས་པ་དེས་གཅེར་བུ་པའང་ཁེགས་པར་བས: title attested in the source but not near pointer [[968]] (found near line 888) — possible cursor loss
-- 3.2.1.1.1.3.2.1.1.2.2.2.3.3.3.3.2.2.3.3.2.1 དང་པོ་རིགས་པ་སྔ་མས་ཁེགས་པར་བསྟན་པ: title attested in the source but not near pointer [[968]] (found near line 960) — possible cursor loss
-- 3.2.1.1.1.3.2.1.1.2.2.2.3.3.3.3.2.2.3.3.2.2 གཉིས་པ་ཐུན་མོང་མ་ཡིན་པའི་རིགས་པ་བསྟན་པ: title attested in the source but not near pointer [[974]] (found near line 960) — possible cursor loss
-- 3.2.1.1.1.3.2.1.1.2.2.2.3.3.3.3.2.2.3.3.2.2.1 དང་པོ་དོན་ལ་འཇུག་པ་འཆོལ་བར་ཐལ་བ: title attested in the source but not near pointer [[978]] (found near line 964) — possible cursor loss
-- 3.2.1.1.1.3.2.1.1.2.2.2.3.3.3.3.2.2.3.3.2.2.2 གཉིས་པ་ཡུལ་ཅན་སྒྲ་བློ་ཐ་དད་མི་སྲིད་པར་ཐལ: title attested in the source but not near pointer [[984]] (found near line 964) — possible cursor loss
-- 3.2.1.1.1.3.2.1.1.2.2.2.3.3.3.3.2.2.3.3.2.2.2.1 དང་པོ་ཚིག་དོན་: title attested in the source but not near pointer [[1027]] (found near line 59) — possible cursor loss
-- 3.2.1.1.1.3.2.1.1.2.2.2.3.3.3.3.2.2.3.3.2.2.2.2 གཉིས་པ་དེ་ཉིད་ངེས་པར་སྒྲུབ་པ: title attested in the source but not near pointer [[1033]] (found near line 968) — possible cursor loss
-- 3.2.1.1.1.3.2.1.3 གསུམ་པ་སྦྱོར་བའི་དབྱེ་བ: title attested in the source but not near pointer [[1039]] (found near line 123) — possible cursor loss
-- 3.2.1.1.1.3.2.1.4 བཞི་པ་འབྲེལ་བ་སྒྲུབ་པའི་རྟགས་དགོད: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.1.4.1 དང་པོ་འབྲེལ་བ་སྒྲུབ་པའི་རྟགས་དགོད: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.1.4.2 གཉིས་པ་ཕྱོགས་ཆོས་བསྒྲུབ: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.1.4.3 གསུམ་པ་དོན་བསྡུ་བ: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.2 གཉིས་པ་དགག་རྟགས་ཀྱི་འབྲེལ་བ་ངེས་བྱེད་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.2.1 དང་པོ་དངོས་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.2.1.1 དང་པོ་མི་སྣང་བ་མ་དམིགས་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.2.1.1.1 དང་པོ་བྱེད་པ་འཇུག་པའི་ཡུལ་ངོས་བཟུང་བ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.2.1.1.2 གཉིས་པ་དེ་སྒྲུབ་པ: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.2.1.2 གཉིས་པ་སྣང་རུང་མ་དམིགས་པའི་འབྲེལ་བ་ངེས་བ: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.2.2 གཉིས་པ་རྩོད་སྤང་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.2.2.1 དང་པོ་དགག་རྟགས་གཉིས་ཀྱི་གྲངས་ངེས་ལ་རྩོད་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.2.2.2 གཉིས་པ་མི་སྣང་བ་མ་དམིགས་པའི་རྟགས་ལ་བྱེ་བ: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.2.2.2.1 དང་པོ་གཙོ་བོ་ཞེས་པའི་སྒྲའི་དོན་ངོས་བཟུང: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.2.2.2.1.1 དང་པོ་རྟོག་པས་བཏགས་པ་ཙམ་དུ་བསྟན་པ: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.2.2.2.1.2 གཉིས་པ་དེ་རང་མཚན་དུ་གྲུབ་པ་བཀག་ནས་མཇུག་བ: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.2.2.2.2 གཉིས་པ་དེ་དགག་མི་ནུས་པར་བསྟན: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.2.2.2.2.1 དང་པོ་སྒྲ་དོན་དགག་མི་རིགས་པ: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.2.2.2.2.1.1 དང་པོ་ཚིག་དོན་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.2.2.2.2.1.2 གཉིས་པ་མཐའ་དཔྱད་པ: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.2.2.2.2.2 གཉིས་པ་བསྒྲུབ་རིགས་ཀྱང་དོན་དུ་གཉེར་བའི་ག: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.2.2.2.3 གསུམ་པ་དེ་ལ་ལུང་འགལ་སྤང་བ: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.2.2.2.3.1 དང་པོ་ཚིག་རང་གི་ཞེན་པའི་བརྗོད་བྱ་སྒྲུབ་བ: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.2.2.2.3.1.1 དང་པོ་སྐྱེས་བུའི་ཚིག་ཞེན་པའི་བརྗོད་བྱ་སྒ: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.2.2.2.3.1.1.1 དང་པོ་ཚིག་ཙམ་དགག་པ: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.2.2.2.3.1.1.1.1 དང་པོ་དགག་པ་དངོས་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.2.2.2.3.1.1.1.2 གཉིས་པ་འགལ་བ་སྤང་བ: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.2.2.2.3.1.1.1.2.1 དང་པོ་ལུང་དེའི་ཚིག་དོན་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.2.2.2.3.1.1.1.2.2 གཉིས་པ་དེ་ཉིད་རྒྱས་པར་གཏན་ལ་དབབ་པ: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.2.2.2.3.1.1.1.2.2.1 དང་པོ་ཚད་མར་གྱུར་པའི་ལུང་ངོས་གཟུང་བ: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.2.2.2.3.1.1.1.2.2.2 གཉིས་པ་དེ་ཚད་མ་ཡིན་པའི་རྒྱུ་མཚན་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.2.2.2.3.1.1.1.2.2.2.1 དང་པོ་གཞན་དག་གི་ལུང་ཚད་མར་ཁས་ལེན་པའི་ཐབས: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.2.2.2.3.1.1.1.2.2.2.2 གཉིས་པ་འཐད་པའི་ཕྱོགས་བཞག་པ: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.2.2.2.3.1.1.1.2.2.2.2.1 དང་པོ་ཉེས་ཟད་ཀྱི་སྐྱེས་བུ་སྒྲུབ་པའི་རྟགས: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.2.2.2.3.1.1.1.2.2.2.2.2 གཉིས་པ་ཐར་པ་ལ་ཡིད་བརྟན་མི་རུང་བའི་རྩོད་པ: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.2.2.2.3.1.1.1.2.2.2.2.3 གསུམ་པ་ཉེས་པའི་རྩ་བ་ངོས་གཟུང་བ: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.2.2.2.3.1.1.1.2.2.3 གསུམ་པ་ཚད་མར་སྒྲུབ་པའི་དགོས་པ: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.2.2.2.3.1.1.2 གཉིས་པ་ཁྱད་པར་ཅན་གྱི་ཚིག་དགག་པ: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.2.2.2.3.1.2 གཉིས་པ་མ་བྱས་པའི་རིག་བྱེད་དགག་པ: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.1 དང་པོ་སྐྱེས་བུས་མ་བྱས་པས་རིག་བྱེད་ཚད་མ་ཡ: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.1.1 དང་པོ་རིག་བྱེད་ཚད་མ་ཡིན་པ་དགག: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.1.1.1 དང་པོ་མགོ་མཚུངས་ཀྱིས་དགག་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.1.1.2 གཉིས་པ་རིགས་པ་གཞན་གྱིས་དགག་པ: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.1.1.2.1 དང་པོ་བརྗོད་བྱའི་དོན་ལ་བརྟགས་ལ་དགག: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.1.1.2.1.1 དང་པོ་དོན་གོ་བྱེད་ལ་བརྟགས་ལ་དགག་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.1.1.2.1.2 གཉིས་པ་དོན་ཉིད་ལ་བརྟགས་ལ་དགག་པ: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.1.1.2.1.2.1 དང་པོ་རྒྱས་པར་བཤད་པ: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.1.1.2.2 གཉིས་པ་སྒྲ་དོན་གྱི་འབྲེལ་བ་ལ་བརྟགས་ལ་དགག: title attested in the source but not near pointer [[1051]] (found near line 1158) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.1.1.2.2.1 དང་པོ་འབྲེལ་བ་རྟག་དངོས་དགག་པ་: title attested in the source but not near pointer [[1069]] (found near line 1172) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.1.1.2.2.1.1 དང་པོ་རྟགས་དགོད: title attested in the source but not near pointer [[1069]] (found near line 378) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.1.1.2.2.1.2 གཉིས་པ་དེའི་ལན་དགག་པ: title attested in the source but not near pointer [[1079]] (found near line 485) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.1.1.2.2.2 གཉིས་པ་འབྲེལ་བ་ཅན་དང་རྫས་གཅིག་དང་ཐ་དད་དག: title attested in the source but not near pointer [[1085]] (found near line 1172) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.1.1.2.2.2.1 དང་པོ་དོན་ཕྱི་མ་དང་འབྲེལ་བ་ལྷན་ཅིག་སྐྱེས: title attested in the source but not near pointer [[1085]] (found near line 1176) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.1.1.2.2.2.2 གཉིས་པ་རྟེན་བཞིག་ན་བརྟེན་པ་མི་འཇིག་པའི་ལ: title attested in the source but not near pointer [[1087]] (found near line 1177) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.1.1.2.3 གསུམ་པ་རྗོད་བྱེད་ལ་བརྟགས་ལ་དགག་པ: title attested in the source but not near pointer [[1097]] (found near line 1158) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.1.2 གཉིས་པ་མ་བྱས་པ་དགག: title attested in the source but not near pointer [[1101]] (found near line 1150) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.1.2.1 དང་པོ་མ་བྱས་པའི་སྒྲུབ་བྱེད་ལྟར་སྣང་དུ་བས: title attested in the source but not near pointer [[1101]] (found near line 1193) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.1.2.1.1 དང་པོ་བྱེད་པ་པོ་མི་དྲན་པ་རྟགས་སུ་མི་རུང: title attested in the source but not near pointer [[1101]] (found near line 1193) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.1.2.1.2 གཉིས་པ་འདོན་པ་པོ་ཡིན་པ་རྟགས་སུ་མི་རུང་བ: title attested in the source but not near pointer [[1103]] (found near line 1193) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.1.2.1.2.1 དང་པོ་ཐོག་མ་མེད་པའི་སྒྲུབ་བྱེད་ཡང་དག་ཏུ་: title attested in the source but not near pointer [[1110]] (found near line 1205) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.1.2.1.2.2 གཉིས་པ་ཐོག་མེད་དུ་གྲུབ་པས་མ་བྱས་པར་མི་འག: title attested in the source but not near pointer [[1110]] (found near line 1205) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.1.2.1.2.3 གསུམ་པ་དེ་གྲུབ་ཀྱང་ཚད་མར་མི་འགྲུབ་བོ: title attested in the source but not near pointer [[1126]] (found near line 1205) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.1.2.2 གཉིས་པ་ཡི་གེ་དང་ཚིག་ལ་བརྟགས་ན་མ་བྱས་པ་ཉི: title attested in the source but not near pointer [[1130]] (found near line 1193) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.1.2.2.1 དང་པོ་ཡི་གེ་མ་བྱས་པ་དགག་པ་: title attested in the source but not near pointer [[1134]] (found near line 1221) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.1.2.2.2 གཉིས་པ་ངག་མ་བྱས་པ་དགག་པ: title attested in the source but not near pointer [[1138]] (found near line 1221) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.1.2.2.2.1 དང་པོ་ཡི་གེ་ལས་རྫས་ཐ་དད་པའི་མ་བྱས་པའི་ངག: title attested in the source but not near pointer [[1142]] (found near line 1221) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.1.2.2.2.1.1 དང་པོ་རྟགས་དགོད: title attested in the source but not near pointer [[1150]] (found near line 378) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.1.2.2.2.1.2 གཉིས་པ་ཕྱོགས་ཆོས་སྒྲུབ་པ: title attested in the source but not near pointer [[1158]] (found near line 1221) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.1.2.2.2.2 གཉིས་པ་ཡི་གེའི་གོ་རིམས་ཁྱད་པར་ཅན་མ་བྱས་པ: title attested in the source but not near pointer [[1160]] (found near line 1221) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.1.2.2.2.2.1 དང་པོ་དེ་ལས་རྫས་ཐ་དད་པའི་ངག་ཆ་བཅས་དགག་པ་: title attested in the source but not near pointer [[1166]] (found near line 1225) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.1.2.2.2.2.1.1 དང་པོ་ཆ་རེ་རེས་དོན་མི་སྟོན་པ་དགག: title attested in the source but not near pointer [[1172]] (found near line 1225) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.1.2.2.2.2.2 གཉིས་པ་ཆ་མེད་དགག་པ: title attested in the source but not near pointer [[1179]] (found near line 1225) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.1.2.2.2.2.2.2 གཉིས་པ་སྲིད་ཀྱང་མི་འཐད: title attested in the source but not near pointer [[1199]] (found near line 1233) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.1.3 གསུམ་པ་རྟག་པ་ཡིན་པ་དགག་པ: title attested in the source but not near pointer [[1217]] (found near line 1150) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.1.3.1 དང་པོ་མི་རྟག་པ་དགག་པ་: title attested in the source but not near pointer [[1221]] (found near line 1235) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.1.3.1.1 དང་པོ་མི་ཐོས་པའི་སྐབས་མི་སྲིད་པར་ཐལ་བ་: title attested in the source but not near pointer [[1221]] (found near line 1235) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.1.3.1.2 གཉིས་པ་ཐལ་བ་གཞན་གྱིས་དགག་པ: title attested in the source but not near pointer [[1225]] (found near line 1235) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.1.3.1.2.1 དང་པོ་མ་ཁྱབ་པ་དགག: title attested in the source but not near pointer [[1225]] (found near line 1239) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.1.3.1.2.2 གཉིས་པ་ཁྱབ་ཆེས་པ་དགག་པ: title attested in the source but not near pointer [[1233]] (found near line 1239) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.1.3.1.2.2.1 དང་པོ་ཐལ་བ་དགོད་པ: title attested in the source but not near pointer [[1233]] (found near line 449) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.1.3.1.2.2.2 གཉིས་པ་དེའི་ལན་དགག་པ: title attested in the source but not near pointer [[1235]] (found near line 485) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.1.3.1.2.2.2.1 དང་པོ་སྒྲ་འདུས་བྱས་པ་དགག་པ: title attested in the source but not near pointer [[1235]] (found near line 1243) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.1.3.1.2.2.2.2 གཉིས་པ་དབང་པོ་འདུས་བྱས་པའི་ལན་དགག་པ: title attested in the source but not near pointer [[1235]] (found near line 1243) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.1.3.2 གཉིས་པ་རྟག་པ་དགག་པ: title attested in the source but not near pointer [[1239]] (found near line 1235) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.1.3.2.1 དང་པོ་དགག་པ་དངོས་: title attested in the source but not near pointer [[1243]] (found near line 1101) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.1.3.2.1.1 དང་པོ་ཡི་གེ་སྔ་ཕྱིའི་བཀོད་པ་མ་བྱས་པའི་ངག: title attested in the source but not near pointer [[1243]] (found near line 1257) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.1.3.2.1.2 གཉིས་པ་གསལ་བའི་རིམ་པ་མ་བྱས་པའི་ངག་ཡིན་པ་: title attested in the source but not near pointer [[1243]] (found near line 1257) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.1.3.2.1.2.1 དང་པོ་རྟག་པ་ལ་གསལ་བ་མི་སྲིད: title attested in the source but not near pointer [[1247]] (found near line 1265) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.1.3.2.1.2.2 གཉིས་པ་སྲིད་ན་མི་རྟག་པར་ཐལ་བ་: title attested in the source but not near pointer [[1247]] (found near line 1265) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.1.3.2.1.2.3.2 གཉིས་པ་ཉན་ཤེས་སྐྱེས་པ་གསལ་བའི་དོན་དུ་མི་: title attested in the source but not near pointer [[1267]] (found near line 1273) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.1.3.2.2 གཉིས་པ་ཡི་གེ་ལས་རྫས་ཐ་དད་པའི་རིམ་པ་མེད་པ: title attested in the source but not near pointer [[1281]] (found near line 1257) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.1.3.2.3 གསུམ་པ་སྐྱེས་བུས་བྱས་པར་གྲུབ་པའི་དོན་བསྡ: title attested in the source but not near pointer [[1289]] (found near line 1257) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.2 གཉིས་པ་ཕྱོགས་གཅིག་ལ་མི་སླུ་བས་ཚད་མ་ཡིན་པ: title attested in the source but not near pointer [[1293]] (found near line 1150) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.2.1 དང་པོ་རིག་བྱེད་ཀྱི་སྒྲ་མི་རྟག་པར་བསྒྲུབ་: title attested in the source but not near pointer [[1293]] (found near line 1289) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.2.1.2 གཉིས་པ་དེ་ལ་གནོད་པ་སྤང་བ་: title attested in the source but not near pointer [[1293]] (found near line 1289) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.2.1.2.1.1 དང་པོ་འཇིག་པ་དོན་གཞན་དགག་པ་: title attested in the source but not near pointer [[1341]] (found near line 1293) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.2.1.2.1.1.1 དང་པོ་ཐལ་བ་དགོད་པ་: title attested in the source but not near pointer [[1351]] (found near line 449) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.2.1.2.1.1.2 གཉིས་པ་དེའི་ལན་དགག་པ་: title attested in the source but not near pointer [[1357]] (found near line 485) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.2.1.2.1.2 གཉིས་པ་རྫས་གཅིག་ཏུ་བསྒྲུབ་པ་: title attested in the source but not near pointer [[1361]] (found near line 1293) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.2.1.2.2.1 དང་པོ་ཐལ་བ་དགོད་པ་: title attested in the source but not near pointer [[1367]] (found near line 449) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.2.1.2.2.2 གཉིས་པ་དེ་ལ་རྩོད་པ་སྤང་བ་: title attested in the source but not near pointer [[1367]] (found near line 447) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.2.1.2.3 གསུམ་པ་རྩ་བའི་རྟགས་མ་ངེས་པ་སྤང་བ་: title attested in the source but not near pointer [[1389]] (found near line 1293) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.2.2 གཉིས་པ་དེས་རིགས་ཅན་གཞན་ཡང་ཁེགས་པ་: title attested in the source but not near pointer [[1389]] (found near line 1289) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.2.3 གསུམ་པ་རིག་བྱེད་ཚད་མར་སྒྲུབ་པའི་རྟགས་གཞན: title attested in the source but not near pointer [[1399]] (found near line 1289) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.2.3.1 དང་པོ་རིག་བྱེད་ཚད་མར་སྒྲུབ་པའི་སྔར་གྱི་ར: title attested in the source but not near pointer [[1403]] (found near line 1341) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.2.3.2 གཉིས་པ་རྟགས་གཞན་དགག་པ་: title attested in the source but not near pointer [[1403]] (found near line 1289) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.2.3.2.1 དང་པོ་གནོད་པ་ཅན་གྱི་ཚད་མ་མེད་པ་: title attested in the source but not near pointer [[1413]] (found near line 1345) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.2.3.2.2 གཉིས་པ་གོ་བྱེད་ངོས་གཟུང་བ་: title attested in the source but not near pointer [[1413]] (found near line 1345) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.2.3.2.3 གསུམ་པ་ལྡོག་ཁྱབ་གཅིག་པུ་ཅན་མི་སྲིད་པ་: title attested in the source but not near pointer [[1423]] (found near line 1345) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.2.3.3 གསུམ་པ་སྔགས་མ་བྱས་པ་བྱེ་བྲག་ཏུ་དགག་པ་: title attested in the source but not near pointer [[1445]] (found near line 1341) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.2.3.3.1 དང་པོ་རིག་བྱེད་ཀྱི་སྔགས་སྐྱེས་བུས་མ་བྱས་: title attested in the source but not near pointer [[1449]] (found near line 1357) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.2.3.3.1.1 དང་པོ་སྔགས་ཀྱིས་ཞི་སོགས་ཀྱི་འབྲས་བུ་བསྐྱ: title attested in the source but not near pointer [[1459]] (found near line 1361) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.2.3.3.1.2 གཉིས་པ་དེ་ལ་མི་ལྟོས་པར་དངོས་པོའི་ནུས་པ་ཡ: title attested in the source but not near pointer [[1463]] (found near line 1361) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.2.3.3.1.2.1 དང་པོ་ཐལ་བ་དགོད་པ་: title attested in the source but not near pointer [[1467]] (found near line 449) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.2.3.3.1.2.2 གཉིས་པ་གོ་རིམས་དོན་གཞན་དགག: title attested in the source but not near pointer [[1471]] (found near line 1361) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.2.3.3.1.2.2.1 དང་པོ་དགག་པ་བཤད་ཟིན་དྲན་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.2.3.3.1.2.2.2 གཉིས་པ་རིགས་པ་གཞན་གྱིས་དགག་པ: title attested in the source but not near pointer [[1477]] (found near line 1150) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.2.3.3.1.2.2.2.1 དང་པོ་སྔགས་ཀྱི་འབྲས་བུ་ངེས་མེད་དུ་ཐལ་བ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.2.3.3.1.2.2.2.2 གཉིས་པ་སྔགས་བཟླས་མི་ནུས་པར་ཐལ་བ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.2.3.3.1.2.3 གསུམ་པ་བཀག་པ་ལ་གནོད་པ་སྤང་བ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.2.3.3.1.2.3.1 དང་པོ་མདོར་བསྟན་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.2.3.3.1.2.3.2 གཉིས་པ་རྒྱས་བཤད་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.2.3.3.2 གཉིས་པ་སྔགས་སྐྱེས་བུས་བྱས་པར་བསྒྲུབ་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.2.3.3.2.1 དང་པོ་གོ་རིམས་ཉིད་བཤད་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.2.3.3.2.2 གཉིས་པ་དེ་སྐྱེས་བུས་བྱས་པར་སྒྲུབ་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.2.3.3.2.3 གསུམ་པ་མ་བྱས་པ་དགག་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.2.3.3.3 གསུམ་པ་སྐྱེས་བུས་མ་བྱས་པའི་སྒྲུབ་བྱེད་ལྟ: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.2.3.3.3.1 དང་པོ་དངོས་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.2.3.3.3.2 གཉིས་པ་སྐྱེས་བུས་བྱས་པའི་དཔེ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.3.2.1 དང་པོ་ཐབས་གཞན་ལས་མི་རྟོགས་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.3.2.1.1 དང་པོ་འཇིག་རྟེན་གྱི་གྲགས་པ་ལས་མི་རྟོགས་པ: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.3.2.1.1.1 དང་པོ་གྲགས་པ་མ་རྟོགས་པའི་རྒྱུ་ཡིན་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.3.2.1.1.2 གཉིས་པ་ལོག་རྟོག་གི་རྒྱུ་ཡིན་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.3.2.1.1.3 གསུམ་པ་ཐེ་ཚོམ་གྱི་རྒྱུ་ཡིན་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.3.2.1.2 གཉིས་པ་ལུང་ལས་མི་རྟོགས་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.3.2.1.2.1 དང་པོ་རིག་བྱེད་ཀྱི་དོན་ངེས་འདོད་པ་སྐྱེས་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.3.2.1.2.2 གཉིས་པ་དོན་གཅིག་ཁོ་ནའི་རྗོད་བྱེད་དུ་མི་འ: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.3.2.1.2.3 གསུམ་པ་བརྡ་ལ་བརྟེན་ནས་དོན་སོ་སོར་ངེས་པའི: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.3.2.2 གཉིས་པ་རིག་བྱེད་རང་ཉིད་ལས་མི་རྟོགས་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.1.3.2.2.2.2.3.1.3.1 དང་པོ་སྐྱེས་བུས་མ་བྱས་པ་ལ་རྒྱུ་དེ་མེད་པ་: title attested in the source but not near pointer [[1505]] (found near line 1459) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.3.2 གཉིས་པ་དེའི་ལན་དགག་པ་: title attested in the source but not near pointer [[1514]] (found near line 485) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.3.2.1 དང་པོ་རྩོད་པ་: title attested in the source but not near pointer [[1523]] (found near line 167) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.3.2.2 གཉིས་པ་དེ་དགག་པ་: title attested in the source but not near pointer [[1529]] (found near line 838) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.3.2.2.1 དང་པོ་སྒྲུབ་བྱེད་ལྟར་སྣང་དུ་བསྟན་པ་: title attested in the source but not near pointer [[1557]] (found near line 852) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.3.2.2.2 གཉིས་པ་བསྒྲུབ་བྱ་ལ་ཚད་མས་གནོད་པ་བསྟན་པ་: title attested in the source but not near pointer [[1570]] (found near line 1467) — possible cursor loss
-- 3.2.1.1.1.3.2.2.2.2.3.1.3.3 གསུམ་པ་མཇུག་བསྡུ་བ་: title attested in the source but not near pointer [[1582]] (found near line 217) — possible cursor loss
-- 3.2.1.1.2.1 དང་པོ་སྤྱིའི་དོན་: title attested in the source but not near pointer [[1588]] (found near line 394) — possible cursor loss
-- 3.2.1.1.2.1.1 དང་པོ་སློབ་དཔོན་ཕྱོགས་གླང་གིས་བཤད་པ་དགོད: title attested in the source but not near pointer [[1594]] (found near line 1505) — possible cursor loss
-- 3.2.1.1.2.1.2 གཉིས་པ་དེའི་དོན་རྣམ་འགྲེལ་མཛད་པས་ཇི་ལྟར་: title attested in the source but not near pointer [[1598]] (found near line 1505) — possible cursor loss
-- 3.2.1.1.2.1.2.1 དང་པོ་རྒྱུ་ཕུན་ཚོགས་: title attested in the source but not near pointer [[1598]] (found near line 1512) — possible cursor loss
-- 3.2.1.1.2.1.2.1.1 དང་པོ་བསམ་པ་: title attested in the source but not near pointer [[1608]] (found near line 34) — possible cursor loss
-- 3.2.1.1.2.1.2.1.2 གཉིས་པ་སྦྱོར་བ་ཕུན་ཚོགས་: title attested in the source but not near pointer [[1610]] (found near line 1512) — possible cursor loss
-- 3.2.1.1.2.1.2.2.1 དང་པོ་རང་དོན་: title attested in the source but not near pointer [[1614]] (found near line 61) — possible cursor loss
-- 3.2.1.1.2.1.2.2.2 གཉིས་པ་གཞན་དོན་ཕུན་ཚོགས་: title attested in the source but not near pointer [[1616]] (found near line 72) — possible cursor loss
-- 3.2.1.1.2.1.3 གསུམ་པ་དེ་དག་གི་དགོངས་པ་: title attested in the source but not near pointer [[1648]] (found near line 51) — possible cursor loss
-- 3.2.1.1.2.2 གཉིས་པ་ཡན་ལག་གི་དོན་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.2.2.1 དང་པོ་ཚད་མར་གྱུར་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.2.2.2 གཉིས་པ་འགྲོ་ལ་ཕན་བཞེད་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.2.2.2.1 དང་པོ་ཐུབ་པ་ཚད་མར་བསྒྲུབ་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.2.2.2.1.1 དང་པོ་ལུགས་འབྱུང་གི་སྒོ་ནས་སྟོན་པ་ལམ་གང་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.2.2.2.1.1.1 དང་པོ་ཚད་མར་གྱུར་པའི་དོན་བཤད་པའི་སྒོ་ནས་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.2.2.2.1.1.1.1 དང་པོ་ཚད་མ་སྤྱིའི་མཚན་ཉིད་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.2.2.2.1.1.1.1.1 དང་པོ་མཚན་ཉིད་ཀྱི་ངོ་བོ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.2.2.2.1.1.1.1.1.1 དང་པོ་མཚན་ཉིད་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.2.2.2.1.1.1.1.1.1.1 དང་པོ་མི་སླུ་བ་ངོས་གཟུང་བ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.2.2.2.1.1.1.1.1.1.2 གཉིས་པ་དེ་ལ་མ་ཁྱབ་པ་སྤང་བ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.2.2.2.1.1.1.1.1.1.3 གསུམ་པ་ཁྱབ་ཆེས་པ་སྤང་བ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.2.2.2.1.1.1.1.1.2 གཉིས་པ་མཚན་གཞི་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.2.2.2.1.1.1.1.1.2.1 དང་པོ་ཚད་མའི་དོན་བཤད་ཟིན་དང་སྦྱར་བ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.2.2.2.1.1.1.1.1.2.2 གཉིས་པ་གྱུར་པའི་དོན་བཤད་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.2.2.2.1.1.1.1.1.2.2.1 དང་པོ་གྱུར་པ་སྨོས་པའི་དགོས་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.2.2.2.1.1.1.1.1.2.2.2 གཉིས་པ་དེ་ལ་རྩོད་སྤང་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.2.2.2.1.1.1.1.1.3 གསུམ་པ་མཚན་གཞི་ལ་མཚན་ཉིད་ངེས་བྱེད་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.2.2.2.1.1.1.1.2.1 དང་པོ་ཤེས་བྱ་ཐམས་ཅད་བཟོ་ཤེས་པ་ཀུན་མཁྱེན་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.2.2.2.1.1.1.1.2.1.1 དང་པོ་ཐམས་ཅད་ཀྱི་བྱེད་པ་པོའི་དབང་ཕྱུག་གི: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.2.2.2.1.1.1.1.2.1.1.1 དང་པོ་རྟག་པ་ཡིན་པ་དགག་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.2.2.2.1.1.1.1.2.1.1.2 གཉིས་པ་མི་རྟག་པ་ཡིན་པ་དགག་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.2.2.2.1.1.1.1.2.1.2 གཉིས་པ་སྒྲུབ་བྱེད་དགག་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.2.2.2.1.1.1.1.2.1.2.1 དང་པོ་སྒྲུབ་བྱེད་ལྟར་སྣང་དུ་བསྟན་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.2.2.2.1.1.1.1.2.1.2.1.1 དང་པོ་མདོར་བསྟན་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.2.2.2.1.1.1.1.2.1.2.1.2.1.1 དང་པོ་དབྱིབས་ཀྱི་དོན་རྟགས་སུ་མི་རུང་བ་: title attested in the source but not near pointer [[1650]] (found near line 1580) — possible cursor loss
-- 3.2.1.1.2.2.2.1.1.1.1.2.1.2.1.2.1.1.1 དང་པོ་དབྱིབས་ཁྱད་པར་ཅན་ཕྱོགས་ཆོས་མ་གྲུབ་: title attested in the source but not near pointer [[1650]] (found near line 1580) — possible cursor loss
-- 3.2.1.1.2.2.2.1.1.1.1.2.1.2.1.2.1.1.2 གཉིས་པ་དབྱིབས་ཙམ་མ་ངེས་པ་: title attested in the source but not near pointer [[1652]] (found near line 1580) — possible cursor loss
-- 3.2.1.1.2.2.2.1.1.1.1.2.1.2.1.2.1.1.2.1 དང་པོ་མ་ངེས་པའི་དཔེ་: title attested in the source but not near pointer [[1652]] (found near line 1580) — possible cursor loss
-- 3.2.1.1.2.2.2.1.1.1.1.2.1.2.1.2.1.1.2.2 གཉིས་པ་དེས་ན་ཧ་ཅང་ཐལ་བ་: title attested in the source but not near pointer [[1654]] (found near line 1580) — possible cursor loss
-- 3.2.1.1.2.2.2.1.1.1.1.2.1.2.1.2.1.1.2.3 གསུམ་པ་འབྲས་མཚུངས་ཀྱི་ལྟག་ཆོད་དུ་ཐལ་བ་སྤ: title attested in the source but not near pointer [[1662]] (found near line 1582) — possible cursor loss
-- 3.2.1.1.2.2.2.1.1.1.1.2.1.2.1.2.1.2 གཉིས་པ་དབྱིབས་ཀྱི་སྒྲ་འཇུག་པ་རྟགས་སུ་མི་: title attested in the source but not near pointer [[1664]] (found near line 1580) — possible cursor loss
-- 3.2.1.1.2.2.2.1.1.1.1.2.1.2.1.2.1.2.1 དང་པོ་དབྱིབས་ཀྱི་སྒྲ་མཐོང་བ་ཙམ་རྟགས་སུ་མ: title attested in the source but not near pointer [[1664]] (found near line 1586) — possible cursor loss
-- 3.2.1.1.2.2.2.1.1.1.1.2.1.2.1.2.1.2.2 གཉིས་པ་ཧ་ཅང་ཐལ་བ་: title attested in the source but not near pointer [[1666]] (found near line 316) — possible cursor loss
-- 3.2.1.1.2.2.2.1.1.1.1.2.1.2.1.2.2 གཉིས་པ་དེས་རིགས་ཅན་གཞན་ཡང་ཁེགས་པ་: title attested in the source but not near pointer [[1670]] (found near line 1289) — possible cursor loss
-- 3.2.1.1.2.2.2.1.1.1.1.2.1.2.1.2.3 གསུམ་པ་དེས་གྲུབ་པའི་དོན་: title attested in the source but not near pointer [[1672]] (found near line 471) — possible cursor loss
-- 3.2.1.1.2.2.2.1.1.1.1.2.1.2.2 གཉིས་པ་ཀུན་གྱི་བྱེད་པ་པོ་ཡིན་པ་ལ་ཚད་མའི་: title attested in the source but not near pointer [[1672]] (found near line 1576) — possible cursor loss
-- 3.2.1.1.2.2.2.1.1.1.1.2.2 གཉིས་པ་ཐམས་ཅད་ཀྱི་གནས་ལུགས་ཇི་ལྟར་གནས་པ་: title attested in the source but not near pointer [[1676]] (found near line 1570) — possible cursor loss
-- 3.2.1.1.2.2.2.1.1.2 གཉིས་པ་ལུགས་ལྡོག་གི་སྒོ་ནས་དེ་ལྟར་བྱོན་པ: title attested in the source but not near pointer [[1678]] (found near line 1525) — possible cursor loss
-- 3.2.1.1.2.2.2.1.2 གཉིས་པ་དེ་ལ་ཚད་མའི་སྒོ་ནས་བསྟོད་པའི་དགོས: title attested in the source but not near pointer [[1680]] (found near line 1523) — possible cursor loss
-- 3.2.1.1.2.2.3 གསུམ་པ་སྟོན་པ་: title attested in the source but not near pointer [[1694]] (found near line 14) — possible cursor loss
-- 3.2.1.1.2.2.5.1 དང་པོ་སྡུག་བསྔལ་གྱི་བདེན་པ་: title attested in the source but not near pointer [[1777]] (found near line 1799) — possible cursor loss
-- 3.2.1.1.2.2.5.2 གཉིས་པ་ཀུན་འབྱུང་གི་བདེན་པ་: title attested in the source but not near pointer [[1781]] (found near line 1805) — possible cursor loss
-- 3.2.1.1.2.2.5.4.1.2.1.1.2 གཉིས་པ་ཡོད་ཀྱང་ཡུན་དུ་གནས་པའི་ནུས་པ་མེད་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.2.2.5.4.1.2.1.2 གཉིས་པ་དེ་ལྡོག་པའི་ཐབས་མི་སྲིད་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.2.2.5.4.1.2.1.3 གསུམ་པ་བདག་མེད་རྟོགས་པའི་ཤེས་རབ་བདག་འཛིན: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.2.2.5.4.1.2.1.3.1 དང་པོ་འཛིན་སྟངས་འགལ་བ་ཙམ་གྱིས་གཉེན་པོར་མ: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.2.2.5.4.1.2.1.3.2 གཉིས་པ་ཉོན་མོངས་ཅན་གྱི་མ་རིག་པ་འཇིག་ལྟ་ལ: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.2.2.5.4.1.2.1.3.3 གསུམ་པ་བདག་མེད་རྟོགས་པའི་ཤེས་རབ་ཉིད་འཛིན: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.2.2.5.4.1.2.2 གཉིས་པ་དྲི་མ་ལྡོག་ཏུ་མི་རུང་བའི་རྩོད་སྤང: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.2.2.5.4.1.2.3 གསུམ་པ་ཅུང་ཟད་ལྡོག་ཀྱང་གཏན་ལྡོག་མི་སྲིད་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.2.2.5.4.2 གཉིས་པ་བདག་འཛིན་སྲིད་པའི་རྩ་བར་བསྒྲུབ་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.2.2.5.4.2.1 དང་པོ་བདག་འཛིན་ཉེས་པ་ཀུན་གྱི་རྩ་བར་བསྟན་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.2.2.5.4.2.1.1 དང་པོ་སྡུག་བསྔལ་གྱི་རྩ་བར་བསྟན་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.2.2.5.4.2.1.2 གཉིས་པ་ཉོན་མོངས་ཀུན་གྱི་རྩ་བར་བསྟན་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.2.2.5.4.2.2 གཉིས་པ་བདག་འཛིན་མ་སྤངས་པར་ཐབས་གཞན་བསྒོམས: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.2.2.5.4.2.2.1 དང་པོ་བདག་ཁས་བླངས་ནས་བདག་གི་བ་ལ་ཞེན་པ་སྤ: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.2.2.5.4.2.2.1.1 དང་པོ་བདག་འཛིན་མ་སྤངས་པར་བདག་གི་བ་ལ་ཆགས་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.2.2.5.4.2.2.1.1.1 དང་པོ་རྟགས་དགོད་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.2.2.5.4.2.2.1.1.2 གཉིས་པ་དེ་ལ་རྩོད་པ་སྤང་བ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.2.2.5.4.2.2.1.1.2.1 དང་པོ་བདག་སྐྱོན་མེད་ཡིན་ཡང་དེ་ལ་ཞེན་པ་སྤ: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.2.2.5.4.2.2.1.1.2.1.1 དང་པོ་དྲིས་ལན་གྱིས་དགག་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.2.2.5.4.2.2.1.1.2.1.2 གཉིས་པ་དེའི་ལན་དགག་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.2.2.5.4.2.2.1.1.2.2 གཉིས་པ་སྡུག་བསྔལ་གྱི་སྡུག་བསྔལ་བསྒོམ་པ་ག: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.2.2.5.4.2.2.1.1.2.2.1 དང་པོ་བྱེ་བྲག་པའི་ལུགས་དགག་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.2.2.5.4.2.2.1.1.2.2.1.1 དང་པོ་དཔེ་དགག་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.2.2.5.4.2.2.1.1.2.2.1.1.1 དང་པོ་རང་ལུགས་ལ་བདག་གི་བ་ལ་ཞེན་པ་འདོར་བའ: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.2.2.5.4.2.2.1.1.2.2.1.1.2 གཉིས་པ་གཞན་ལུགས་ལ་མི་འཐད་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.2.2.5.4.2.2.1.1.2.2.1.1.2.1 དང་པོ་འདུ་འབྲེལ་སོགས་ཞེན་པ་སྐྱེ་བའི་རྒྱུ: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.2.2.5.4.2.2.1.1.2.2.1.1.2.2 གཉིས་པ་དེའི་ལན་དགག་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.2.2.5.4.2.2.1.1.2.2.1.2 གཉིས་པ་དོན་དགག་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.2.2.5.4.2.2.1.1.2.2.2 གཉིས་པ་གྲངས་ཅན་གྱི་ལུགས་དགག་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.2.2.5.4.2.2.1.1.2.2.2.1 དང་པོ་རྟག་པའི་སྐྱེས་བུས་སྡུག་བསྔལ་བསྒོམ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.2.2.5.4.2.2.1.1.2.2.2.1.1 དང་པོ་བདག་མི་རྟག་པར་ཐལ་བ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.2.2.5.4.2.2.1.1.2.2.2.1.2 གཉིས་པ་བདག་ཡོད་ན་ཞེན་པའི་གཉེན་པོ་བསྟེན་པ: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.2.2.5.4.2.2.1.1.2.2.2.2 གཉིས་པ་སྡུག་བསྔལ་དུ་བསྒོམ་པ་ཙམ་གྱིས་གྲོལ: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.2.2.5.4.2.2.1.1.2.2.2.2.1 དང་པོ་ཧ་ཅང་ཐལ་བ་དངོས་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.2.2.5.4.2.2.1.1.2.2.2.2.2 གཉིས་པ་གཞན་ལ་ཆགས་བྲལ་མི་སྲིད་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.2.2.5.4.2.2.1.1.2.2.2.3 གསུམ་པ་དབང་སོགས་སྐྱོན་ཅན་དུ་མཐོང་བ་ཙམ་གྱ: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.2.2.5.4.2.2.1.1.2.2.2.3.1 དང་པོ་སྐྱོན་མཐོང་བ་ཙམ་ཞེན་པ་ལྡོག་པའི་རྒྱ: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.2.2.5.4.2.2.1.1.2.2.2.3.2 གཉིས་པ་དབང་སོགས་ལ་ཇི་ལྟར་ཡོད་པའི་སྐྱོན་མ: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.2.2.5.4.2.2.1.1.2.2.3 གསུམ་པ་སྡུག་བསྔལ་སྒོམ་པར་གསུངས་པ་དང་འགལ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.2.2.5.4.2.2.1.3 གསུམ་པ་དེས་ན་འཇིག་ལྟ་སྤོང་དགོས་པར་བསྟན་པ: title attested in the source but not near pointer [[1977]] (found near line 1933) — possible cursor loss
-- 3.2.1.1.2.2.5.4.2.2.2.2 གཉིས་པ་གནོད་བྱེད་བརྗོད་པ་: title attested in the source but not near pointer [[1977]] (found near line 3054) — possible cursor loss
-- 3.2.1.1.2.2.5.4.2.2.2.3 གསུམ་པ་བདག་མེད་རྟོགས་པའི་ཤེས་རབ་གྲོལ་ལམ་: title attested in the source but not near pointer [[1983]] (found near line 1977) — possible cursor loss
-- 3.2.1.1.3.1 དང་པོ་ཚད་མའི་གྲངས་ལ་ལོག་པར་རྟོག་པ་དགག་པ་: title attested in the source but not near pointer [[1995]] (found near line 2028) — possible cursor loss
-- 3.2.1.1.3.1.1.2.1.2.1 དང་པོ་མདོར་བསྟན་: title attested in the source but not near pointer [[2040]] (found near line 106) — possible cursor loss
-- 3.2.1.1.3.1.1.2.1.2.1.2 གཉིས་པ་དེ་ལ་རྩོད་པ་སྤང་བ་: title attested in the source but not near pointer [[2050]] (found near line 447) — possible cursor loss
-- 3.2.1.1.3.1.1.2.1.2.2 གཉིས་པ་རྒྱས་བཤད་: title attested in the source but not near pointer [[2068]] (found near line 108) — possible cursor loss
-- 3.2.1.1.3.1.1.2.1.2.2.1.1.1.1.2.2.3 གསུམ་པ་དོན་དང་འབྲེལ་བ་བརྗོད་པ་དགག་པ་: title attested in the source but not near pointer [[2078]] (found near line 2072) — possible cursor loss
-- 3.2.1.1.3.1.1.2.1.2.2.1.1.1.1.3 གསུམ་པ་སྤྱི་ཡན་གར་བ་དེར་མ་གྲུབ་པ་: title attested in the source but not near pointer [[2080]] (found near line 2068) — possible cursor loss
-- 3.2.1.1.3.1.1.2.1.2.2.1.1.1.2 གཉིས་པ་སྐྱོན་སྤོང་དགག་པ་: title attested in the source but not near pointer [[2080]] (found near line 2068) — possible cursor loss
-- 3.2.1.1.3.1.1.2.1.2.2.1.1.2 གཉིས་པ་སྒྲའི་བརྗོད་བྱ་དོན་དམ་པར་དེ་ཉིད་ད: title attested in the source but not near pointer [[2084]] (found near line 2068) — possible cursor loss
-- 3.2.1.1.3.1.1.2.1.2.2.1.1.2.2 གཉིས་པ་དེས་གྲུབ་པའི་དོན་: title attested in the source but not near pointer [[2088]] (found near line 471) — possible cursor loss
-- 3.2.1.1.3.1.1.2.1.2.2.1.1.3 གསུམ་པ་བརྗོད་དུ་ཡོད་པའི་ལན་དགག་པ་: title attested in the source but not near pointer [[2094]] (found near line 2068) — possible cursor loss
-- 3.2.1.1.3.1.1.2.1.2.2.1.2 གཉིས་པ་རིགས་པ་གཞན་གྱིས་དགག་པ་: title attested in the source but not near pointer [[2098]] (found near line 1150) — possible cursor loss
-- 3.2.1.1.3.1.1.2.1.2.2.2 གཉིས་པ་རང་མཚན་དངོས་པོར་བསྟན་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.1.1.2.1.2.2.3 གསུམ་པ་སྤྱི་མཚན་གྱི་དབྱེ་བ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.1.1.2.1.2.2.3.1 དང་པོ་དབྱེ་བ་དངོས་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.1.1.2.1.2.2.3.2 གཉིས་པ་རྩོད་སྤང་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.1.1.2.1.3 གསུམ་པ་རང་མཚན་གཅིག་པུ་གཞལ་བྱར་བཞག་པའི་དག: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.1.1.2.1.3.1 དང་པོ་རང་མཚན་གཅིག་པུ་གཞལ་བྱར་བཞག་པའི་དགོ: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.1.1.2.1.3.2 གཉིས་པ་དེ་ལ་རྩོད་པ་སྤང་བ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.1.1.2.1.3.2.1 དང་པོ་ལུང་འགལ་སྤང་བ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.1.1.2.1.3.2.2 གཉིས་པ་རིགས་པ་དང་འགལ་བ་སྤང་བ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.1.1.2.2 གཉིས་པ་དེའི་དབང་གིས་ཚད་མ་གཉིས་སུ་ངེས་པར་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.1.1.2.3 གསུམ་པ་མཇུག་བསྡུ་བ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.1.1.2.3.1 དང་པོ་དངོས་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.1.1.2.3.2 གཉིས་པ་རྩོད་སྤང་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.1.1.2.3.2.1 དང་པོ་རྗེས་དཔག་ཚད་མ་མིན་པ་ལ་གནོད་པ་བསྟན་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.1.1.2.3.2.2 གཉིས་པ་རྗེས་དཔག་ཚད་མ་ངེས་པར་ཁས་ལེན་དགོས་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.1.1.2.3.2.3 གསུམ་པ་མི་ལེན་ན་ཧ་ཅང་ཐལ་བ་བསྟན་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.1.2 གཉིས་པ་དེར་མ་ངེས་པའི་རྩོད་སྤང་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.1.2.1 དང་པོ་གྲངས་མ་ངེས་པའི་རྩོད་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.1.2.2 གཉིས་པ་དེ་སུན་དབྱུང་བ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.1.2.2.1 དང་པོ་རང་སྤྱི་འདྲེས་པའི་བློ་ཚད་མ་ཕུང་སུམ: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.1.2.2.1.1 དང་པོ་ཁ་དོག་ལ་ཕྲ་བའི་མི་རྟག་པ་རྟོགས་པའི་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.1.2.2.1.1.1 དང་པོ་མདོར་བསྟན་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.1.2.2.1.1.2 གཉིས་པ་འཕྲོས་དོན་རྒྱས་པར་བཤད་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.1.2.2.1.1.2.1 དང་པོ་མི་རྟག་པ་དངོས་མེད་དུ་ཐལ་བ་སྤང་བ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.1.2.2.1.1.2.2 གཉིས་པ་དེའི་ལན་དགག་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.1.2.2.1.1.2.2.1 དང་པོ་མདོར་བསྟན་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.1.2.2.1.1.2.2.2 གཉིས་པ་རྒྱས་བཤད་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.1.2.2.1.1.2.2.2.1 དང་པོ་སྒྲུབ་རྟགས་ལ་བརྟེན་པའི་རྗེས་དཔག་རང: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.1.2.2.1.1.2.2.2.2 གཉིས་པ་དགག་པའི་རྗེས་དཔག་འབྲེལ་བའི་ཚུལ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.1.2.2.1.1.2.2.2.2.1 དང་པོ་མ་དམིགས་པའི་རྟགས་ཡང་དག་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.1.2.2.1.1.2.2.2.2.2 གཉིས་པ་ལྟར་སྣང་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.1.2.2.1.1.2.2.2.2.3 གསུམ་པ་འགལ་དམིགས་རྟགས་སུ་སྦྱོར་བའི་ཡུལ་བ: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.1.2.2.1.1.2.2.2.3 གསུམ་པ་དེ་དག་གི་རྒྱུ་མཚན་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.1.2.2.1.1.2.2.2.3.1 དང་པོ་སྒྲུབ་རྟགས་ལ་བརྟེན་པའི་རྗེས་དཔག་དང: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.1.2.2.1.1.2.2.2.3.2 གཉིས་པ་དགག་རྟགས་ལ་བརྟེན་པ་འབྲེལ་བའི་རྒྱུ: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.1.2.2.1.2 གཉིས་པ་རགས་པའི་མི་རྟག་པ་མངོན་སུམ་ཚད་མས་ར: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.1.2.2.1.2.1 དང་པོ་འཁྲུལ་རྒྱུ་མེད་ན་མངོན་སུམ་གྱིས་གྲུ: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.1.2.2.1.2.2 གཉིས་པ་ཡོད་ན་རྗེས་དཔག་གིས་གྲུབ་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.1.2.2.1.2.2.1 དང་པོ་རྗེས་དཔག་གིས་འགྲུབ་ཚུལ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.1.2.2.1.2.2.2 གཉིས་པ་རྩོད་པ་སྤང་བ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.1.2.2.1.2.3 གསུམ་པ་ཁ་དོག་མ་དམིགས་པའི་རྟགས་ལས་མི་རྟག་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.1.2.2.1.3 གསུམ་པ་གཞན་དག་གི་མི་རྟག་པ་དགག་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.1.2.2.1.3.1 དང་པོ་གཞན་གྱིས་བཏགས་པའི་མི་རྟག་པ་རྒྱས་པར: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.1.2.2.1.3.2 གཉིས་པ་རང་ལུགས་ཀྱི་མཇུག་བསྡུ་བ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.1.2.2.2 གཉིས་པ་ཁྱད་པར་ངོ་ཤེས་ཀྱི་བློ་ཚད་མ་ཕུང་སུ: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.1.2.2.2.1 དང་པོ་གཞན་འདོད་དགག་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.1.2.2.2.2 གཉིས་པ་རང་གི་ལུགས་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.1.2.2.2.3 གསུམ་པ་རྩོད་སྤང་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2 གཉིས་པ་མངོན་སུམ་རང་གི་ངོ་བོ་ལ་ལོག་པར་རྟོ: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2.1 དང་པོ་མངོན་སུམ་བཤད་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2.1.1 དང་པོ་མངོན་སུམ་གྱི་མཚན་ཉིད་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2.1.1.1 དང་པོ་མངོན་སུམ་རྟོག་བྲལ་དུ་བསྒྲུབ་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2.1.1.1.1 དང་པོ་སྒྲུབ་བྱེད་དགོད་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2.1.1.1.1.1 དང་པོ་མངོན་སུམ་གྱིས་གྲུབ་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2.1.1.1.1.2 གཉིས་པ་རྗེས་དཔག་གིས་གྲུབ་པའི་ཚུལ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2.1.1.1.2 གཉིས་པ་ཞར་བྱུང་གཞན་གྱི་སྒྲུབ་བྱེད་དགག་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2.1.1.1.2.1 དང་པོ་དབང་ཤེས་རྟོག་བྲལ་དུ་བསྒྲུབ་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2.1.1.1.2.2 གཉིས་པ་མཐོང་རྟོག་གཅིག་ཏུ་འདོད་པ་དགག་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2.1.1.1.2.2.1 དང་པོ་མཐོང་རྟོག་གཅིག་ཏུ་ཞེན་པའི་རྒྱུ་མཚན: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2.1.1.1.2.2.2 གཉིས་པ་རྩོད་སྤང་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2.1.1.1.2.2.2.1 དང་པོ་དབང་ཤེས་ཡུལ་ལ་ཆད་ཅིང་འཇུག་པར་ཐལ་བ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2.1.1.1.2.2.2.2 གཉིས་པ་དེའི་ལན་དགག་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2.1.1.1.2.2.2.2.1 དང་པོ་དོན་དགག་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2.1.1.1.2.2.2.2.2 གཉིས་པ་དཔེ་དགག་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2.1.1.1.2.2.2.2.2.1 དང་པོ་དབང་པོ་ལས་སྐྱེས་པའི་རྟགས་དགག་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2.1.1.1.2.2.2.2.2.2 གཉིས་པ་དེས་གཞན་ཡང་ཁེགས་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2.1.1.1.3 གསུམ་པ་རང་གི་སྒྲུབ་བྱེད་གཞན་བསྟན་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2.1.1.1.3.1 དང་པོ་དབང་ཤེས་དོན་སྦྱོར་རྟོག་པ་ཡིན་པ་དགག: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2.1.1.1.3.1.1 དང་པོ་ཁྱབ་པ་སྒྲུབ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2.1.1.1.3.1.2 གཉིས་པ་རྟགས་དགོད་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2.1.1.1.3.1.3 གསུམ་པ་ཕྱོགས་ཆོས་སྒྲུབ་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2.1.1.1.3.1.3.1 དང་པོ་སྦྱར་བྱ་རིགས་སོགས་དོན་གཞན་མ་གྲུབ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2.1.1.1.3.1.3.2 གཉིས་པ་དེ་སྦྱར་བ་འཕྲོད་འདུ་དངོས་པོ་བ་མ་ག: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2.1.1.1.3.1.3.2.1 དང་པོ་འཕྲོད་འདུ་དངོས་པོ་བ་སྒྲ་རྟོག་གི་རྒ: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2.1.1.1.3.1.3.2.2 གཉིས་པ་དེ་མི་སྲིད་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2.1.1.1.3.1.3.2.3 གསུམ་པ་རྗོད་བྱེད་སྒྲ་བརྗོད་བྱ་དོན་གཞན་གྱ: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2.1.1.1.3.1.3.3 གསུམ་པ་རིགས་དོན་གཞན་མེད་ཀྱང་གཅིག་གི་སྒྲ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2.1.1.1.3.1.3.3.1 དང་པོ་ཁྱད་ཆོས་དོན་གཞན་མེད་ཀྱང་སྒྲ་འཇུག་པ: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2.1.1.1.3.1.3.3.2 གཉིས་པ་ཁྱད་ཆོས་དོན་གཞན་དགོས་ན་རིགས་པ་ཅན་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2.1.1.1.3.1.3.3.3 གསུམ་པ་དངོས་མིང་དང་བཏགས་མིང་གི་ཁྱད་པར་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2.1.1.1.3.1.3.3.3.1 དང་པོ་དུ་མ་ལ་སྒྲ་གཅིག་འཇུག་པའི་རྒྱུ་མཚན་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2.1.1.1.3.1.3.3.3.2 གཉིས་པ་རྒྱས་པར་བཤད་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2.1.1.1.3.1.3.3.3.2.1 དང་པོ་རྩོད་སྤང་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2.1.1.1.3.1.3.3.3.2.2 གཉིས་པ་སྒྲའི་བརྗོད་བྱ་ངོས་གཟུང་བ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2.1.1.1.3.1.3.3.3.2.2.1 དང་པོ་མི་འདོད་པའི་ཕྱོགས་སུན་དབྱུང་བ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2.1.1.1.3.1.3.3.3.2.2.2 གཉིས་པ་འདོད་པའི་ཕྱོགས་བཞག་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2.1.1.1.3.1.3.3.3.2.2.3 གསུམ་པ་སྒྲས་གཞན་སེལ་བརྗོད་དགོས་པའི་རྒྱུ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2.1.1.2.1.3.1 དང་པོ་ཐལ་བ་དགོད་པ་: title attested in the source but not near pointer [[2306]] (found near line 449) — possible cursor loss
-- 3.2.1.1.3.2.1.1.2.1.3.2 གཉིས་པ་དབང་ཤེས་དང་རྟོག་པ་ཐ་དད་དུ་གྲུབ་པ་: title attested in the source but not near pointer [[2308]] (found near line 2316) — possible cursor loss
-- 3.2.1.1.3.2.1.1.2.2 གཉིས་པ་དོན་བསྡུ་བ་: title attested in the source but not near pointer [[2316]] (found near line 199) — possible cursor loss
-- 3.2.1.1.3.2.1.2.1.2.1 དང་པོ་མདོ་དང་འགལ་བ་སྤང་བ་: title attested in the source but not near pointer [[2328]] (found near line 2332) — possible cursor loss
-- 3.2.1.1.3.2.1.2.1.2.2.2.2.2.2.1 དང་པོ་རྒྱས་པར་བཤད་པ་: title attested in the source but not near pointer [[2340]] (found near line 98) — possible cursor loss
-- 3.2.1.1.3.2.1.2.1.2.3 གསུམ་པ་མདོའི་དགོངས་པ་རྒྱས་པར་བཤད་པ་: title attested in the source but not near pointer [[2348]] (found near line 2332) — possible cursor loss
-- 3.2.1.1.3.2.1.2.1.3 གསུམ་པ་ལྡོག་པ་དུ་མ་དང་སྤྱི་དོན་གཞན་དབང་ཤ: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2.1.2.1.3.1.2.1 དང་པོ་ཕྱི་རོལ་གྱི་དོན་ཁས་མ་བླངས་པའི་ལུགས: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2.1.2.1.3.1.2.1.1 དང་པོ་མདོར་བསྟན་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2.1.2.1.3.1.2.1.2 གཉིས་པ་རྒྱས་པར་བཤད་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2.1.2.1.3.1.2.1.2.1 དང་པོ་ཕྱི་རོལ་དོན་བཀག་པའི་དབང་དུ་བྱས་ནས་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2.1.2.1.3.1.2.1.2.1.1 དང་པོ་སྣང་བ་ལྟར་དུ་བདེན་ན་དགག་མི་ནུས་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2.1.2.1.3.1.2.1.2.1.2 གཉིས་པ་སྣང་བ་ལྟར་མི་བདེན་པའི་རིགས་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2.1.2.1.3.1.2.1.2.1.2.1 དང་པོ་ཕྱི་རོལ་དོན་ལ་བལྟོས་པའི་གཟུང་འཛིན་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2.1.2.1.3.1.2.1.2.1.2.2 གཉིས་པ་ནང་ཤེས་པ་ལ་བལྟོས་པའི་གཟུང་འཛིན་རྫ: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2.1.2.1.3.1.2.1.2.1.3 གསུམ་པ་དེས་གྲུབ་པའི་དོན་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2.1.2.1.3.1.2.1.2.1.3.1 དང་པོ་གཉིས་སྟོང་ཤེས་པའི་གནས་ལུགས་སུ་གྲུབ: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2.1.2.1.3.1.2.1.2.1.3.2 གཉིས་པ་གཉིས་སྣང་འཁྲུལ་བར་གྲུབ་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2.1.2.1.3.1.2.1.2.1.3.3 གསུམ་པ་གཟུང་འཛིན་རྫས་ཐ་དད་ཀྱི་རང་བཞིན་གྱ: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2.1.2.1.3.1.2.1.3 གསུམ་པ་རྩོད་པ་སྤང་བ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2.1.2.1.3.1.2.1.3.1 དང་པོ་འཁྲུལ་སྣང་སྐྱེ་བ་རྒྱུ་མེད་དུ་ཐལ་བ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2.1.2.1.3.1.2.1.3.2 གཉིས་པ་དོན་དམ་བདེན་པ་ཐ་མལ་པས་ཀྱང་མངོན་སུ: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2.1.2.1.3.1.2.1.3.2.1 དང་པོ་དངོས་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2.1.2.1.3.1.2.1.3.2.2 གཉིས་པ་ཧ་ཅང་ཐལ་བ་སྤང་བ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2.1.2.1.3.1.2.1.3.3 གསུམ་པ་ཐུབ་པས་ཕྱི་རོལ་གྱི་དོན་གསུང་བར་མི: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2.1.2.1.3.1.2.2 གཉིས་པ་དོན་ཁས་བླངས་པའི་དབང་དུ་བྱས་ནས་ལན་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2.1.2.1.3.1.2.2.1 དང་པོ་ཐུན་མོང་མ་ཡིན་པའི་བདེན་པ་གཉིས་ངོས་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2.1.2.1.3.1.2.2.1.1 དང་པོ་མཚན་ཉིད་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2.1.2.1.3.1.2.2.1.2 གཉིས་པ་མཚོན་བྱའི་དབྱེ་བ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2.1.2.1.3.1.2.2.2 གཉིས་པ་དོན་དམ་པའི་བདེན་པ་ཇི་ལྟར་ཉམས་སུ་བ: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2.1.2.1.3.2 གཉིས་པ་ཡན་ལག་ཅན་དོན་གཞན་མེད་ན་ཅིག་ཅར་དུ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2.1.2.1.3.2.1 དང་པོ་བ་ལང་དེ་ཡན་ལག་དུ་མ་དང་ལྡན་པར་མི་འཛ: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2.1.2.1.3.2.2 གཉིས་པ་དངོས་པོ་རྫས་གཞན་མཐོང་ཡང་བློ་རྣམ་པ: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2.1.2.1.3.2.3 གསུམ་པ་ཅིག་ཅར་དུ་མ་འཛིན་པ་གྲངས་ཅན་གྱི་ལུ: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2.1.2.1.3.3 གསུམ་པ་ཆོས་ཅན་གཅིག་གི་ལྡོག་པ་དུ་མ་མངོན་ས: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2.1.2.1.3.4 བཞི་པ་སྤྱི་དོན་གཞན་མངོན་སུམ་གྱི་གཟུང་དོན: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2.1.2.1.3.4.1 དང་པོ་དགག་པ་དངོས་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2.1.2.1.3.4.2 གཉིས་པ་དེས་རིགས་ཅན་གཞན་ཡང་ཁེགས་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2.1.2.2 གཉིས་པ་ཡིད་ཀྱི་མངོན་སུམ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2.1.2.2.1 དང་པོ་རྩོད་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.2.1.2.2.2.1 དང་པོ་སྤྱིའི་དོན་: title attested in the source but not near pointer [[2350]] (found near line 394) — possible cursor loss
-- 3.2.1.1.3.2.1.2.2.2.1.1 དང་པོ་རྐྱེན་གསུམ་ངོས་གཟུང་བ་: title attested in the source but not near pointer [[2352]] (found near line 2421) — possible cursor loss
-- 3.2.1.1.3.2.1.2.2.2.1.2 གཉིས་པ་ངེས་བྱེད་ཀྱི་ཚད་མ་: title attested in the source but not near pointer [[2356]] (found near line 98) — possible cursor loss
-- 3.2.1.1.3.2.1.2.2.2.1.3 གསུམ་པ་དེ་ལ་རྩོད་པ་སྤང་བ་: title attested in the source but not near pointer [[2362]] (found near line 447) — possible cursor loss
-- 3.2.1.1.3.2.1.2.2.2.2 གཉིས་པ་ཚིག་དོན་སོ་སོར་བཤད་པ་: title attested in the source but not near pointer [[2362]] (found near line 2414) — possible cursor loss
-- 3.2.1.1.3.2.1.2.2.2.2.1 དང་པོ་ཐལ་བ་དང་པོའི་ལན་: title attested in the source but not near pointer [[2364]] (found near line 2431) — possible cursor loss
-- 3.2.1.1.3.2.1.2.2.2.2.2 གཉིས་པ་གཉིས་པའི་ལན་: title attested in the source but not near pointer [[2364]] (found near line 2431) — possible cursor loss
-- 3.2.1.1.3.2.1.2.2.3 གསུམ་པ་དེ་ལ་རྩོད་པ་སྤང་བ་: title attested in the source but not near pointer [[2380]] (found near line 447) — possible cursor loss
-- 3.2.1.1.3.2.1.2.2.3.1 དང་པོ་ཡུལ་ངེས་མེད་འཛིན་པར་ཐལ་བ་སྤང་བ་: title attested in the source but not near pointer [[2386]] (found near line 2437) — possible cursor loss
-- 3.2.1.1.3.2.1.2.2.3.2 གཉིས་པ་དེའི་གཟུང་ཡུལ་དབང་མངོན་དང་ལྷན་ཅིག: title attested in the source but not near pointer [[2388]] (found near line 2437) — possible cursor loss
-- 3.2.1.1.3.2.1.2.2.3.3 གསུམ་པ་དེ་འཐད་ན་གཟུང་འཛིན་མི་འཐད་པ་སྤང་བ: title attested in the source but not near pointer [[2390]] (found near line 2439) — possible cursor loss
-- 3.2.1.1.3.2.1.2.3 གསུམ་པ་རང་རིག་པའི་མངོན་སུམ་: title attested in the source but not near pointer [[2406]] (found near line 1283) — possible cursor loss
-- 3.2.1.1.3.2.1.2.3.1 དང་པོ་མཚན་ཉིད་བསྒྲུབ་པ་: title attested in the source but not near pointer [[2408]] (found near line 2443) — possible cursor loss
-- 3.2.1.1.3.2.1.2.3.2 གཉིས་པ་མཚན་གཞི་བསྒྲུབ་པ་: title attested in the source but not near pointer [[2408]] (found near line 2443) — possible cursor loss
-- 3.2.1.1.3.2.1.2.3.2.1 དང་པོ་བདེ་སོགས་ནང་གི་བེམ་པོར་འདོད་པ་དགག་: title attested in the source but not near pointer [[2410]] (found near line 2443) — possible cursor loss
-- 3.2.1.1.3.2.1.2.3.2.1.1 དང་པོ་འདོད་པ་བརྗོད་པ་: title attested in the source but not near pointer [[2414]] (found near line 838) — possible cursor loss
-- 3.2.1.1.3.2.1.2.3.2.1.2 གཉིས་པ་དེ་དགག་པ་: title attested in the source but not near pointer [[2414]] (found near line 838) — possible cursor loss
-- 3.2.1.1.3.2.1.2.3.2.1.2.1 དང་པོ་དབང་ཤེས་འཁོར་གྱི་ཚོར་བ་བདེ་བ་རང་རི: title attested in the source but not near pointer [[2414]] (found near line 2445) — possible cursor loss
-- 3.2.1.1.3.2.1.2.3.2.1.2.1.1 དང་པོ་སྤྱིར་ཤེས་པར་སྒྲུབ་: title attested in the source but not near pointer [[2423]] (found near line 2445) — possible cursor loss
-- 3.2.1.1.3.2.1.2.3.2.1.2.1.2 གཉིས་པ་མྱོང་བྱེད་གཞན་གྱིས་མྱོང་བ་དགག་པ་: title attested in the source but not near pointer [[2423]] (found near line 2445) — possible cursor loss
-- 3.2.1.1.3.2.1.2.3.2.1.2.1.2.1 དང་པོ་བློ་དུ་མ་ཅིག་ཅར་མི་འཇུག་པ་ལ་མྱོང་བ: title attested in the source but not near pointer [[2433]] (found near line 2449) — possible cursor loss
-- 3.2.1.1.3.2.1.2.3.2.1.2.1.2.1.1 དང་པོ་བདེ་སོགས་དང་ལྷན་ཅིག་སྐྱེས་པའི་དབང་: title attested in the source but not near pointer [[2439]] (found near line 2449) — possible cursor loss
-- 3.2.1.1.3.2.1.2.3.2.1.2.1.2.1.2 གཉིས་པ་ཕྱིས་བྱུང་བའི་ཡིད་ཤེས་ཀྱིས་མྱོང་བ: title attested in the source but not near pointer [[2439]] (found near line 2449) — possible cursor loss
-- 3.2.1.1.3.2.1.2.3.2.1.2.1.2.1.3 གསུམ་པ་དེའི་ལན་དགག་པ་: title attested in the source but not near pointer [[2441]] (found near line 485) — possible cursor loss
-- 3.2.1.1.3.2.1.2.3.2.1.2.1.2.2 གཉིས་པ་ཅིག་ཅར་འཇུག་པ་ལ་དེ་དགག་པ་: title attested in the source but not near pointer [[2455]] (found near line 2449) — possible cursor loss
-- 3.2.1.1.3.2.1.2.3.2.1.2.2 གཉིས་པ་དེ་དོན་རིག་ཏུ་བསྒྲུབ་པ་: title attested in the source but not near pointer [[2459]] (found near line 2445) — possible cursor loss
-- 3.2.1.1.3.2.1.2.3.2.2 གཉིས་པ་ཕྱིའི་བེམ་པོར་འདོད་པ་དགག་པ་: title attested in the source but not near pointer [[2463]] (found near line 2443) — possible cursor loss
-- 3.2.1.1.3.2.1.2.4.2.2.1.1 དང་པོ་རྒྱས་པར་བཤད་པ་: title attested in the source but not near pointer [[2496]] (found near line 98) — possible cursor loss
-- 3.2.1.1.3.2.1.2.4.2.3 གསུམ་པ་རྟོག་བྲལ་གྱི་དོན་བྱེ་བྲག་ཏུ་བཤད་པ: title attested in the source but not near pointer [[2505]] (found near line 2494) — possible cursor loss
-- 3.2.1.1.3.2.2 གཉིས་པ་མངོན་སུམ་ལྟར་སྣང་བཤད་པ་: title attested in the source but not near pointer [[2515]] (found near line 2227) — possible cursor loss
-- 3.2.1.1.3.2.2.1.1 དང་པོ་རྟོག་པ་དང་བཅས་པ་: title attested in the source but not near pointer [[2515]] (found near line 2520) — possible cursor loss
-- 3.2.1.1.3.2.2.2.1.2.1 དང་པོ་རྟོག་པ་ངོས་གཟུང་བ་: title attested in the source but not near pointer [[2522]] (found near line 2505) — possible cursor loss
-- 3.2.1.1.3.2.2.2.2 གཉིས་པ་རྟོག་མེད་ལྟར་སྣང་ལོགས་སུ་བཀར་བའི་: title attested in the source but not near pointer [[2524]] (found near line 2520) — possible cursor loss
-- 3.2.1.1.3.2.2.2.2.2.1 དང་པོ་དམིགས་བསལ་གྱི་ཚིག་རྟོག་མེད་ཀྱི་ཤེས: title attested in the source but not near pointer [[2528]] (found near line 2537) — possible cursor loss
-- 3.2.1.1.3.2.2.2.2.2.2 གཉིས་པ་གསལ་སྣང་ཅན་གྱི་ཤེས་པ་ཁ་ཅིག་རྟོག་མ: title attested in the source but not near pointer [[2548]] (found near line 2537) — possible cursor loss
-- 3.2.1.1.3.3.2.1 དང་པོ་བློ་ཚུལ་གཉིས་སྒྲུབ་པའི་རིགས་པ་: title attested in the source but not near pointer [[2552]] (found near line 2689) — possible cursor loss
-- 3.2.1.1.3.3.2.1.1 དང་པོ་ཡུལ་ཤེས་དེ་ཡི་ཤེས་པ་ཡིས། །ཞེས་པའི་: title attested in the source but not near pointer [[2554]] (found near line 2689) — possible cursor loss
-- 3.2.1.1.3.3.2.1.2 གཉིས་པ། དུས་ཕྱིས་དྲན་པ་ལས་ཀྱང་སྟེ། །ཞེས་: title attested in the source but not near pointer [[2556]] (found near line None) — possible cursor loss
-- 3.2.1.1.3.3.2.2.2.1.1.3.1 དང་པོ་རིགས་པ་དེ་དག་གིས་གཞན་ཡང་ཁེགས་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.3.2.2.2.1.1.3.2 གཉིས་པ་བདེ་སོགས་ལ་རང་རིག་སྒྲུབ་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.3.2.2.2.1.1.3.3.1 དང་པོ་ཧ་ཅང་ཐལ་བ་དངོས་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.3.2.2.2.1.1.3.3.2.1 དང་པོ་གནོད་བྱེད་དགོད་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.3.2.2.2.1.2.1 དང་པོ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.3.2.2.2.1.2.1.1 དང་པོ་དབང་སོགས་ལས་གཞན་རྟགས་སུ་མི་རུང་བ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.3.2.2.2.1.2.2.1 དང་པོ་འབྲེལ་བ་ངེས་བྱེད་ཀྱི་ཚད་མ་མེད་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.3.2.2.2.1.2.2.2 གཉིས་པ་དེ་མེད་པས་གཞན་རྒྱུད་ཀྱི་བློ་ཡང་མི: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.3.2.2.2.2.1 དང་པོ་མདོར་བསྟན་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.3.2.2.2.2.2.1 དང་པོ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.3.2.2.2.2.2.1.1 དང་པོ་ཐལ་བ་དགོད་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.3.2.2.2.2.2.1.2.1 དང་པོ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.3.2.2.2.2.2.1.2.2 གཉིས་པ་དུ་མས་ཉན་བློ་དུ་མ་བསྐྱེད་པའི་ཕྱོག: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.3.2.2.2.2.2.2.1 དང་པོ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.3.2.2.2.2.2.2.2.1 དང་པོ་ཐལ་བ་དགོད་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.3.2.2.2.2.2.2.2.2.1 དང་པོ་དབང་ཤེས་ཀྱིས་མཚམས་སྦྱར་བ་མི་འཐད་: title attested in the source but not near pointer [[2822]] (found near line 2836) — possible cursor loss
-- 3.2.1.1.3.3.2.2.2.2.2.2.2.2.2 གཉིས་པ་ཡིད་ཤེས་ཀྱིས་མཚམས་སྦྱར་བ་མི་འཐད་: title attested in the source but not near pointer [[2824]] (found near line 2836) — possible cursor loss
-- 3.2.1.1.3.3.2.2.2.3.3.1.1.2.1 དང་པོ་དགག་པ་དངོས་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.3.2.2.2.3.3.1.1.2.2 གཉིས་པ་དེའི་ལན་དགག་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.1.1.3.3.2.2.2.3.3.1.2 གཉིས་པ་དོན་བསྡུ་བ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.2.1 དང་པོ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.2.1.1 དང་པོ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.2.1.2.1 དང་པོ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.2.1.2.1.1 དང་པོ་འདོད་པ་བརྗོད་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.2.1.2.1.2.1 དང་པོ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.2.1.2.1.2.2.1 དང་པོ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.2.1.2.1.2.2.1.1 དང་པོ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.2.1.2.3.1 དང་པོ་ཚིག་གཉིས་རང་ཉིད་ཀྱིས་སྒྲུབ་མི་ནུས་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.2.1.2.3.2 གཉིས་པ་སྒྲུབ་བྱེད་སྟོན་པའི་ནུས་པ་ཡོད་མེད: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.2.2.1.1.2.1 དང་པོ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.2.2.1.1.2.1.1 དང་པོ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.2.2.1.1.2.2.1 དང་པོ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.2.2.1.1.2.2.1.1 དང་པོ་དགོས་པ་མདོར་བསྟན་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.2.2.1.1.2.2.1.2.1 དང་པོ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.2.2.1.1.2.2.1.2.1.1 དང་པོ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.2.2.1.1.2.2.1.2.1.2.1 དང་པོ་དངོས་སྟོབས་ཡུལ་ལ་ལུང་གནོད་བྱེད་དུ་: title attested in the source but not near pointer [[3028]] (found near line 3038) — possible cursor loss
-- 3.2.2.2.1.1.2.2.1.2.1.2.2 གཉིས་པ་ལུང་གིས་གནོད་པའི་ཡུལ་ངོས་གཟུང་བ་: title attested in the source but not near pointer [[3030]] (found near line 3040) — possible cursor loss
-- 3.2.2.2.1.1.2.2.1.2.1.2.3.1 དང་པོ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.2.2.1.1.2.2.1.2.1.2.3.2 གཉིས་པ་དོན་བསྡུ་བ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.2.2.1.1.2.2.1.2.2 གཉིས་པ་རང་སྡེ་ལུང་དོན་བསྒྲུབ་བྱར་འདོད་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.2.2.1.1.2.3.1.2.1 དང་པོ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.2.2.1.1.2.3.1.2.1.1 དང་པོ་སྤྱིའི་དོན་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.2.2.1.1.2.3.1.2.1.1.1 དང་པོ་ལུང་གནོད་བྱེད་དང་གེགས་བྱེད་དུ་འདོད: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.2.2.1.1.2.3.1.2.1.1.2 གཉིས་པ་འཐད་པའི་ཕྱོགས་ངོས་གཟུང་བ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.2.2.1.1.2.3.1.2.1.1.3 གསུམ་པ་བསལ་བྱ་སེལ་ཚུལ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.2.2.1.1.2.3.1.2.1.1.4 བཞི་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.2.2.1.1.2.3.1.2.1.2.1 དང་པོ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.2.2.1.1.2.3.1.2.1.2.1.1 དང་པོ་ཀུན་ལས་བཏུས་སུ་ལུང་དང་རང་ཚིག་སེལ་བ: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.2.2.1.1.2.3.1.2.2.1 དང་པོ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.2.2.1.1.2.3.1.2.2.1.1 དང་པོ་གྲགས་པའི་གཏན་ཚིགས་ཀྱིས་ཚུལ་ཇི་ལྟར་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.2.2.1.1.2.3.1.2.2.1.2 གཉིས་པ་གྲགས་པའི་རྗེས་དཔག་གི་གཞལ་བྱའི་ཁྱད: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.2.2.1.1.2.3.1.2.2.1.3 གསུམ་པ་གྲགས་པའི་དབྱེ་བ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.2.2.1.1.2.3.1.2.2.2.1 དང་པོ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.2.2.1.1.2.3.1.2.2.2.2.1 དང་པོ་གྲགས་པའི་མིང་དོན་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.2.2.1.1.2.3.1.2.3.1 དང་པོ་མངོན་སུམ་གྱིས་གནོད་པའི་ཚུལ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.2.2.1.1.2.3.1.2.3.2 གཉིས་པ་དོན་སྨོས་པའི་དགོས་པ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.2.2.1.1.2.3.2.1 དང་པོ་: pointer is [[?]] — unresolved anchor, not a clean tree
-- 3.2.2.2.1.3.2.2.2.2.1 དང་པོ་ཐལ་བ་དགོད་པ་: title attested in the source but not near pointer [[3312]] (found near line 449) — possible cursor loss
-- 3.2.2.2.1.3.2.2.2.2.2.2 གཉིས་པ་བྱེ་བྲག་ལ་རྩོད་སྤང་: title attested in the source but not near pointer [[3320]] (found near line 3316) — possible cursor loss
-- 3.2.2.2.2.2.2.2 གཉིས་པ་བཤད་པ་: title attested in the source but not near pointer [[3349]] (found near line 59) — possible cursor loss
-- 3.2.2.2.2.2.2.2.2 གཉིས་པ་ཁྱད་པར་ཐུན་མོང་མ་ཡིན་པ་སྨོས་པའི་ད: title attested in the source but not near pointer [[3353]] (found near line 3349) — possible cursor loss
-- 3.2.2.2.2.2.2.2.2.1.3 གསུམ་པ་བྱེ་བྲག་པའི་ཐལ་བ་མ་ངེས་པར་བསྟན་པ་: title attested in the source but not near pointer [[3369]] (found near line 3361) — possible cursor loss
-- 3.2.2.2.2.2.2.2.2.2.2.1.2.3.1 དང་པོ་དགག་སྒྲུབ་ཀྱི་དངོས་རྟེན་སྒྲ་དོན་དུ: title attested in the source but not near pointer [[3379]] (found near line 3387) — possible cursor loss
-- 3.2.2.2.2.2.2.2.2.2.2.1.2.3.2 གཉིས་པ་རང་མཚན་ཡིན་པ་དགག་པ་: title attested in the source but not near pointer [[3383]] (found near line 3387) — possible cursor loss
-- 3.2.2.2.2.2.2.2.2.2.2.1.2.3.2.1 དང་པོ་ཡུལ་ལ་སྦྱར་བ་: title attested in the source but not near pointer [[3387]] (found near line 3393) — possible cursor loss
-- 3.2.2.2.2.2.2.2.2.2.2.1.2.3.3 གསུམ་པ་སྒྲ་དོན་ལ་དགག་སྒྲུབ་བྱེད་པའི་ཚུལ་: title attested in the source but not near pointer [[3399]] (found near line 3387) — possible cursor loss
-- 3.2.2.2.2.2.2.2.2.2.2.2.2 གཉིས་པ་དེ་གྲུབ་ཀྱང་བདག་བཅས་སུ་མི་འགྲུབ་པ: title attested in the source but not near pointer [[3416]] (found near line 3410) — possible cursor loss
-- 3.2.2.2.2.2.2.2.2.2.3.3 གསུམ་པ་འབྲེལ་བ་ངེས་བྱེད་ཀྱི་ཚད་མ་བསྟན་པ་: title attested in the source but not near pointer [[3430]] (found near line 3418) — possible cursor loss
-- 3.2.2.2.2.2.2.2.3.2.1 དང་པོ་འབྲེལ་བ་ངེས་བྱེད་: title attested in the source but not near pointer [[3434]] (found near line 137) — possible cursor loss
-- 3.2.2.2.2.2.2.2.3.2.3 གསུམ་པ་ལོགས་སུ་མི་སྟོན་པའི་རྒྱུ་མཚན་གྱིས: title attested in the source but not near pointer [[3444]] (found near line 3438) — possible cursor loss
-- 3.2.2.2.2.2.2.2.3.3 གསུམ་པ་མ་དམིགས་པའི་དོན་གཏན་ལ་དབབ་པ་: title attested in the source but not near pointer [[3446]] (found near line 3434) — possible cursor loss
-- 3.2.2.2.2.2.2.2.3.3.1.1.3 གསུམ་པ་དེ་གྲུབ་པའི་དོན་: title attested in the source but not near pointer [[3450]] (found near line 3446) — possible cursor loss
-- 3.2.2.2.2.2.2.2.3.3.1.2 གཉིས་པ་དེ་ཇི་ལྟར་གྲུབ་པའི་ཚུལ་: title attested in the source but not near pointer [[3450]] (found near line 3446) — possible cursor loss
-- 3.2.2.2.2.2.2.2.3.3.1.3 གསུམ་པ་གཞན་དུ་ཧ་ཅང་ཐལ་བ་: title attested in the source but not near pointer [[3454]] (found near line 3446) — possible cursor loss
-- 4.2.1 དང་པོ་ཡང་དག་: pointer is [[?]] — unresolved anchor, not a clean tree
-- pointer [[51]] is shared by 4 nodes (1, 2, 3, 3.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[59]] is shared by 4 nodes (3.1.1, 3.1.1.1, 3.1.1.2, 3.1.1.3) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[98]] is shared by 3 nodes (3.2.1.1, 3.2.1.1.1, 3.2.1.1.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[116]] is shared by 5 nodes (3.2.1.1.1.1.1, 3.2.1.1.1.1.1.1, 3.2.1.1.1.1.1.2, 3.2.1.1.1.1.1.2.1, 3.2.1.1.1.1.1.2.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[123]] is shared by 3 nodes (3.2.1.1.1.1.1.2.3, 3.2.1.1.1.2, 3.2.1.1.1.2.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[125]] is shared by 5 nodes (3.2.1.1.1.2.1.1, 3.2.1.1.1.2.1.2, 3.2.1.1.1.2.1.3, 3.2.1.1.1.2.1.3.1, 3.2.1.1.1.2.1.3.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[137]] is shared by 3 nodes (3.2.1.1.1.2.1.3.1.3, 3.2.1.1.1.2.1.3.2, 3.2.1.1.1.2.1.3.2.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[199]] is shared by 3 nodes (3.2.1.1.1.2.2.2.1, 3.2.1.1.1.2.2.2.2, 3.2.1.1.1.2.2.2.3) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[217]] is shared by 6 nodes (3.2.1.1.1.3.1.1, 3.2.1.1.1.3.1.1.1, 3.2.1.1.1.3.1.1.2, 3.2.1.1.1.3.1.1.3, 3.2.1.1.1.3.1.1.3.1, 3.2.1.1.1.3.1.1.3.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[366]] is shared by 7 nodes (3.2.1.1.1.3.2, 3.2.1.1.1.3.2.1, 3.2.1.1.1.3.2.1.1, 3.2.1.1.1.3.2.1.1.1, 3.2.1.1.1.3.2.1.1.1.1, 3.2.1.1.1.3.2.1.1.1.1.1, 3.2.1.1.1.3.2.1.1.1.1.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[398]] is shared by 4 nodes (3.2.1.1.1.3.2.1.1.2, 3.2.1.1.1.3.2.1.1.2.1, 3.2.1.1.1.3.2.1.1.2.2, 3.2.1.1.1.3.2.1.1.2.2.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[400]] is shared by 4 nodes (3.2.1.1.1.3.2.1.1.2.2.1.1, 3.2.1.1.1.3.2.1.1.2.2.1.1.1, 3.2.1.1.1.3.2.1.1.2.2.1.1.2, 3.2.1.1.1.3.2.1.1.2.2.1.1.3) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[433]] is shared by 4 nodes (3.2.1.1.1.3.2.1.1.2.2.1.2, 3.2.1.1.1.3.2.1.1.2.2.1.2.1, 3.2.1.1.1.3.2.1.1.2.2.1.2.2, 3.2.1.1.1.3.2.1.1.2.2.1.2.3) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[447]] is shared by 3 nodes (3.2.1.1.1.3.2.1.1.2.2.2.1, 3.2.1.1.1.3.2.1.1.2.2.2.1.1, 3.2.1.1.1.3.2.1.1.2.2.2.1.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[449]] is shared by 4 nodes (3.2.1.1.1.3.2.1.1.2.2.2.1.1.1.1, 3.2.1.1.1.3.2.1.1.2.2.2.1.1.1.1.1, 3.2.1.1.1.3.2.1.1.2.2.2.1.1.1.1.2, 3.2.1.1.1.3.2.1.1.2.2.2.1.1.1.1.3) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[493]] is shared by 4 nodes (3.2.1.1.1.3.2.1.1.2.2.2.1.3, 3.2.1.1.1.3.2.1.1.2.2.2.1.3.1, 3.2.1.1.1.3.2.1.1.2.2.2.1.3.1.1, 3.2.1.1.1.3.2.1.1.2.2.2.1.3.1.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[519]] is shared by 5 nodes (3.2.1.1.1.3.2.1.1.2.2.2.1.3.2.1, 3.2.1.1.1.3.2.1.1.2.2.2.1.3.2.1.1, 3.2.1.1.1.3.2.1.1.2.2.2.1.3.2.1.1.1, 3.2.1.1.1.3.2.1.1.2.2.2.1.3.2.1.1.2, 3.2.1.1.1.3.2.1.1.2.2.2.1.3.2.1.1.3) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[658]] is shared by 3 nodes (3.2.1.1.1.3.2.1.1.2.2.2.2.1.3, 3.2.1.1.1.3.2.1.1.2.2.2.2.1.3.1, 3.2.1.1.1.3.2.1.1.2.2.2.2.1.3.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[672]] is shared by 5 nodes (3.2.1.1.1.3.2.1.1.2.2.2.3.1.1, 3.2.1.1.1.3.2.1.1.2.2.2.3.1.1.1, 3.2.1.1.1.3.2.1.1.2.2.2.3.1.1.1.1, 3.2.1.1.1.3.2.1.1.2.2.2.3.1.1.1.2, 3.2.1.1.1.3.2.1.1.2.2.2.3.1.1.1.3) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[838]] is shared by 5 nodes (3.2.1.1.1.3.2.1.1.2.2.2.3.3.3.3.2.2.1.2.1, 3.2.1.1.1.3.2.1.1.2.2.2.3.3.3.3.2.2.1.2.2, 3.2.1.1.1.3.2.1.1.2.2.2.3.3.3.3.2.2.2, 3.2.1.1.1.3.2.1.1.2.2.2.3.3.3.3.2.2.2.1, 3.2.1.1.1.3.2.1.1.2.2.2.3.3.3.3.2.2.2.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[840]] is shared by 3 nodes (3.2.1.1.1.3.2.1.1.2.2.2.3.3.3.3.2.2.2.2.1, 3.2.1.1.1.3.2.1.1.2.2.2.3.3.3.3.2.2.2.2.2, 3.2.1.1.1.3.2.1.1.2.2.2.3.3.3.3.2.2.2.2.2.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[852]] is shared by 4 nodes (3.2.1.1.1.3.2.1.1.2.2.2.3.3.3.3.2.2.3, 3.2.1.1.1.3.2.1.1.2.2.2.3.3.3.3.2.2.3.1, 3.2.1.1.1.3.2.1.1.2.2.2.3.3.3.3.2.2.3.1.1, 3.2.1.1.1.3.2.1.1.2.2.2.3.3.3.3.2.2.3.1.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[876]] is shared by 5 nodes (3.2.1.1.1.3.2.1.1.2.2.2.3.3.3.3.2.2.3.2.1, 3.2.1.1.1.3.2.1.1.2.2.2.3.3.3.3.2.2.3.2.2, 3.2.1.1.1.3.2.1.1.2.2.2.3.3.3.3.2.2.3.2.3, 3.2.1.1.1.3.2.1.1.2.2.2.3.3.3.3.2.2.3.2.3.1, 3.2.1.1.1.3.2.1.1.2.2.2.3.3.3.3.2.2.3.2.3.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[888]] is shared by 3 nodes (3.2.1.1.1.3.2.1.1.2.2.2.3.3.3.3.2.2.3.3, 3.2.1.1.1.3.2.1.1.2.2.2.3.3.3.3.2.2.3.3.1, 3.2.1.1.1.3.2.1.1.2.2.2.3.3.3.3.2.2.3.3.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[896]] is shared by 4 nodes (3.2.1.1.1.3.2.1.1.2.2.2.3.3.3.3.2.2.3.3.1.2.2, 3.2.1.1.1.3.2.1.1.2.2.2.3.3.3.3.2.2.3.3.1.2.2.1, 3.2.1.1.1.3.2.1.1.2.2.2.3.3.3.3.2.2.3.3.1.2.2.2, 3.2.1.1.1.3.2.1.1.2.2.2.3.3.3.3.2.2.3.3.1.2.2.2.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[910]] is shared by 4 nodes (3.2.1.1.1.3.2.1.1.2.2.2.3.3.3.3.2.2.3.3.1.2.2.2.2.2.1, 3.2.1.1.1.3.2.1.1.2.2.2.3.3.3.3.2.2.3.3.1.2.2.2.2.2.2, 3.2.1.1.1.3.2.1.1.2.2.2.3.3.3.3.2.2.3.3.1.2.2.2.2.2.2.1, 3.2.1.1.1.3.2.1.1.2.2.2.3.3.3.3.2.2.3.3.1.2.2.2.2.2.2.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[914]] is shared by 3 nodes (3.2.1.1.1.3.2.1.1.2.2.2.3.3.3.3.2.2.3.3.1.2.2.2.2.2.2.2.1, 3.2.1.1.1.3.2.1.1.2.2.2.3.3.3.3.2.2.3.3.1.2.2.2.2.2.2.2.2, 3.2.1.1.1.3.2.1.1.2.2.2.3.3.3.3.2.2.3.3.1.2.2.2.2.2.2.2.2.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[1101]] is shared by 3 nodes (3.2.1.1.1.3.2.2.2.2.3.1.2.1.2, 3.2.1.1.1.3.2.2.2.2.3.1.2.1.2.1, 3.2.1.1.1.3.2.2.2.2.3.1.2.1.2.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[1235]] is shared by 3 nodes (3.2.1.1.1.3.2.2.2.2.3.1.2.1.3.1.2.2.2, 3.2.1.1.1.3.2.2.2.2.3.1.2.1.3.1.2.2.2.1, 3.2.1.1.1.3.2.2.2.2.3.1.2.1.3.1.2.2.2.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[1243]] is shared by 3 nodes (3.2.1.1.1.3.2.2.2.2.3.1.2.1.3.2.1, 3.2.1.1.1.3.2.2.2.2.3.1.2.1.3.2.1.1, 3.2.1.1.1.3.2.2.2.2.3.1.2.1.3.2.1.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[1293]] is shared by 4 nodes (3.2.1.1.1.3.2.2.2.2.3.1.2.2, 3.2.1.1.1.3.2.2.2.2.3.1.2.2.1, 3.2.1.1.1.3.2.2.2.2.3.1.2.2.1.1, 3.2.1.1.1.3.2.2.2.2.3.1.2.2.1.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[1367]] is shared by 3 nodes (3.2.1.1.1.3.2.2.2.2.3.1.2.2.1.2.2, 3.2.1.1.1.3.2.2.2.2.3.1.2.2.1.2.2.1, 3.2.1.1.1.3.2.2.2.2.3.1.2.2.1.2.2.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[1650]] is shared by 4 nodes (3.2.1.1.2.2.2.1.1.1.1.2.1.2.1.2, 3.2.1.1.2.2.2.1.1.1.1.2.1.2.1.2.1, 3.2.1.1.2.2.2.1.1.1.1.2.1.2.1.2.1.1, 3.2.1.1.2.2.2.1.1.1.1.2.1.2.1.2.1.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[1777]] is shared by 3 nodes (3.2.1.1.2.2.4, 3.2.1.1.2.2.5, 3.2.1.1.2.2.5.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[1867]] is shared by 3 nodes (3.2.1.1.2.2.5.3, 3.2.1.1.2.2.5.3.1, 3.2.1.1.2.2.5.3.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[1883]] is shared by 4 nodes (3.2.1.1.2.2.5.3.1.2, 3.2.1.1.2.2.5.3.1.2.1, 3.2.1.1.2.2.5.3.1.2.2, 3.2.1.1.2.2.5.3.1.2.3) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[1889]] is shared by 4 nodes (3.2.1.1.2.2.5.3.2, 3.2.1.1.2.2.5.3.2.1, 3.2.1.1.2.2.5.3.2.2, 3.2.1.1.2.2.5.3.2.3) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[1907]] is shared by 7 nodes (3.2.1.1.2.2.5.4, 3.2.1.1.2.2.5.4.1, 3.2.1.1.2.2.5.4.1.1, 3.2.1.1.2.2.5.4.1.2, 3.2.1.1.2.2.5.4.1.2.1, 3.2.1.1.2.2.5.4.1.2.1.1, 3.2.1.1.2.2.5.4.1.2.1.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[1975]] is shared by 3 nodes (3.2.1.1.2.2.5.4.1.2.1.1.1.3, 3.2.1.1.2.2.5.4.2.2.1.1.3, 3.2.1.1.2.2.5.4.2.2.1.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[1977]] is shared by 5 nodes (3.2.1.1.2.2.5.4.2.2.1.3, 3.2.1.1.2.2.5.4.2.2.2, 3.2.1.1.2.2.5.4.2.2.2.1, 3.2.1.1.2.2.5.4.2.2.2.2, 3.2.1.1.2.2.5.4.2.2.2.2.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[1983]] is shared by 4 nodes (3.2.1.1.2.2.5.4.2.2.2.3, 3.2.1.1.2.2.5.4.2.2.2.3.1, 3.2.1.1.2.2.5.4.2.2.2.3.2, 3.2.1.1.2.2.5.4.2.2.2.3.3) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[1993]] is shared by 6 nodes (3.2.1.1.2.2.5.4.2.2.3, 3.2.1.1.2.2.5.4.2.2.3.1, 3.2.1.1.2.2.5.4.2.2.3.2, 3.2.1.1.2.2.5.4.2.2.3.2.1, 3.2.1.1.2.2.5.4.2.2.3.2.2, 3.2.1.1.2.2.5.4.2.2.3.2.3) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[2028]] is shared by 4 nodes (3.2.1.1.3.1.1, 3.2.1.1.3.1.1.1, 3.2.1.1.3.1.1.2, 3.2.1.1.3.1.1.2.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[2044]] is shared by 4 nodes (3.2.1.1.3.1.1.2.1.2.1.1, 3.2.1.1.3.1.1.2.1.2.1.1.1, 3.2.1.1.3.1.1.2.1.2.1.1.2, 3.2.1.1.3.1.1.2.1.2.1.1.2.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[2068]] is shared by 7 nodes (3.2.1.1.3.1.1.2.1.2.2, 3.2.1.1.3.1.1.2.1.2.2.1, 3.2.1.1.3.1.1.2.1.2.2.1.1, 3.2.1.1.3.1.1.2.1.2.2.1.1.1, 3.2.1.1.3.1.1.2.1.2.2.1.1.1.1, 3.2.1.1.3.1.1.2.1.2.2.1.1.1.1.1, 3.2.1.1.3.1.1.2.1.2.2.1.1.1.1.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[2072]] is shared by 3 nodes (3.2.1.1.3.1.1.2.1.2.2.1.1.1.1.2.2.1, 3.2.1.1.3.1.1.2.1.2.2.1.1.1.1.2.2.1.1, 3.2.1.1.3.1.1.2.1.2.2.1.1.1.1.2.2.1.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[2080]] is shared by 4 nodes (3.2.1.1.3.1.1.2.1.2.2.1.1.1.1.3, 3.2.1.1.3.1.1.2.1.2.2.1.1.1.1.3.1, 3.2.1.1.3.1.1.2.1.2.2.1.1.1.1.3.2, 3.2.1.1.3.1.1.2.1.2.2.1.1.1.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[2098]] is shared by 3 nodes (3.2.1.1.3.1.1.2.1.2.2.1.2, 3.2.1.1.3.1.1.2.1.2.2.1.2.1, 3.2.1.1.3.1.1.2.1.2.2.1.2.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[2113]] is shared by 3 nodes (3.2.1.1.3.1.1.2.1.2.2.1.3, 3.2.1.1.3.1.2.2.1.1.3, 3.2.1.1.3.2.1.1.1.3.1.3.3.3.3) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[2302]] is shared by 3 nodes (3.2.1.1.3.2.1.1.1.3.2, 3.2.1.1.3.2.1.1.1.3.2.1, 3.2.1.1.3.2.1.1.1.3.2.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[2304]] is shared by 5 nodes (3.2.1.1.3.2.1.1.2, 3.2.1.1.3.2.1.1.2.1, 3.2.1.1.3.2.1.1.2.1.1, 3.2.1.1.3.2.1.1.2.1.2, 3.2.1.1.3.2.1.1.2.1.3) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[2326]] is shared by 4 nodes (3.2.1.1.3.2.1.2, 3.2.1.1.3.2.1.2.1, 3.2.1.1.3.2.1.2.1.1, 3.2.1.1.3.2.1.2.1.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[2338]] is shared by 3 nodes (3.2.1.1.3.2.1.2.1.2.2.2.2.2, 3.2.1.1.3.2.1.2.1.2.2.2.2.2.1, 3.2.1.1.3.2.1.2.1.2.2.2.2.2.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[2348]] is shared by 3 nodes (3.2.1.1.3.2.1.2.1.2.3, 3.2.1.1.3.2.1.2.1.3.1, 3.2.1.1.3.2.1.2.1.3.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[2350]] is shared by 3 nodes (3.2.1.1.3.2.1.2.1.3.1.2, 3.2.1.1.3.2.1.2.2.2, 3.2.1.1.3.2.1.2.2.2.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[2414]] is shared by 3 nodes (3.2.1.1.3.2.1.2.3.2.1.1, 3.2.1.1.3.2.1.2.3.2.1.2, 3.2.1.1.3.2.1.2.3.2.1.2.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[2463]] is shared by 5 nodes (3.2.1.1.3.2.1.2.3.2.2, 3.2.1.1.3.2.1.2.3.2.2.1, 3.2.1.1.3.2.1.2.3.2.2.1.1, 3.2.1.1.3.2.1.2.3.2.2.1.2, 3.2.1.1.3.2.1.2.3.2.2.1.2.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[2471]] is shared by 5 nodes (3.2.1.1.3.2.1.2.3.2.2.2.1, 3.2.1.1.3.2.1.2.3.2.2.2.2, 3.2.1.1.3.2.1.2.3.2.2.2.2.1, 3.2.1.1.3.2.1.2.3.2.2.2.2.2, 3.2.1.1.3.2.1.2.3.2.2.2.2.3) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[2490]] is shared by 5 nodes (3.2.1.1.3.2.1.2.4, 3.2.1.1.3.2.1.2.4.1, 3.2.1.1.3.2.1.2.4.1.1, 3.2.1.1.3.2.1.2.4.1.2, 3.2.1.1.3.2.1.2.4.1.3) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[2494]] is shared by 3 nodes (3.2.1.1.3.2.1.2.4.2.1, 3.2.1.1.3.2.1.2.4.2.2, 3.2.1.1.3.2.1.2.4.2.2.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[2515]] is shared by 3 nodes (3.2.1.1.3.2.2, 3.2.1.1.3.2.2.1, 3.2.1.1.3.2.2.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[2520]] is shared by 12 nodes (3.2.1.1.3.2.2.1.1.1, 3.2.1.1.3.2.2.1.1.2, 3.2.1.1.3.2.2.1.1.3, 3.2.1.1.3.2.2.1.1.4, 3.2.1.1.3.2.2.1.1.5, 3.2.1.1.3.2.2.1.1.6, 3.2.1.1.3.2.2.1.2, 3.2.1.1.3.2.2.1.2.1, 3.2.1.1.3.2.2.2, 3.2.1.1.3.2.2.2.1, 3.2.1.1.3.2.2.2.1.1, 3.2.1.1.3.2.2.2.1.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[2528]] is shared by 3 nodes (3.2.1.1.3.2.2.2.2.1, 3.2.1.1.3.2.2.2.2.2, 3.2.1.1.3.2.2.2.2.2.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[2552]] is shared by 4 nodes (3.2.1.1.3.3, 3.2.1.1.3.3.1, 3.2.1.1.3.3.2, 3.2.1.1.3.3.2.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[2766]] is shared by 4 nodes (3.2.1.1.3.3.2.2, 3.2.1.1.3.3.2.2.1, 3.2.1.1.3.3.2.2.2, 3.2.1.1.3.3.2.2.2.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[2768]] is shared by 3 nodes (3.2.1.1.3.3.2.2.2.1.1, 3.2.1.1.3.3.2.2.2.1.1.1, 3.2.1.1.3.3.2.2.2.1.1.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[2778]] is shared by 4 nodes (3.2.1.1.3.3.2.2.2.1.1.3.3.2, 3.2.1.1.3.3.2.2.2.1.1.3.3.2.2, 3.2.1.1.3.3.2.2.2.1.2, 3.2.1.1.3.3.2.2.2.1.2.1.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[2820]] is shared by 6 nodes (3.2.1.1.3.3.2.2.2.2, 3.2.1.1.3.3.2.2.2.2.2, 3.2.1.1.3.3.2.2.2.2.2.1.2, 3.2.1.1.3.3.2.2.2.2.2.2, 3.2.1.1.3.3.2.2.2.2.2.2.2, 3.2.1.1.3.3.2.2.2.2.2.2.2.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[2864]] is shared by 4 nodes (3.2.1.1.3.3.2.2.2.3.3, 3.2.1.1.3.3.2.2.2.3.3.1, 3.2.1.1.3.3.2.2.2.3.3.1.1, 3.2.1.1.3.3.2.2.2.3.3.1.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[2896]] is shared by 7 nodes (3.2.2, 3.2.2.1.2, 3.2.2.1.2.1.2, 3.2.2.1.2.1.2.2, 3.2.2.1.2.1.2.2.1.2, 3.2.2.1.2.1.2.2.2, 3.2.2.1.2.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[2981]] is shared by 4 nodes (3.2.2.2, 3.2.2.2.1, 3.2.2.2.1.1, 3.2.2.2.1.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[2998]] is shared by 3 nodes (3.2.2.2.1.1.2, 3.2.2.2.1.1.2.1.2, 3.2.2.2.1.1.2.1.2.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[3028]] is shared by 4 nodes (3.2.2.2.1.1.2.2, 3.2.2.2.1.1.2.2.1.2, 3.2.2.2.1.1.2.2.1.2.1.2, 3.2.2.2.1.1.2.2.1.2.1.2.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[3044]] is shared by 3 nodes (3.2.2.2.1.1.2.2.1.2.1.2.3, 3.2.2.2.1.1.2.2.1.2.1.2.3.3, 3.2.2.2.1.1.2.2.1.3) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[3110]] is shared by 3 nodes (3.2.2.2.1.1.2.2.3, 3.2.2.2.1.1.2.3, 3.2.2.2.1.1.2.3.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[3118]] is shared by 3 nodes (3.2.2.2.1.1.2.3.1.2, 3.2.2.2.1.1.2.3.1.2.1.2, 3.2.2.2.1.1.2.3.1.2.1.2.1.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[3161]] is shared by 4 nodes (3.2.2.2.1.1.2.3.1.2.2, 3.2.2.2.1.1.2.3.1.2.2.2, 3.2.2.2.1.1.2.3.1.2.2.2.2, 3.2.2.2.1.1.2.3.1.2.2.2.2.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[3276]] is shared by 4 nodes (3.2.2.2.1.2, 3.2.2.2.1.2.1, 3.2.2.2.1.2.2, 3.2.2.2.1.2.3) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[3304]] is shared by 4 nodes (3.2.2.2.1.3, 3.2.2.2.1.3.1, 3.2.2.2.1.3.2, 3.2.2.2.1.3.2.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[3316]] is shared by 4 nodes (3.2.2.2.1.3.2.2.2.2.2, 3.2.2.2.1.3.2.2.2.2.2.1, 3.2.2.2.1.3.2.2.2.2.2.1.1, 3.2.2.2.1.3.2.2.2.2.2.1.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[3337]] is shared by 4 nodes (3.2.2.2.2.2, 3.2.2.2.2.2.1, 3.2.2.2.2.2.1.1, 3.2.2.2.2.2.1.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[3351]] is shared by 3 nodes (3.2.2.2.2.2.2.2.1.1, 3.2.2.2.2.2.2.2.1.2, 3.2.2.2.2.2.2.2.1.3) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[3361]] is shared by 4 nodes (3.2.2.2.2.2.2.2.2.1, 3.2.2.2.2.2.2.2.2.1.1, 3.2.2.2.2.2.2.2.2.1.1.1, 3.2.2.2.2.2.2.2.2.1.1.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[3369]] is shared by 3 nodes (3.2.2.2.2.2.2.2.2.1.3, 3.2.2.2.2.2.2.2.2.1.3.1, 3.2.2.2.2.2.2.2.2.1.3.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[3373]] is shared by 3 nodes (3.2.2.2.2.2.2.2.2.2, 3.2.2.2.2.2.2.2.2.2.1, 3.2.2.2.2.2.2.2.2.2.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[3377]] is shared by 4 nodes (3.2.2.2.2.2.2.2.2.2.2.1.2, 3.2.2.2.2.2.2.2.2.2.2.1.2.1, 3.2.2.2.2.2.2.2.2.2.2.1.2.2, 3.2.2.2.2.2.2.2.2.2.2.1.2.3) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[3399]] is shared by 4 nodes (3.2.2.2.2.2.2.2.2.2.2.1.2.3.3, 3.2.2.2.2.2.2.2.2.2.2.1.2.3.3.1, 3.2.2.2.2.2.2.2.2.2.2.1.2.3.3.2, 3.2.2.2.2.2.2.2.2.2.2.1.2.3.3.3) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[3418]] is shared by 3 nodes (3.2.2.2.2.2.2.2.2.2.3, 3.2.2.2.2.2.2.2.2.2.3.1, 3.2.2.2.2.2.2.2.2.2.3.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[3430]] is shared by 3 nodes (3.2.2.2.2.2.2.2.2.2.3.3, 3.2.2.2.2.2.2.2.2.2.3.3.1, 3.2.2.2.2.2.2.2.2.2.3.3.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[3434]] is shared by 4 nodes (3.2.2.2.2.2.2.2.3, 3.2.2.2.2.2.2.2.3.1, 3.2.2.2.2.2.2.2.3.2, 3.2.2.2.2.2.2.2.3.2.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[3438]] is shared by 3 nodes (3.2.2.2.2.2.2.2.3.2.2, 3.2.2.2.2.2.2.2.3.2.2.1, 3.2.2.2.2.2.2.2.3.2.2.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[3446]] is shared by 4 nodes (3.2.2.2.2.2.2.2.3.3, 3.2.2.2.2.2.2.2.3.3.1, 3.2.2.2.2.2.2.2.3.3.1.1, 3.2.2.2.2.2.2.2.3.3.1.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[3456]] is shared by 3 nodes (3.2.2.2.2.2.2.2.3.3.3, 3.2.2.2.2.2.2.2.3.3.3.1, 3.2.2.2.2.2.2.2.3.3.3.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[3458]] is shared by 3 nodes (3.2.2.2.2.2.2.2.3.3.3.2.1, 3.2.2.2.2.2.2.2.3.3.3.2.2, 3.2.2.2.2.2.2.2.3.3.3.2.3) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- pointer [[3470]] is shared by 4 nodes (4.2, 4.2.2, 4.3, 4.3.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
-- 3.2.1.1.1.1 'དང་པོ་གཏན་ཚིགས་ཡང་དག་གི་མཚན་ཉི': announcing text names a 3-way division but the tree gives it 1 child(ren) — verify by hand which is right
-- 3.2.1.1.1.3.1.2 'གཉིས་པ་བཀག་པས་གྲུབ་པའི་དོན་': announcing text names a 2-way division but the tree gives it 3 child(ren) — verify by hand which is right
-- 3.2.1.1.1.3.2.1.1.2.2.2.3.3.3.3.2.2.3.3.2.2.2 'གཉིས་པ་ཡུལ་ཅན་སྒྲ་བློ་ཐ་དད་མི་': announcing text names a 3-way division but the tree gives it 2 child(ren) — verify by hand which is right
-- 3.2.1.1.1.3.2.2.2.2.3.1.2.1.1.2.2 'གཉིས་པ་སྒྲ་དོན་གྱི་འབྲེལ་བ་ལ་བ': announcing text names a 3-way division but the tree gives it 2 child(ren) — verify by hand which is right
-- 3.2.1.1.3.2.2.1.2 'གཉིས་པ་རྟོག་པ་མེད་པ་': announcing text names a 6-way division but the tree gives it 1 child(ren) — verify by hand which is right
-- 3.2.1.1.3.2.2.2 'གཉིས་པ་ཕྱེ་བའི་དགོས་པ་': announcing text names a 6-way division but the tree gives it 2 child(ren) — verify by hand which is right
-- 3.2.1.1.3.2.2.2.1 'དང་པོ་རྟོག་པ་མངོན་སུམ་ལྟར་སྣང་': announcing text names a 6-way division but the tree gives it 2 child(ren) — verify by hand which is right
-- 3.2.1.1.3.2.2.2.1.2 'གཉིས་པ་རྒྱས་བཤད་': announcing text names a 6-way division but the tree gives it 1 child(ren) — verify by hand which is right
+- 2 གཉིས་པ་འགྱུར་གྱི་ཕྱག་: title attested in the source but not near pointer [[73]] (found near line 69) — possible cursor loss
+- 3 གསུམ་པ་མཚན་ཅན་གྱི་གཞུང་དོན་: title attested in the source but not near pointer [[77]] (found near line 69) — possible cursor loss
+- 3.1.1.3 གསུམ་པ་ཚིག་དོན་: title attested in the source but not near pointer [[88]] (found near line 77) — possible cursor loss
+- 3.1.2 གཉིས་པ་སྐྱབས་སུ་སོང་ནས་བྱ་བ་ཁྱད་པར་ཅན་ལ་: title attested in the source but not near pointer [[96]] (found near line 77) — possible cursor loss
+- 3.1.2.2 གཉིས་པ་ཤུགས་བསྟན་སྣོད་ཀྱི་མཚན་ཉིད་ངོས་བཟ: title attested in the source but not near pointer [[100]] (found near line 96) — possible cursor loss
+- 3.2.1.1.1.2 གཉིས་པ་མཚན་གཞིའི་དབྱེ་བ་: title attested in the source but not near pointer [[141]] (found near line 116) — possible cursor loss
+- 3.2.1.1.1.2.1.3 གསུམ་པ་མ་དམིགས་པའི་རྟགས་: title attested in the source but not near pointer [[155]] (found near line 126) — possible cursor loss
+- 3.2.1.1.1.2.1.3.1.3 གསུམ་པ་རྟགས་འདིའི་དགོས་པ་: title attested in the source but not near pointer [[165]] (found near line 155) — possible cursor loss
+- 3.2.1.1.1.2.1.3.2.2.1 དང་པོ་ཚིག་དོན་: title attested in the source but not near pointer [[173]] (found near line 77) — possible cursor loss
+- 3.2.1.1.1.2.1.3.2.2.2 གཉིས་པ་དབྱེ་བ་མཐའ་དཔྱད་པ་: title attested in the source but not near pointer [[173]] (found near line 169) — possible cursor loss
+- 3.2.1.1.1.2.1.3.2.3 གསུམ་པ་དེ་ལ་རྩོད་སྤང་: title attested in the source but not near pointer [[185]] (found near line 169) — possible cursor loss
+- 3.2.1.1.1.2.2 གཉིས་པ་གསུམ་ཉིད་དུ་ངེས་པར་སྒྲུབ་པ་: title attested in the source but not near pointer [[191]] (found near line 141) — possible cursor loss
+- 3.2.1.1.1.2.2.1.2 གཉིས་པ་དུས་མཉམ་ལ་བརྟེན་པ་: title attested in the source but not near pointer [[207]] (found near line 191) — possible cursor loss
+- 3.2.1.1.1.2.2.2 གཉིས་པ་ལྟར་སྣང་གི་ཁྱད་པར་ཡང་དག་ཏུ་འདུས་པ: title attested in the source but not near pointer [[217]] (found near line 191) — possible cursor loss
+- 3.2.1.1.1.2.2.2.2 གཉིས་པ་དེར་སྒྲུབ་པ་: title attested in the source but not near pointer [[229]] (found near line 217) — possible cursor loss
+- 3.2.1.1.1.3.1 དང་པོ་རྟགས་ཀྱི་ལྡོག་ཁྱབ་འགྲུབ་པ་འབྲེལ་བ་: title attested in the source but not near pointer [[235]] (found near line 231) — possible cursor loss
+- 3.2.1.1.1.3.1.1.1.2.2 གཉིས་པ་རྗེས་སུ་འགྲོ་ལྡོག་གི་ཁྱབ་པ་འགྲུབ་: title attested in the source but not near pointer [[243]] (found near line 239) — possible cursor loss
+- 3.2.1.1.1.3.1.1.1.2.3 གསུམ་པ་ཚུལ་གསུམ་ངོ་བོ་གཅིག་དང་ཐ་དད་བཤད་པ: title attested in the source but not near pointer [[259]] (found near line 239) — possible cursor loss
+- 3.2.1.1.1.3.1.1.1.2.3.1.2 གཉིས་པ་མཚན་ཉིད་དགག་པ་: title attested in the source but not near pointer [[265]] (found near line 259) — possible cursor loss
+- 3.2.1.1.1.3.1.1.1.2.3.2 གཉིས་པ་འཐད་པའི་ཕྱོགས་རྣམ་པར་བཞག་བ་: title attested in the source but not near pointer [[271]] (found near line 259) — possible cursor loss
+- 3.2.1.1.1.3.1.1.2 གཉིས་པ་མི་བཞེད་པ་ལ་འགལ་བ་བསྟན་པ་: title attested in the source but not near pointer [[280]] (found near line 235) — possible cursor loss
+- 3.2.1.1.1.3.1.1.2.1 དང་པོ་སློབ་དཔོན་གྱི་བརྗོད་པ་འཁྲུལ་བར་ཐལ་: title attested in the source but not near pointer [[284]] (found near line 280) — possible cursor loss
+- 3.2.1.1.1.3.1.1.2.2 གཉིས་པ་མངོན་སུམ་གྱི་གནོད་པ་བསྟན་པ་: title attested in the source but not near pointer [[326]] (found near line 280) — possible cursor loss
+- 3.2.1.1.1.3.1.1.3 གསུམ་པ་མ་མཐོང་ཙམ་ལྡོག་ཁྱབ་ཏུ་འདོད་པའི་གཞ: title attested in the source but not near pointer [[332]] (found near line 235) — possible cursor loss
+- 3.2.1.1.1.3.1.2.2 གཉིས་པ་དེ་ལ་བལྟོས་ཀྱང་མི་མཐུན་ཕྱོགས་མཐའ་: title attested in the source but not near pointer [[346]] (found near line 334) — possible cursor loss
+- 3.2.1.1.1.3.1.2.2.2.1 དང་པོ་འབྲེལ་བ་རང་ཉིད་ཤེས་པའི་ཡན་ལག་ཏུ་བས: title attested in the source but not near pointer [[354]] (found near line 348) — possible cursor loss
+- 3.2.1.1.1.3.1.2.3 གསུམ་པ་ཐོག་མར་དེ་སྒྲུབ་རྟགས་གཉིས་ལ་བརྟེན: title attested in the source but not near pointer [[362]] (found near line 334) — possible cursor loss
+- 3.2.1.1.1.3.1.3 གསུམ་པ་མཇུག་བསྡུ་བ་: title attested in the source but not near pointer [[374]] (found near line 235) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.1.1.2 གཉིས་པ་ཚིག་དོན་: title attested in the source but not near pointer [[396]] (found near line 77) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2 གཉིས་པ་རང་བཞིན་རྟགས་ཀྱི་འབྲེལ་བ་ངེས་བྱེད: title attested in the source but not near pointer [[416]] (found near line 384) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.1.1.2 གཉིས་པ་དོགས་པ་སྐྱེ་བའི་རྒྱུ་མཚན་རྟོགས་དཀ: title attested in the source but not near pointer [[435]] (found near line 418) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.1.1.3 གསུམ་པ་དེ་ལ་ལུགས་གཞན་དཔེར་བརྗོད་པ་: title attested in the source but not near pointer [[439]] (found near line 418) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.1.2.2 གཉིས་པ་ཡུལ་ཅན་བློའི་འཛིན་སྟངས་: title attested in the source but not near pointer [[457]] (found near line 451) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.1.2.3 གསུམ་པ་བློ་དེས་ཡུལ་དེ་ཇི་ལྟར་རྟོགས་པའི་ཚ: title attested in the source but not near pointer [[457]] (found near line 451) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2 གཉིས་པ་རྒྱས་བཤད་: title attested in the source but not near pointer [[465]] (found near line 126) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.1.1.1.1 དང་པོ་ཐལ་བ་དགོད་པ་: title attested in the source but not near pointer [[471]] (found near line 467) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.1.1.1.2 གཉིས་པ་རང་ལ་མཚུངས་པ་སྤང་བ་: title attested in the source but not near pointer [[479]] (found near line 467) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.1.1.1.3 གསུམ་པ་དོན་བསྡུ་བ་: title attested in the source but not near pointer [[485]] (found near line 217) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.1.1.2 གཉིས་པ་བྱེ་བྲག་ཏུ་བསྟན་པ་: title attested in the source but not near pointer [[485]] (found near line 467) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.1.1.2.1 དང་པོ་སྒྲ་རྟགས་གཞན་སེལ་བའི་ཡུལ་ཅན་མིན་པ་: title attested in the source but not near pointer [[489]] (found near line 485) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.1.1.2.2 གཉིས་པ་སྒྲོ་འདོགས་མངོན་གྱུར་མེད་ན་སེལ་བའ: title attested in the source but not near pointer [[495]] (found near line 485) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.1.2 གཉིས་པ་དེ་གྲུབ་ན་གཞན་སེལ་གྱི་ཡུལ་ཅན་དུ་ག: title attested in the source but not near pointer [[499]] (found near line 467) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.1.2.1 དང་པོ་སྒྲ་རྟགས་སེལ་བའི་ཡུལ་ཅན་དུ་གྲུབ་པ་: title attested in the source but not near pointer [[503]] (found near line 499) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.1.2.2 གཉིས་པ་སྒྲུབ་འཇུག་དགག་པ་: title attested in the source but not near pointer [[507]] (found near line 503) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.1.2.3 གསུམ་པ་དེའི་ལན་དགག་པ་: title attested in the source but not near pointer [[511]] (found near line 503) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.1.2.3.1.1 དང་པོ་རྒྱས་བཤད་: title attested in the source but not near pointer [[515]] (found near line 126) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.1.2.3.1.2 གཉིས་པ་དོན་བསྡུ་: title attested in the source but not near pointer [[523]] (found near line 217) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.1.2.3.2 གཉིས་པ་རྟོག་པས་ཀུན་གཟུང་ཡང་མ་ངེས་པ་དགག་པ: title attested in the source but not near pointer [[527]] (found near line 511) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.2 གཉིས་པ་གཞན་སེལ་ལ་འཇུག་པར་བསྒྲུབ་པ་: title attested in the source but not near pointer [[537]] (found near line 465) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.2.1.1.2 གཉིས་པ་དེ་ལ་རྩོད་སྤང་: title attested in the source but not near pointer [[543]] (found near line 169) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.2.1.1.2.2 གཉིས་པ་སྒྲ་ཐ་དད་དུ་སྦྱོར་བའི་དགོས་པ་: title attested in the source but not near pointer [[547]] (found near line 543) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.2.1.1.2.2.1 དང་པོ་ཆོས་ཆོས་ཅན་ཐ་དད་པ་འདོད་པའི་རྗེས་སུ: title attested in the source but not near pointer [[553]] (found near line 547) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.2.1.1.2.2.2 གཉིས་པ་རྫས་ཐ་དད་ཞེན་ཡུལ་དུ་བྱེད་ཀྱང་དེ་ད: title attested in the source but not near pointer [[553]] (found near line 547) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.2.1.1.2.2.3 གསུམ་པ་སྒྲའི་སྦྱོར་ཚུལ་ཇི་ལྟར་བྱས་ཀྱང་འད: title attested in the source but not near pointer [[557]] (found near line 547) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.2.1.1.3 གསུམ་པ་ཉེས་པ་མེད་པའི་དོན་བསྡུ་བ་: title attested in the source but not near pointer [[557]] (found near line 537) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.2.1.2 གཉིས་པ་སྒྲ་དངོས་དབང་གིས་འཇུག་པ་ལ་ཉེས་པ་ཡ: title attested in the source but not near pointer [[557]] (found near line 537) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.2.1.3 གསུམ་པ་དེས་ན་བརྗོད་འདོད་ཀྱི་དབང་གིས་འཇུག: title attested in the source but not near pointer [[564]] (found near line 537) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.2.1.3.1 དང་པོ་དངོས་: title attested in the source but not near pointer [[568]] (found near line 33) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.2.1.3.2 གཉིས་པ་གཞན་ལ་མང་ཚིག་སོགས་མི་རུང་བའི་རྒྱུ: title attested in the source but not near pointer [[568]] (found near line 564) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.2.2 གཉིས་པ་གཞན་སེལ་གྱི་སྤྱི་ངོས་གཟུང་བ་: title attested in the source but not near pointer [[574]] (found near line 537) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.2.2.1.3 གསུམ་པ་དོན་དམ་དུ་བདེན་པ་དགག་པ་: title attested in the source but not near pointer [[593]] (found near line 574) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.2.2.1.3.2 གཉིས་པ་ཤེས་པའི་རྫས་ཕྱི་རོལ་གྱི་སྤྱི་ཡིན་: title attested in the source but not near pointer [[597]] (found near line 593) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.2.2.1.4 བཞི་པ་དེས་ན་དེ་འཛིན་འཁྲུལ་བར་བསྒྲུབ་པ་: title attested in the source but not near pointer [[601]] (found near line 574) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.2.2.1.5 ལྔ་པ་འཁྲུལ་བ་གཞི་མེད་དུ་འབྱུང་བར་ཐལ་བ་སྤ: title attested in the source but not near pointer [[607]] (found near line 574) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.2.2.1.5.3 གསུམ་པ་སྨན་དགོད་པ་: title attested in the source but not near pointer [[611]] (found near line 607) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.2.2.2 གཉིས་པ་དེ་སྣང་གི་བློའི་འཇུག་ཚུལ་: title attested in the source but not near pointer [[615]] (found near line 574) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.2.2.2.1.2 གཉིས་པ་ཇི་ལྟར་འཕྲོས་པ་: title attested in the source but not near pointer [[622]] (found near line 617) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.2.2.2.1.3 གསུམ་པ་ཚིག་དོན་: title attested in the source but not near pointer [[630]] (found near line 77) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.2.2.2.2 གཉིས་པ་རྒྱས་པར་བཤད་པ་: title attested in the source but not near pointer [[632]] (found near line 116) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.2.2.2.2.1 དང་པོ་སྤྱི་དང་གཞི་མཐུན་སོགས་ཀྱི་ཐ་སྙད་འཇ: title attested in the source but not near pointer [[638]] (found near line 632) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.2.2.2.2.2 གཉིས་པ་ཐ་སྙད་དེ་དག་འཇུག་པའི་རྒྱུ་མཚན་: title attested in the source but not near pointer [[646]] (found near line 632) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.2.2.2.2.3 གསུམ་པ་རྣམ་གཞག་དེ་དག་བྱས་པའི་དགོས་པ་: title attested in the source but not near pointer [[646]] (found near line 632) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.2.2.2.2.3.1 དང་པོ་སྤྱི་གཞི་མཐུན་རྟོག་པ་ལ་གྲགས་པ་བཞིན: title attested in the source but not near pointer [[654]] (found near line 646) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.2.2.2.2.3.2 གཉིས་པ་བཞག་པའི་དགོས་པ་: title attested in the source but not near pointer [[654]] (found near line 646) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.2.2.2.2.3.3 གསུམ་པ་རང་མཚན་ཁོ་ན་ཡིན་པ་དགག་པ་: title attested in the source but not near pointer [[676]] (found near line 654) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.2.2.2.3 གསུམ་པ་དོན་བསྡུ་བ་: title attested in the source but not near pointer [[684]] (found near line 217) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.2.3.1.1.1.2 གཉིས་པ་དེ་སུན་དབྱུང་བ་: title attested in the source but not near pointer [[705]] (found near line 690) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.2.3.1.1.1.3 གསུམ་པ་རང་གི་ལུགས་: title attested in the source but not near pointer [[707]] (found near line 690) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.2.3.1.1.2 གཉིས་པ་ཚིག་དོན་: title attested in the source but not near pointer [[711]] (found near line 77) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.2.3.1.2 གཉིས་པ་སྤྱི་རྐྱང་པ་མི་རུང་: title attested in the source but not near pointer [[715]] (found near line 690) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.2.3.1.3 གསུམ་པ་སྤྱི་དང་བཅས་པའི་བསལ་བ་བརྡའི་ཡུལ་ད: title attested in the source but not near pointer [[719]] (found near line 690) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.2.3.2 གཉིས་པ་གཞན་སེལ་བརྡའི་ཡུལ་དུ་བསྒྲུབ་པ་: title attested in the source but not near pointer [[723]] (found near line 688) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.2.3.3 གསུམ་པ་སྤྱི་དོན་གཞན་བཀག་པ་མི་འཐད་པའི་རྩོ: title attested in the source but not near pointer [[727]] (found near line 688) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.2.3.3.1 དང་པོ་སྤྱི་དོན་གཞན་མེད་ན་ངོ་ཤེས་ཀྱི་བློ་: title attested in the source but not near pointer [[731]] (found near line 727) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.2.3.3.2 གཉིས་པ་སྤྱི་འཛིན་སྤྱི་ལས་སྐྱེ་བ་དགག་: title attested in the source but not near pointer [[731]] (found near line 727) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.2.3.3.2.1 དང་པོ་སྤྱི་འཛིན་སྤྱི་འབའ་ཞིག་ལས་སྐྱེ་བ་ད: title attested in the source but not near pointer [[738]] (found near line 733) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.2.3.3.2.2 གཉིས་པ་སྤྱིས་ཕན་བཏགས་པའི་གསལ་བས་བསྐྱེད་པ: title attested in the source but not near pointer [[746]] (found near line 734) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.2.3.3.2.3 གསུམ་པ་གསལ་བས་ཕན་བཏགས་པའི་སྤྱིས་བསྐྱེད་པ: title attested in the source but not near pointer [[752]] (found near line 738) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.2.3.3.2.3.1 དང་པོ་ཐལ་བ་དགོད་པ་: title attested in the source but not near pointer [[758]] (found near line 467) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.2.3.3.2.3.2 གཉིས་པ་དེའི་ལན་དགག་པ་: title attested in the source but not near pointer [[758]] (found near line 503) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.2.3.3.2.3.3 གསུམ་པ་སྤྱི་གཞན་ཁེགས་པ་དྲན་པ་ལ་སྦྱར་བ་: title attested in the source but not near pointer [[764]] (found near line 752) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.2.3.3.3 གསུམ་པ་སྤྱི་སྒྲ་དོན་ལ་མི་སླུ་བར་བསྟན་པ་: title attested in the source but not near pointer [[770]] (found near line 731) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.3.1.2 གཉིས་པ་ཉེས་པ་མེད་པར་བསྒྲུབ་པ་: title attested in the source but not near pointer [[792]] (found near line 774) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.3.2 གཉིས་པ་རྗོད་བྱེད་ཀྱི་ཚིག་ལ་རྣམ་གཅོད་ཀྱི་: title attested in the source but not near pointer [[794]] (found near line 772) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.3.2.1 དང་པོ་གཞན་སེལ་གྱི་སྒྲ་བྱེ་བྲག་པ་ལ་སེལ་འཇ: title attested in the source but not near pointer [[798]] (found near line 794) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.3.2.2 གཉིས་པ་སེལ་བའི་སྒྲའི་རང་ལྡོག་ལ་དེས་མ་ཁྱབ: title attested in the source but not near pointer [[800]] (found near line 794) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.3.2.2.1 དང་པོ་བརྡའི་ཡུལ་ངོས་གཟུང་བ་: title attested in the source but not near pointer [[800]] (found near line 537) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.3.2.2.3 གསུམ་པ་ལུང་གི་དོན་བཤད་པ་: title attested in the source but not near pointer [[810]] (found near line 800) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.3.3 གསུམ་པ་དངོས་པོ་སྒྲས་བརྗོད་ན་སྒྲ་དང་ཚད་མ་: title attested in the source but not near pointer [[820]] (found near line 772) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.3.3.1 དང་པོ་སྒྲ་དང་ཚད་མ་སྔ་ཕྱི་ཡུལ་ཐ་དད་དུ་བསྟ: title attested in the source but not near pointer [[824]] (found near line 820) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.3.3.2 གཉིས་པ་སེལ་བ་སྨྲ་བ་ལ་ཐ་སྙད་ཀུན་འཐད་པ་: title attested in the source but not near pointer [[824]] (found near line 820) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.3.3.2.1 དང་པོ་སེལ་བ་སྨྲ་བ་ལ་གཞི་མཐུན་སོགས་འཐད་པ་: title attested in the source but not near pointer [[832]] (found near line 824) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.3.3.2.2 གཉིས་པ་དངོས་དབང་གིས་འཇུག་པ་ལ་མི་འཐད་པ་: title attested in the source but not near pointer [[836]] (found near line 832) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.3.3.2.2.2 གཉིས་པ་སྤྱི་སྒྲ་མི་འཐད་པ་: title attested in the source but not near pointer [[856]] (found near line 836) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.3.3.2.2.2.2.1 དང་པོ་མདོར་བསྟན་པ་: title attested in the source but not near pointer [[858]] (found near line 416) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.3.3.2.2.2.2.2.2 གཉིས་པ་གསལ་བྱེད་དུ་མི་འཐད་པ་: title attested in the source but not near pointer [[866]] (found near line 858) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.3.3.2.2.3.1.1 དང་པོ་སྤྱིར་དགག་པ་: title attested in the source but not near pointer [[876]] (found near line 870) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.3.3.2.2.3.1.2 གཉིས་པ་གཟེགས་ཟན་གྱི་ལུགས་གཉིས་སོ་སོར་དགག: title attested in the source but not near pointer [[876]] (found near line 870) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.3.3.2.2.3.1.2.2 གཉིས་པ་ཡོད་པའི་ལུགས་དགག་པ་: title attested in the source but not near pointer [[892]] (found near line 876) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.3.3.2.2.3.2 གཉིས་པ་སྒྲུབ་བྱེད་ལྟར་སྣང་དུ་བསྟན་པ་: title attested in the source but not near pointer [[894]] (found near line 870) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.3.3.2.2.3.2.2.2 གཉིས་པ་སྐྱེས་བུ་ལ་ཡོད་པའི་སྤྱི་གཞན་དེར་མ: title attested in the source but not near pointer [[900]] (found near line 894) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.3.3.2.2.3.2.3 གསུམ་པ་གཞན་སེལ་སྒྲ་བློའི་རྒྱུར་རིགས་པ་: title attested in the source but not near pointer [[906]] (found near line 894) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.3.3.2.2.3.3 གསུམ་པ་རང་ལ་རྩོད་པ་སྤང་བ་: title attested in the source but not near pointer [[906]] (found near line 870) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.3.3.2.2.3.3.1.1 དང་པོ་འདོད་པ་བརྗོད་པ་: title attested in the source but not near pointer [[910]] (found near line 856) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.3.3.2.2.3.3.1.2 གཉིས་པ་དེ་དགག་པ་: title attested in the source but not near pointer [[914]] (found near line 856) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.3.3.2.2.3.3.1.2.1.2 གཉིས་པ་རྒྱུ་འབྲས་ངེས་མེད་དུ་ཐལ་བ་སྤང་བ་: title attested in the source but not near pointer [[920]] (found near line 914) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.3.3.2.2.3.3.1.2.1.2.1 དང་པོ་རང་བཞིན་ཐ་དད་ལ་ཉེས་པ་མེད་པ་: title attested in the source but not near pointer [[924]] (found near line 920) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.3.3.2.2.3.3.1.2.1.2.2 གཉིས་པ་རང་བཞིན་གཅིག་ལ་ཉེས་པ་ཡོད་པ་: title attested in the source but not near pointer [[924]] (found near line 920) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.3.3.2.2.3.3.1.2.1.2.2.1 དང་པོ་ཧ་ཅང་ཐལ་བ་: title attested in the source but not near pointer [[928]] (found near line 334) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.3.3.2.2.3.3.1.2.1.2.2.2 གཉིས་པ་རང་ལ་མཚུངས་པ་སྤང་བ་: title attested in the source but not near pointer [[928]] (found near line 467) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.3.3.2.2.3.3.1.2.1.2.2.2.1.1 དང་པོ་ཚིག་དོན་: title attested in the source but not near pointer [[932]] (found near line 77) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.3.3.2.2.3.3.1.2.1.2.2.2.1.2 གཉིས་པ་གཞན་སེལ་ངོས་གཟུང་བ་: title attested in the source but not near pointer [[932]] (found near line 475) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.3.3.2.2.3.3.1.2.1.2.2.2.2 གཉིས་པ་ལྷན་ཅིག་བྱེད་རྐྱེན་དོན་མེད་དུ་ཐལ་: title attested in the source but not near pointer [[950]] (found near line 928) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.3.3.2.2.3.3.1.2.1.2.3 གསུམ་པ་ཐ་དད་ལ་ཉེས་པ་མེད་པའི་དོན་བསྡུ་བ་: title attested in the source but not near pointer [[956]] (found near line 920) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.3.3.2.2.3.3.1.2.2 གཉིས་པ་རྒྱུ་འབྲས་འཆོལ་བར་ཐལ་བ་: title attested in the source but not near pointer [[962]] (found near line 914) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.3.3.2.2.3.3.1.2.2.2 གཉིས་པ་སྤྱི་གསལ་གཅིག་དང་ཐ་དད་འཆོལ་བར་ཐལ་: title attested in the source but not near pointer [[970]] (found near line 962) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.3.3.2.2.3.3.1.2.3 གསུམ་པ་འཇུག་པ་འཆོལ་བར་ཐལ་བ་: title attested in the source but not near pointer [[974]] (found near line 914) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.3.3.2.2.3.3.1.2.3.2 གཉིས་པ་གཞན་ལ་ཡོད་པ་: title attested in the source but not near pointer [[978]] (found near line 974) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.3.3.2.2.3.3.2 གཉིས་པ་རིགས་པ་དེས་གཅེར་བུ་པའང་ཁེགས་པར་བས: title attested in the source but not near pointer [[978]] (found near line 906) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.3.3.2.2.3.3.2.1 དང་པོ་རིགས་པ་སྔ་མས་ཁེགས་པར་བསྟན་པ་: title attested in the source but not near pointer [[982]] (found near line 978) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.3.3.2.2.3.3.2.2 གཉིས་པ་ཐུན་མོང་མ་ཡིན་པའི་རིགས་པ་བསྟན་པ་: title attested in the source but not near pointer [[982]] (found near line 978) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.1.3.3.2.2.3.3.2.2.2 གཉིས་པ་ཡུལ་ཅན་སྒྲ་བློ་ཐ་དད་མི་སྲིད་པར་ཐལ: title attested in the source but not near pointer [[986]] (found near line 982) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.2 གཉིས་པ་དགག་པའི་སྒྲ་རྟོག་རྣམ་གཅོད་ཀྱི་ཡུལ: title attested in the source but not near pointer [[986]] (found near line 465) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.2.2.2.2 གཉིས་པ་དེ་ཉིད་ངེས་པར་སྒྲུབ་པ་: title attested in the source but not near pointer [[992]] (found near line 986) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.3 གསུམ་པ་རང་བཞིན་རྟགས་ཀྱི་སྦྱོར་བ་དཔེར་བརྗ: title attested in the source but not near pointer [[996]] (found near line 416) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.3.2 གཉིས་པ་དེ་ལ་རྩོད་པ་སྤང་བ་: title attested in the source but not near pointer [[1002]] (found near line 465) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.3.3 གསུམ་པ་སྦྱོར་བའི་དབྱེ་བ་: title attested in the source but not near pointer [[1039]] (found near line 141) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.4 བཞི་པ་འབྲེལ་བ་ངེས་བྱེད་རྒྱས་པར་བཤད་ནས་མ་: title attested in the source but not near pointer [[1045]] (found near line 416) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.4.2 གཉིས་པ་ཕྱོགས་ཆོས་བསྒྲུབ་: title attested in the source but not near pointer [[1051]] (found near line 215) — possible cursor loss
+- 3.2.1.1.1.3.2.1.1.2.4.3 གསུམ་པ་དོན་བསྡུ་བ་: title attested in the source but not near pointer [[1057]] (found near line 217) — possible cursor loss
+- 3.2.1.1.1.3.2.2.1.1.2 གཉིས་པ་དེ་སྒྲུབ་པ་: title attested in the source but not near pointer [[1069]] (found near line 79) — possible cursor loss
+- 3.2.1.1.1.3.2.2.1.2 གཉིས་པ་སྣང་རུང་མ་དམིགས་པའི་འབྲེལ་བ་ངེས་བ: title attested in the source but not near pointer [[1073]] (found near line 1063) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.1.1.2 གཉིས་པ་དེ་རང་མཚན་དུ་གྲུབ་པ་བཀག་ནས་མཇུག་བ: title attested in the source but not near pointer [[1097]] (found near line 1087) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.1.2 གཉིས་པ་དེ་དགག་མི་ནུས་པར་བསྟན་: title attested in the source but not near pointer [[1103]] (found near line 1087) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.1.2.2 གཉིས་པ་བསྒྲུབ་རིགས་ཀྱང་དོན་དུ་གཉེར་བའི་ག: title attested in the source but not near pointer [[1109]] (found near line 1103) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.1.3 གསུམ་པ་དེ་ལ་ལུང་འགལ་སྤང་བ་: title attested in the source but not near pointer [[1115]] (found near line 1087) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2 གཉིས་པ་མི་སྣང་བ་མ་དམིགས་པའི་རྟགས་ལ་བྱེ་བ: title attested in the source but not near pointer [[1119]] (found near line 1087) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.1.1.2.2.3 གསུམ་པ་ཚད་མར་སྒྲུབ་པའི་དགོས་པ་: title attested in the source but not near pointer [[1144]] (found near line 1128) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.1.2 གཉིས་པ་ཁྱད་པར་ཅན་གྱི་ཚིག་དགག་པ་: title attested in the source but not near pointer [[1148]] (found near line 1119) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.1.2.1 དང་པོ་གཞན་དག་གི་ལུང་ཚད་མར་ཁས་ལེན་པའི་ཐབས: title attested in the source but not near pointer [[1152]] (found near line 1148) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.1.2.2 གཉིས་པ་འཐད་པའི་ཕྱོགས་བཞག་པ་: title attested in the source but not near pointer [[1156]] (found near line 1148) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.1.2.2.1 དང་པོ་ཉེས་ཟད་ཀྱི་སྐྱེས་བུ་སྒྲུབ་པའི་རྟགས: title attested in the source but not near pointer [[1160]] (found near line 1156) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.1.2.2.2 གཉིས་པ་ཐར་པ་ལ་ཡིད་བརྟན་མི་རུང་བའི་རྩོད་པ: title attested in the source but not near pointer [[1160]] (found near line 1156) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.1.2.2.3 གསུམ་པ་ཉེས་པའི་རྩ་བ་ངོས་གཟུང་བ་: title attested in the source but not near pointer [[1164]] (found near line 1156) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.2 གཉིས་པ་མ་བྱས་པའི་རིག་བྱེད་དགག་པ་: title attested in the source but not near pointer [[1168]] (found near line 1119) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.2.1.1.1 དང་པོ་མགོ་མཚུངས་ཀྱིས་དགག་པ་: title attested in the source but not near pointer [[1176]] (found near line 780) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.2.1.1.2 གཉིས་པ་རིགས་པ་གཞན་གྱིས་དགག་པ་: title attested in the source but not near pointer [[1176]] (found near line 1168) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.2.1.1.2.1.2.1 དང་པོ་རྒྱས་པར་བཤད་པ་: title attested in the source but not near pointer [[1184]] (found near line 116) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.2.1.1.2.1.2.2 གཉིས་པ་དོན་བསྡུ་བ་: title attested in the source but not near pointer [[1190]] (found near line 217) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.2.1.1.2.2 གཉིས་པ་སྒྲ་དོན་གྱི་འབྲེལ་བ་ལ་བརྟགས་ལ་དགག: title attested in the source but not near pointer [[1190]] (found near line 1176) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.2.1.1.2.2.2 གཉིས་པ་འབྲེལ་བ་ཅན་དང་རྫས་གཅིག་དང་ཐ་དད་དག: title attested in the source but not near pointer [[1201]] (found near line 1190) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.2.1.1.2.3 གསུམ་པ་རྗོད་བྱེད་ལ་བརྟགས་ལ་དགག་པ་: title attested in the source but not near pointer [[1207]] (found near line 1176) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.2.1.2.1.1 དང་པོ་བྱེད་པ་པོ་མི་དྲན་པ་རྟགས་སུ་མི་རུང་: title attested in the source but not near pointer [[1217]] (found near line 1211) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.2.1.2.1.2 གཉིས་པ་འདོན་པ་པོ་ཡིན་པ་རྟགས་སུ་མི་རུང་བ་: title attested in the source but not near pointer [[1217]] (found near line 1211) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.2.1.2.1.2.2.2 གཉིས་པ་ཐོག་མེད་དུ་གྲུབ་པས་མ་བྱས་པར་མི་འག: title attested in the source but not near pointer [[1235]] (found near line 1223) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.2.1.2.1.2.2.3 གསུམ་པ་དེ་གྲུབ་ཀྱང་ཚད་མར་མི་འགྲུབ་: title attested in the source but not near pointer [[1235]] (found near line 1223) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.2.1.2.2 གཉིས་པ་ཡི་གེ་དང་ཚིག་ལ་བརྟགས་ན་མ་བྱས་པ་ཉི: title attested in the source but not near pointer [[1239]] (found near line 1211) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.2.1.2.2.2.1.1 དང་པོ་རྟགས་དགོད་: title attested in the source but not near pointer [[1243]] (found near line 396) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.2.1.2.2.2.1.2 གཉིས་པ་ཕྱོགས་ཆོས་སྒྲུབ་པ་: title attested in the source but not near pointer [[1243]] (found near line 1239) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.2.1.2.2.2.1.2.1.2 གཉིས་པ་སྟོན་པ་དགག་པ་: title attested in the source but not near pointer [[1251]] (found near line 1190) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.2.1.2.2.2.1.2.2 གཉིས་པ་ཆ་མེད་དགག་པ་: title attested in the source but not near pointer [[1251]] (found near line 1243) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.2.1.2.2.2.1.2.2.2.2.1 དང་པོ་མི་ཐོས་པའི་སྐབས་མི་སྲིད་པར་ཐལ་བ་: title attested in the source but not near pointer [[1257]] (found near line 1253) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.2.1.2.2.2.1.2.2.2.2.2 གཉིས་པ་ཐལ་བ་གཞན་གྱིས་དགག་པ་: title attested in the source but not near pointer [[1257]] (found near line 1253) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.2.1.2.2.2.1.2.2.2.2.2.1 དང་པོ་མ་ཁྱབ་པ་དགག་: title attested in the source but not near pointer [[1261]] (found near line 1257) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.2.1.2.2.2.1.2.2.2.2.2.2 གཉིས་པ་ཁྱབ་ཆེས་པ་དགག་པ་: title attested in the source but not near pointer [[1261]] (found near line 1257) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.2.1.2.2.2.1.2.2.2.2.2.2.2.1 དང་པོ་སྒྲ་འདུས་བྱས་པ་དགག་པ་: title attested in the source but not near pointer [[1265]] (found near line 1261) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.2.1.2.2.2.1.2.2.2.2.2.2.2.2 གཉིས་པ་དབང་པོ་འདུས་བྱས་པའི་ལན་དགག་པ་: title attested in the source but not near pointer [[1265]] (found near line 1261) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.2.1.2.2.2.2 གཉིས་པ་ཡི་གེའི་གོ་རིམས་ཁྱད་པར་ཅན་མ་བྱས་པ: title attested in the source but not near pointer [[1275]] (found near line 1239) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.2.1.2.2.2.2.1.2 གཉིས་པ་གསལ་བའི་རིམ་པ་མ་བྱས་པའི་ངག་ཡིན་པ་: title attested in the source but not near pointer [[1283]] (found near line 1275) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.2.1.2.2.2.2.1.2.3 གསུམ་པ་གསལ་བའི་དོན་བརྟགས་ལ་དགག་པ་: title attested in the source but not near pointer [[1291]] (found near line 1283) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.2.1.2.2.2.2.1.2.3.1.2 གཉིས་པ་སྒྲ་རྟག་པའི་སྒྲུབ་བྱེད་དགག་པ་: title attested in the source but not near pointer [[1299]] (found near line 1291) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.2.1.2.2.2.2.1.2.3.2 གཉིས་པ་ཉན་ཤེས་སྐྱེས་པ་གསལ་བའི་དོན་དུ་མི་: title attested in the source but not near pointer [[1299]] (found near line 1291) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.2.1.2.2.2.2.2 གཉིས་པ་ཡི་གེ་ལས་རྫས་ཐ་དད་པའི་རིམ་པ་མེད་པ: title attested in the source but not near pointer [[1307]] (found near line 1275) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.2.1.2.2.2.2.3 གསུམ་པ་སྐྱེས་བུས་བྱས་པར་གྲུབ་པའི་དོན་བསྡ: title attested in the source but not near pointer [[1307]] (found near line 1275) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.2.1.3.1.2 གཉིས་པ་དེ་ལ་གནོད་པ་སྤང་བ་: title attested in the source but not near pointer [[1311]] (found near line 1307) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.2.1.3.1.2.1.2 གཉིས་པ་རྫས་གཅིག་ཏུ་བསྒྲུབ་པ་: title attested in the source but not near pointer [[1323]] (found near line 1311) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.2.1.3.1.2.2 གཉིས་པ་གྲུབ་ན་ཧ་ཅང་ཐལ་བ་སྤང་: title attested in the source but not near pointer [[1323]] (found near line 1311) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.2.1.3.1.2.2.1 དང་པོ་ཐལ་བ་དགོད་པ་: title attested in the source but not near pointer [[1327]] (found near line 467) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.2.1.3.1.2.3 གསུམ་པ་རྩ་བའི་རྟགས་མ་ངེས་པ་སྤང་བ་: title attested in the source but not near pointer [[1351]] (found near line 1311) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.2.1.3.2 གཉིས་པ་དེས་རིགས་ཅན་གཞན་ཡང་ཁེགས་པ་: title attested in the source but not near pointer [[1351]] (found near line 1307) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.2.1.3.3 གསུམ་པ་རིག་བྱེད་ཚད་མར་སྒྲུབ་པའི་རྟགས་གཞན: title attested in the source but not near pointer [[1359]] (found near line 1307) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.2.1.3.3.2 གཉིས་པ་རྟགས་གཞན་དགག་པ་: title attested in the source but not near pointer [[1363]] (found near line 1307) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.2.1.3.3.2.1 དང་པོ་གནོད་པ་ཅན་གྱི་ཚད་མ་མེད་པ་: title attested in the source but not near pointer [[1369]] (found near line 1363) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.2.1.3.3.2.2 གཉིས་པ་གོ་བྱེད་ངོས་གཟུང་བ་: title attested in the source but not near pointer [[1375]] (found near line 1363) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.2.1.3.3.2.3 གསུམ་པ་ལྡོག་ཁྱབ་གཅིག་པུ་ཅན་མི་སྲིད་པ་: title attested in the source but not near pointer [[1375]] (found near line 1363) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.2.1.3.3.3 གསུམ་པ་སྔགས་མ་བྱས་པ་བྱེ་བྲག་ཏུ་དགག་པ་: title attested in the source but not near pointer [[1375]] (found near line 1359) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.2.1.3.3.3.1 དང་པོ་རིག་བྱེད་ཀྱི་སྔགས་སྐྱེས་བུས་མ་བྱས་: title attested in the source but not near pointer [[1379]] (found near line 1375) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.2.1.3.3.3.1.2.2 གཉིས་པ་གོ་རིམས་དོན་གཞན་དགག་: title attested in the source but not near pointer [[1385]] (found near line 1379) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.2.1.3.3.3.1.2.2.2.2 གཉིས་པ་སྔགས་བཟླས་མི་ནུས་པར་ཐལ་བ་: title attested in the source but not near pointer [[1395]] (found near line 1385) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.2.1.3.3.3.1.2.3 གསུམ་པ་བཀག་པ་ལ་གནོད་པ་སྤང་བ་: title attested in the source but not near pointer [[1407]] (found near line 1379) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.2.1.3.3.3.1.2.3.2.2 གཉིས་པ་དེ་སྐྱེས་བུས་བྱས་པར་སྒྲུབ་: title attested in the source but not near pointer [[1417]] (found near line 1407) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.2.1.3.3.3.1.2.3.2.3 གསུམ་པ་མ་བྱས་པ་དགག་པ་: title attested in the source but not near pointer [[1417]] (found near line 1211) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.2.1.3.3.3.1.2.3.2.3.1 དང་པོ་དངོས་: title attested in the source but not near pointer [[1421]] (found near line 33) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.2.1.3.3.3.1.2.3.2.3.2 གཉིས་པ་སྐྱེས་བུས་བྱས་པའི་དཔེ་: title attested in the source but not near pointer [[1421]] (found near line 1417) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.2.1.3.3.3.2 གཉིས་པ་སྔགས་སྐྱེས་བུས་བྱས་པར་བསྒྲུབ་པ་: title attested in the source but not near pointer [[1423]] (found near line 1379) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.2.1.3.3.3.3 གསུམ་པ་སྐྱེས་བུས་མ་བྱས་པའི་སྒྲུབ་བྱེད་ལྟ: title attested in the source but not near pointer [[1427]] (found near line 1379) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.2.1.3.3.3.3.1 དང་པོ་དངོས་: title attested in the source but not near pointer [[1431]] (found near line 33) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.2.1.3.3.3.3.2 གཉིས་པ་བརྡ་ལ་མི་ལྟོས་པའི་སྔགས་ཀྱི་དོན་ངེ: title attested in the source but not near pointer [[1431]] (found near line 1427) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.2.1.3.3.3.3.3 གསུམ་པ་སྐྱེས་བུ་ཁྱད་པར་ཅན་མེད་ན་དོན་ངེས་: title attested in the source but not near pointer [[1441]] (found near line 1427) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.2.1.3.3.3.3.3.1 དང་པོ་མདོར་བསྟན་པ་: title attested in the source but not near pointer [[1445]] (found near line 416) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.2.1.3.3.3.3.3.2 གཉིས་པ་རྒྱས་པར་བཤད་པ་: title attested in the source but not near pointer [[1445]] (found near line 116) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.2.1.3.3.3.3.3.2.1 དང་པོ་ཐབས་གཞན་ལས་མི་རྟོགས་པ་: title attested in the source but not near pointer [[1449]] (found near line 1445) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.2.1.3.3.3.3.3.2.1.1.2 གཉིས་པ་ལོག་རྟོག་གི་རྒྱུ་ཡིན་པ་: title attested in the source but not near pointer [[1457]] (found near line 1449) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.2.1.3.3.3.3.3.2.1.1.3 གསུམ་པ་ཐེ་ཚོམ་གྱི་རྒྱུ་ཡིན་པ་: title attested in the source but not near pointer [[1463]] (found near line 231) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.2.1.3.3.3.3.3.2.1.2 གཉིས་པ་ལུང་ལས་མི་རྟོགས་པ་: title attested in the source but not near pointer [[1463]] (found near line 1449) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.2.1.3.3.3.3.3.2.2 གཉིས་པ་རིག་བྱེད་རང་ཉིད་ལས་མི་རྟོགས་པ་: title attested in the source but not near pointer [[1463]] (found near line 1449) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.2.1.3.3.3.3.3.2.2.1 དང་པོ་རིག་བྱེད་ཀྱི་དོན་ངེས་འདོད་པ་སྐྱེས་: title attested in the source but not near pointer [[1467]] (found near line 1463) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.2.1.3.3.3.3.3.2.2.2 གཉིས་པ་དོན་གཅིག་ཁོ་ནའི་རྗོད་བྱེད་དུ་མི་འ: title attested in the source but not near pointer [[1477]] (found near line 1463) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.2.1.3.3.3.3.3.2.2.3 གསུམ་པ་བརྡ་ལ་བརྟེན་ནས་དོན་སོ་སོར་ངེས་པའི: title attested in the source but not near pointer [[1477]] (found near line 1463) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.2.1.3.3.3.3.3.2.2.3.2 གཉིས་པ་དེའི་ལན་དགག་པ་: title attested in the source but not near pointer [[1481]] (found near line 503) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.2.1.3.3.3.3.3.2.2.3.3 གསུམ་པ་མཇུག་བསྡུ་བ་: title attested in the source but not near pointer [[1481]] (found near line 235) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.2.2 གཉིས་པ་ཕྱོགས་གཅིག་ལ་མི་སླུ་བས་ཚད་མ་ཡིན་པ: title attested in the source but not near pointer [[1481]] (found near line 1168) — possible cursor loss
+- 3.2.1.1.1.3.2.2.2.2.1.2.2.2.2 གཉིས་པ་བསྒྲུབ་བྱ་ལ་ཚད་མས་གནོད་པ་བསྟན་པ་: title attested in the source but not near pointer [[1489]] (found near line 1485) — possible cursor loss
+- 3.2.1.2.1.2 གཉིས་པ་དེའི་དོན་རྣམ་འགྲེལ་མཛད་པས་ཇི་ལྟར་: title attested in the source but not near pointer [[1532]] (found near line 1523) — possible cursor loss
+- 3.2.1.2.1.3 གསུམ་པ་དེ་དག་གི་དགོངས་པ་: title attested in the source but not near pointer [[1539]] (found near line 69) — possible cursor loss
+- 3.2.1.2.2 གཉིས་པ་ཡན་ལག་གི་དོན་: title attested in the source but not near pointer [[1541]] (found near line 1523) — possible cursor loss
+- 3.2.1.2.2.1.1.1.1.1.1.2 གཉིས་པ་དེ་ལ་མ་ཁྱབ་པ་སྤང་བ་: title attested in the source but not near pointer [[1547]] (found near line 1543) — possible cursor loss
+- 3.2.1.2.2.1.1.1.1.1.1.3 གསུམ་པ་ཁྱབ་ཆེས་པ་སྤང་བ་: title attested in the source but not near pointer [[1549]] (found near line 1543) — possible cursor loss
+- 3.2.1.2.2.1.1.1.1.1.2 གཉིས་པ་མཚན་གཞི་: title attested in the source but not near pointer [[1549]] (found near line 116) — possible cursor loss
+- 3.2.1.2.2.1.1.1.1.1.3 གསུམ་པ་མཚན་གཞི་ལ་མཚན་ཉིད་ངེས་བྱེད་: title attested in the source but not near pointer [[1551]] (found near line 116) — possible cursor loss
+- 3.2.1.2.2.1.1.1.2 གཉིས་པ་ཐུབ་པའང་མཚན་ཉིད་དེ་དང་ལྡན་པར་བསྟན: title attested in the source but not near pointer [[1575]] (found near line 1543) — possible cursor loss
+- 3.2.1.2.2.1.1.1.2.2 གཉིས་པ་གྱུར་པའི་དོན་བཤད་པ་: title attested in the source but not near pointer [[1588]] (found near line 1543) — possible cursor loss
+- 3.2.1.2.2.1.1.1.2.2.2.1.1.2 གཉིས་པ་མི་རྟག་པ་ཡིན་པ་དགག་པ་: title attested in the source but not near pointer [[1594]] (found near line 1590) — possible cursor loss
+- 3.2.1.2.2.1.1.1.2.2.2.1.2 གཉིས་པ་སྒྲུབ་བྱེད་དགག་པ་: title attested in the source but not near pointer [[1594]] (found near line 1291) — possible cursor loss
+- 3.2.1.2.2.1.1.1.2.2.2.1.2.1.2 གཉིས་པ་རྒྱས་བཤད་: title attested in the source but not near pointer [[1598]] (found near line 126) — possible cursor loss
+- 3.2.1.2.2.1.1.1.2.2.2.1.2.1.2.1.2 གཉིས་པ་དབྱིབས་ཀྱི་སྒྲ་འཇུག་པ་རྟགས་སུ་མི་: title attested in the source but not near pointer [[1604]] (found near line 1598) — possible cursor loss
+- 3.2.1.2.2.1.1.1.2.2.2.1.2.1.2.2 གཉིས་པ་དེས་རིགས་ཅན་གཞན་ཡང་ཁེགས་པ་: title attested in the source but not near pointer [[1606]] (found near line 1307) — possible cursor loss
+- 3.2.1.2.2.1.1.1.2.2.2.1.2.1.2.3 གསུམ་པ་དེས་གྲུབ་པའི་དོན་: title attested in the source but not near pointer [[1608]] (found near line 489) — possible cursor loss
+- 3.2.1.2.2.1.1.1.2.2.2.1.2.2 གཉིས་པ་ཀུན་གྱི་བྱེད་པ་པོ་ཡིན་པ་ལ་ཚད་མའི་: title attested in the source but not near pointer [[1616]] (found near line 1594) — possible cursor loss
+- 3.2.1.2.2.1.1.1.2.2.2.1.2.2.2 གཉིས་པ་རང་ལ་མཚུངས་པ་སྤང་བ་: title attested in the source but not near pointer [[1620]] (found near line 467) — possible cursor loss
+- 3.2.1.2.2.1.1.1.2.2.2.2 གཉིས་པ་ཐམས་ཅད་ཀྱི་གནས་ལུགས་ཇི་ལྟར་གནས་པ་: title attested in the source but not near pointer [[1622]] (found near line 1588) — possible cursor loss
+- 3.2.1.2.2.1.1.1.2.2.2.2.2.3 གསུམ་པ་ཀུན་མཁྱེན་ངོས་གཟུང་བ་: title attested in the source but not near pointer [[1630]] (found near line 1626) — possible cursor loss
+- 3.2.1.2.2.1.1.2.1.1.2.2.1.2 གཉིས་པ་རྒྱས་བཤད་: title attested in the source but not near pointer [[1640]] (found near line 126) — possible cursor loss
+- 3.2.1.2.2.1.1.2.1.1.2.2.1.2.1.2 གཉིས་པ་དེ་ལ་གནོད་པ་སྤང་བ་: title attested in the source but not near pointer [[1648]] (found near line 1307) — possible cursor loss
+- 3.2.1.2.2.1.1.2.1.1.2.2.1.2.2 གཉིས་པ་མེད་པའི་སྒྲུབ་བྱེད་དགག་པ་: title attested in the source but not near pointer [[1652]] (found near line 1640) — possible cursor loss
+- 3.2.1.2.2.1.1.2.1.1.2.2.1.2.2.1.2.2 གཉིས་པ་ཚད་མ་ཡོད་པར་རྟོག་པ་དགག་པ་: title attested in the source but not near pointer [[1660]] (found near line 1654) — possible cursor loss
+- 3.2.1.2.2.1.1.2.1.1.2.2.1.2.2.1.2.2.2.2 གཉིས་པ་རྩོད་པ་སྤང་བ་: title attested in the source but not near pointer [[1664]] (found near line 465) — possible cursor loss
+- 3.2.1.2.2.1.1.2.1.1.2.2.1.2.2.1.2.2.2.3 གསུམ་པ་འབྲས་བུ་ལྡོག་པའི་རྒྱུ་ཁྱད་པར་ཅན་ང: title attested in the source but not near pointer [[1666]] (found near line 1660) — possible cursor loss
+- 3.2.1.2.2.1.1.2.1.1.2.2.1.2.2.2.1.1.1.1.2.2.2 གཉིས་པ་དེའི་ལན་དགག་པ་: title attested in the source but not near pointer [[1676]] (found near line 503) — possible cursor loss
+- 3.2.1.2.2.1.1.2.1.1.2.2.1.2.2.2.1.1.1.1.3 གསུམ་པ་ཉེར་ལེན་གྱི་མཚན་ཉིད་བཤད་པ་: title attested in the source but not near pointer [[1680]] (found near line 1670) — possible cursor loss
+- 3.2.1.2.2.1.1.2.1.1.2.2.1.2.2.2.1.1.1.2 གཉིས་པ་དུས་མཉམ་ལ་བརྟགས་ལ་དགག་པ་: title attested in the source but not near pointer [[1682]] (found near line 1668) — possible cursor loss
+- 3.2.1.2.2.1.1.2.1.1.2.2.1.2.2.2.1.1.1.2.1.3 གསུམ་པ་མངོན་སུམ་དང་འགལ་བ་སྤང་བ་: title attested in the source but not near pointer [[1686]] (found near line 1682) — possible cursor loss
+- 3.2.1.2.2.1.1.2.1.1.2.2.1.2.2.2.1.1.1.2.2 གཉིས་པ་དེས་རིགས་ཅན་གཞན་ཡང་ཁེགས་པ་: title attested in the source but not near pointer [[1688]] (found near line 1307) — possible cursor loss
+- 3.2.1.2.2.1.1.2.1.1.2.2.1.2.2.2.1.1.1.2.3 གསུམ་པ་དོན་བསྡུ་བ་: title attested in the source but not near pointer [[1690]] (found near line 217) — possible cursor loss
+- 3.2.1.2.2.1.1.2.1.1.2.2.1.2.2.2.1.1.2 གཉིས་པ་ལྷན་ཅིག་བྱེད་རྐྱེན་ཁྱད་པར་ཅན་ཡིན་: title attested in the source but not near pointer [[1690]] (found near line 1668) — possible cursor loss
+- 3.2.1.2.2.1.1.2.1.1.2.2.1.2.2.2.1.1.2.2 གཉིས་པ་ལུས་སེམས་རྫས་གཅིག་དགག་པ་: title attested in the source but not near pointer [[1696]] (found near line 1692) — possible cursor loss
+- 3.2.1.2.2.1.1.2.1.1.2.2.1.2.2.2.1.1.2.3 གསུམ་པ་འཁོར་བའི་རྒྱུ་ངོས་གཟུང་བ་: title attested in the source but not near pointer [[1698]] (found near line 1692) — possible cursor loss
+- 3.2.1.2.2.1.1.2.1.1.2.2.1.2.2.2.1.2 གཉིས་པ་རྟེན་བྱེད་པའི་ལུས་ཀྱི་ངོ་བོའི་རྣམ: title attested in the source but not near pointer [[1700]] (found near line 1668) — possible cursor loss
+- 3.2.1.2.2.1.1.2.1.1.2.2.1.2.2.2.1.2.1.1.2 གཉིས་པ་དེ་དགོད་པ་: title attested in the source but not near pointer [[1704]] (found near line 1700) — possible cursor loss
+- 3.2.1.2.2.1.1.2.1.1.2.2.1.2.2.2.1.2.1.2 གཉིས་པ་བཀག་པ་ལ་གནོད་པ་སྤང་བ་: title attested in the source but not near pointer [[1706]] (found near line 1379) — possible cursor loss
+- 3.2.1.2.2.1.1.2.1.1.2.2.1.2.2.2.1.2.1.2.2 གཉིས་པ་དེས་རིགས་ཅན་གཞན་ཡང་ཁེགས་པ་: title attested in the source but not near pointer [[1712]] (found near line 1307) — possible cursor loss
+- 3.2.1.2.2.1.1.2.1.1.2.2.1.2.2.2.1.2.1.2.3 གསུམ་པ་ཡན་ལག་ཅན་དང་དེ་ལ་བརྟེན་པའི་ཡོན་ཏན: title attested in the source but not near pointer [[1712]] (found near line 1706) — possible cursor loss
+- 3.2.1.2.2.1.1.2.1.1.2.2.1.2.2.2.1.2.1.2.3.2 གཉིས་པ་དེ་ལ་བརྟེན་པའི་གྲངས་སོགས་དོན་གཞན་: title attested in the source but not near pointer [[1718]] (found near line 1712) — possible cursor loss
+- 3.2.1.2.2.1.1.2.1.1.2.2.1.2.2.2.1.2.1.2.3.2.2.2 གཉིས་པ་དེ་མ་གྲུབ་ན་སྒྲ་ཐ་དད་དོན་མེད་དུ་ཐ: title attested in the source but not near pointer [[1722]] (found near line 1718) — possible cursor loss
+- 3.2.1.2.2.1.1.2.1.1.2.2.1.2.2.2.1.2.1.2.3.2.2.2.2 གཉིས་པ་དྲུག་སྒྲ་མི་འཐད་པར་ཐལ་བ་སྤང་བ་: title attested in the source but not near pointer [[1726]] (found near line 1722) — possible cursor loss
+- 3.2.1.2.2.1.1.2.1.1.2.2.1.2.2.2.1.2.2 གཉིས་པ་རྡུལ་ཕྲན་དེ་ཡིན་པ་དགག་པ་: title attested in the source but not near pointer [[1732]] (found near line 1700) — possible cursor loss
+- 3.2.1.2.2.1.1.2.1.1.2.2.1.2.2.2.1.2.2.2.2.1.2 གཉིས་པ་མི་རྟག་པ་ལས་སྐྱེ་བ་དགག་: title attested in the source but not near pointer [[1741]] (found near line 1737) — possible cursor loss
+- 3.2.1.2.2.1.1.2.1.1.2.2.1.2.2.2.1.2.2.2.2.1.3 གསུམ་པ་རང་ལ་ཉེས་པ་སྤང་བ་: title attested in the source but not near pointer [[1745]] (found near line 1739) — possible cursor loss
+- 3.2.1.2.2.1.1.2.1.1.2.2.1.2.2.2.1.2.2.2.2.2 གཉིས་པ་དང་པོ་ལུས་ལས་ཅིག་ཅར་སྐྱེས་ཀྱང་ཕྱི: title attested in the source but not near pointer [[1745]] (found near line 1734) — possible cursor loss
+- 3.2.1.2.2.1.1.2.1.1.2.2.1.2.2.2.2.2.2 གཉིས་པ་གནོད་བྱེད་སྤང་བ་: title attested in the source but not near pointer [[1763]] (found near line 1757) — possible cursor loss
+- 3.2.1.2.2.1.1.2.1.1.2.2.1.2.2.2.2.2.3 གསུམ་པ་སྒྲུབ་བྱེད་དགོད་པ་: title attested in the source but not near pointer [[1763]] (found near line 1640) — possible cursor loss
+- 3.2.1.2.2.1.1.2.1.1.2.2.2.2.3 གསུམ་པ་དེ་ལ་རྩོད་པ་སྤང་བ་: title attested in the source but not near pointer [[1775]] (found near line 465) — possible cursor loss
+- 3.2.1.2.2.1.1.2.1.2 གཉིས་པ་དེ་ལས་སྦྱོར་བ་ཕུན་ཚོགས་སྐྱེ་ཚུལ་: title attested in the source but not near pointer [[1781]] (found near line 1632) — possible cursor loss
+- 3.2.1.2.2.1.1.2.1.2.2 གཉིས་པ་རྒྱས་བཤད་: title attested in the source but not near pointer [[1785]] (found near line 126) — possible cursor loss
+- 3.2.1.2.2.1.1.2.1.2.2.3 གསུམ་པ་དེ་ལྟར་བརྟགས་པའི་དགོས་པ་: title attested in the source but not near pointer [[1789]] (found near line 1785) — possible cursor loss
+- 3.2.1.2.2.1.1.2.1.2.2.3.2 གཉིས་པ་ཡུལ་ཅན་ཉེས་པ་མཐའ་དག་དང་བྲལ་བར་འགྱ: title attested in the source but not near pointer [[1793]] (found near line 1789) — possible cursor loss
+- 3.2.1.2.2.1.1.2.1.2.2.3.3 གསུམ་པ་དེས་གྲོལ་བ་གཞན་ལས་ཁྱད་ཞུགས་པ་: title attested in the source but not near pointer [[1793]] (found near line 1789) — possible cursor loss
+- 3.2.1.2.2.1.1.2.1.2.3 གསུམ་པ་དོན་བསྡུ་བ་: title attested in the source but not near pointer [[1793]] (found near line 217) — possible cursor loss
+- 3.2.1.2.2.1.1.2.1.3 གསུམ་པ་དེ་གཉིས་ལས་འབྲས་བུ་ཕུན་ཚོགས་གྲུབ་: title attested in the source but not near pointer [[1795]] (found near line 1632) — possible cursor loss
+- 3.2.1.2.2.1.1.2.1.3.1.1.2 གཉིས་པ་རྒྱས་བཤད་: title attested in the source but not near pointer [[1799]] (found near line 126) — possible cursor loss
+- 3.2.1.2.2.1.1.2.1.3.1.2 གཉིས་པ་དེ་ལ་རྩོད་པ་སྤང་བ་: title attested in the source but not near pointer [[1803]] (found near line 465) — possible cursor loss
+- 3.2.1.2.2.1.1.2.1.3.2 གཉིས་པ་གཞན་དོན་ཕུན་ཚོགས་: title attested in the source but not near pointer [[1809]] (found near line 90) — possible cursor loss
+- 3.2.1.2.2.1.2 གཉིས་པ་ལུགས་ལྡོག་གི་སྒོ་ནས་དེ་ལྟར་བྱོན་པ: title attested in the source but not near pointer [[1813]] (found near line 1543) — possible cursor loss
+- 3.2.1.2.2.1.2.1.1.2.1.3 གསུམ་པ་མཚན་གཞི་: title attested in the source but not near pointer [[1823]] (found near line 116) — possible cursor loss
+- 3.2.1.2.2.1.2.1.1.2.1.4 བཞི་པ་དེ་ཉིད་ངེས་བྱེད་ཀྱི་ཚད་མ་: title attested in the source but not near pointer [[1823]] (found near line 231) — possible cursor loss
+- 3.2.1.2.2.1.2.1.1.2.1.4.2 གཉིས་པ་དེ་དང་འགལ་བ་བདེན་པའི་རྣམ་པ་བཅུ་དྲ: title attested in the source but not near pointer [[1827]] (found near line 1823) — possible cursor loss
+- 3.2.1.2.2.1.2.1.1.2.2 གཉིས་པ་ཡན་ལག་གི་དོན་: title attested in the source but not near pointer [[1833]] (found near line 1523) — possible cursor loss
+- 3.2.1.2.2.1.2.1.1.2.2.1.1.1.2.3.1.2 གཉིས་པ་རྒྱས་པར་བཤད་པ་: title attested in the source but not near pointer [[1841]] (found near line 116) — possible cursor loss
+- 3.2.1.2.2.1.2.1.1.2.2.1.1.1.2.3.1.2.2 གཉིས་པ་ཡིན་ན་ཧ་ཅང་ཐལ་བ་: title attested in the source but not near pointer [[1849]] (found near line 898) — possible cursor loss
+- 3.2.1.2.2.1.2.1.1.2.2.1.1.1.2.3.1.2.3 གསུམ་པ་རང་ལ་མཚུངས་པ་སྤང་བ་: title attested in the source but not near pointer [[1849]] (found near line 467) — possible cursor loss
+- 3.2.1.2.2.1.2.1.1.2.2.1.1.1.2.3.2 གཉིས་པ་འབྱུང་བ་འབའ་ཞིག་ལས་སྐྱེ་བ་དགག་པ་: title attested in the source but not near pointer [[1849]] (found near line 1837) — possible cursor loss
+- 3.2.1.2.2.1.2.1.1.2.2.1.1.1.2.3.2.2.2 གཉིས་པ་དོན་དགག་པ་: title attested in the source but not near pointer [[1855]] (found near line 465) — possible cursor loss
+- 3.2.1.2.2.1.2.1.1.2.2.1.1.2 གཉིས་པ་ཐོག་མ་ཡོད་པ་དགག་པ་: title attested in the source but not near pointer [[1855]] (found near line 1833) — possible cursor loss
+- 3.2.1.2.2.1.2.1.1.2.2.1.1.2.2.2.2 གཉིས་པ་ཕྱིས་ཆགས་བྲལ་དུ་འགྱུར་མི་སྲིད་པའི: title attested in the source but not near pointer [[1863]] (found near line 1859) — possible cursor loss
+- 3.2.1.2.2.1.2.1.1.2.2.1.1.2.2.2.3 གསུམ་པ་དེའི་དཔེ་དགག་པ་: title attested in the source but not near pointer [[1865]] (found near line 1859) — possible cursor loss
+- 3.2.1.2.2.1.2.1.1.2.2.1.2 གཉིས་པ་མཚན་ཉིད་བཤད་པ་: title attested in the source but not near pointer [[1867]] (found near line 1670) — possible cursor loss
+- 3.2.1.2.2.1.2.1.1.2.2.2.4.3 གསུམ་པ་མཚུངས་པ་སྤང་བ་: title attested in the source but not near pointer [[1881]] (found near line 467) — possible cursor loss
+- 3.2.1.2.2.1.2.1.1.2.2.3.1.1.2.1.2 གཉིས་པ་དེ་འགོག་པའི་རིགས་པ་: title attested in the source but not near pointer [[1895]] (found near line 1891) — possible cursor loss
+- 3.2.1.2.2.1.2.1.1.2.2.3.1.1.2.1.3 གསུམ་པ་བདག་མེད་ཇི་ལྟར་ཉམས་སུ་ལེན་པའི་ཚུལ: title attested in the source but not near pointer [[1897]] (found near line 1891) — possible cursor loss
+- 3.2.1.2.2.1.2.1.1.2.2.3.1.1.2.2 གཉིས་པ་ཀུན་མཁྱེན་སྒྲུབ་པའི་ཚུལ་: title attested in the source but not near pointer [[1899]] (found near line 1885) — possible cursor loss
+- 3.2.1.2.2.1.2.1.1.2.2.3.1.2.3 གསུམ་པ་ཐར་པ་ཐོབ་ཟིན་སྲིད་པར་སྐད་ཅིག་ཀྱང་: title attested in the source but not near pointer [[1905]] (found near line 1901) — possible cursor loss
+- 3.2.1.2.2.1.2.1.1.2.2.3.2.2 གཉིས་པ་སྲིད་པ་ལས་མ་གྲོལ་བར་ཐལ་བ་སྤང་བ་: title attested in the source but not near pointer [[1911]] (found near line 1907) — possible cursor loss
+- 3.2.1.2.2.1.2.1.1.2.2.3.2.3 གསུམ་པ་བདག་འཛིན་སྲིད་པའི་རྒྱུ་ཡིན་པ་ལ་ཧ་: title attested in the source but not near pointer [[1913]] (found near line 1907) — possible cursor loss
+- 3.2.1.2.2.1.2.1.1.2.2.4.1.2.1.1.1.3 གསུམ་པ་དོན་བསྡུ་བ་: title attested in the source but not near pointer [[1931]] (found near line 217) — possible cursor loss
+- 3.2.1.2.2.1.2.1.1.2.2.4.1.2.1.1.2 གཉིས་པ་ཡོད་ཀྱང་ཡུན་དུ་གནས་པའི་ནུས་པ་མེད་: title attested in the source but not near pointer [[1933]] (found near line 1927) — possible cursor loss
+- 3.2.1.2.2.1.2.1.1.2.2.4.1.2.1.2 གཉིས་པ་དེ་ལྡོག་པའི་ཐབས་མི་སྲིད་པ་: title attested in the source but not near pointer [[1933]] (found near line 1925) — possible cursor loss
+- 3.2.1.2.2.1.2.1.1.2.2.4.1.2.1.3 གསུམ་པ་བདག་མེད་རྟོགས་པའི་ཤེས་རབ་བདག་འཛིན: title attested in the source but not near pointer [[1935]] (found near line 1925) — possible cursor loss
+- 3.2.1.2.2.1.2.1.1.2.2.4.1.2.1.3.3 གསུམ་པ་བདག་མེད་རྟོགས་པའི་ཤེས་རབ་ཉིད་འཛིན: title attested in the source but not near pointer [[1943]] (found near line 1935) — possible cursor loss
+- 3.2.1.2.2.1.2.1.1.2.2.4.1.2.2 གཉིས་པ་དྲི་མ་ལྡོག་ཏུ་མི་རུང་བའི་རྩོད་སྤང: title attested in the source but not near pointer [[1943]] (found near line 1925) — possible cursor loss
+- 3.2.1.2.2.1.2.1.1.2.2.4.1.2.3 གསུམ་པ་ཅུང་ཟད་ལྡོག་ཀྱང་གཏན་ལྡོག་མི་སྲིད་: title attested in the source but not near pointer [[1945]] (found near line 1925) — possible cursor loss
+- 3.2.1.2.2.1.2.1.1.2.2.4.2 གཉིས་པ་བདག་འཛིན་སྲིད་པའི་རྩ་བར་བསྒྲུབ་པ་: title attested in the source but not near pointer [[1945]] (found near line 1925) — possible cursor loss
+- 3.2.1.2.2.1.2.1.1.2.2.4.2.1.2 གཉིས་པ་ཉོན་མོངས་ཀུན་གྱི་རྩ་བར་བསྟན་པ་: title attested in the source but not near pointer [[1949]] (found near line 1945) — possible cursor loss
+- 3.2.1.2.2.1.2.1.1.2.2.4.2.2 གཉིས་པ་བདག་འཛིན་མ་སྤངས་པར་ཐབས་གཞན་བསྒོམས: title attested in the source but not near pointer [[1949]] (found near line 1945) — possible cursor loss
+- 3.2.1.2.2.1.2.1.1.2.2.4.2.2.1.1.2.1.2 གཉིས་པ་དེའི་ལན་དགག་པ་: title attested in the source but not near pointer [[1955]] (found near line 503) — possible cursor loss
+- 3.2.1.2.2.1.2.1.1.2.2.4.2.2.1.1.2.2 གཉིས་པ་སྡུག་བསྔལ་གྱི་སྡུག་བསྔལ་བསྒོམ་པ་ག: title attested in the source but not near pointer [[1957]] (found near line 1951) — possible cursor loss
+- 3.2.1.2.2.1.2.1.1.2.2.4.2.2.1.1.2.2.1.1.2 གཉིས་པ་གཞན་ལུགས་ལ་མི་འཐད་: title attested in the source but not near pointer [[1961]] (found near line 1957) — possible cursor loss
+- 3.2.1.2.2.1.2.1.1.2.2.4.2.2.1.1.2.2.1.1.2.2 གཉིས་པ་དེའི་ལན་དགག་པ་: title attested in the source but not near pointer [[1965]] (found near line 503) — possible cursor loss
+- 3.2.1.2.2.1.2.1.1.2.2.4.2.2.1.1.2.2.1.2 གཉིས་པ་དོན་དགག་པ་: title attested in the source but not near pointer [[1967]] (found near line 465) — possible cursor loss
+- 3.2.1.2.2.1.2.1.1.2.2.4.2.2.1.1.2.2.1.2.2 གཉིས་པ་སྡུག་བསྔལ་དུ་བསྒོམ་པ་ཙམ་གྱིས་གྲོལ: title attested in the source but not near pointer [[1971]] (found near line 1967) — possible cursor loss
+- 3.2.1.2.2.1.2.1.1.2.2.4.2.2.1.1.2.2.1.2.2.2 གཉིས་པ་གཞན་ལ་ཆགས་བྲལ་མི་སྲིད་པ་: title attested in the source but not near pointer [[1975]] (found near line 1971) — possible cursor loss
+- 3.2.1.2.2.1.2.1.1.2.2.4.2.2.1.1.2.2.1.2.3 གསུམ་པ་དབང་སོགས་སྐྱོན་ཅན་དུ་མཐོང་བ་ཙམ་གྱ: title attested in the source but not near pointer [[1977]] (found near line 1967) — possible cursor loss
+- 3.2.1.2.2.1.2.1.1.2.2.4.2.2.1.1.2.2.1.2.3.2 གཉིས་པ་དབང་སོགས་ལ་ཇི་ལྟར་ཡོད་པའི་སྐྱོན་མ: title attested in the source but not near pointer [[1981]] (found near line 1977) — possible cursor loss
+- 3.2.1.2.2.1.2.1.1.2.2.4.2.2.1.1.2.2.2 གཉིས་པ་གྲངས་ཅན་གྱི་ལུགས་དགག་པ་: title attested in the source but not near pointer [[1981]] (found near line 838) — possible cursor loss
+- 3.2.1.2.2.1.2.1.1.2.2.4.2.2.1.1.2.2.2.2 གཉིས་པ་སྡུག་བསྔལ་གྱི་སྡུག་བསྔལ་གྱིས་ཡིད་: title attested in the source but not near pointer [[1985]] (found near line 1981) — possible cursor loss
+- 3.2.1.2.2.1.2.1.1.2.2.4.2.2.1.1.2.2.2.3 གསུམ་པ་ཆགས་བྲལ་གྱི་རང་བཞིན་ངོས་གཟུང་བ་: title attested in the source but not near pointer [[1987]] (found near line 1981) — possible cursor loss
+- 3.2.1.2.2.1.2.1.1.2.2.4.2.2.1.1.2.2.3 གསུམ་པ་སྡུག་བསྔལ་སྒོམ་པར་གསུངས་པ་དང་འགལ་: title attested in the source but not near pointer [[1987]] (found near line 1957) — possible cursor loss
+- 3.2.1.2.2.1.2.1.1.2.2.4.2.2.1.3 གསུམ་པ་དེས་ན་འཇིག་ལྟ་སྤོང་དགོས་པར་བསྟན་པ: title attested in the source but not near pointer [[1995]] (found near line 1951) — possible cursor loss
+- 3.2.1.2.2.1.2.1.1.2.2.4.2.2.2 གཉིས་པ་དབང་ཕྱུག་གི་བཀའ་ལུང་ཙམ་གྲོལ་ལམ་དུ: title attested in the source but not near pointer [[1995]] (found near line 1949) — possible cursor loss
+- 3.2.1.2.2.1.2.1.1.2.2.4.2.2.2.2.2 གཉིས་པ་དེའི་ལན་དགག་པ་: title attested in the source but not near pointer [[2001]] (found near line 503) — possible cursor loss
+- 3.2.1.2.2.1.2.1.1.2.2.4.2.2.2.2.3 གསུམ་པ་བཀག་པ་ལ་གནོད་པ་སྤང་བ་: title attested in the source but not near pointer [[2001]] (found near line 1379) — possible cursor loss
+- 3.2.1.2.2.1.2.1.1.2.2.4.2.2.2.2.3.2 གཉིས་པ་ཧ་ཅང་ཐལ་བ་: title attested in the source but not near pointer [[2005]] (found near line 334) — possible cursor loss
+- 3.2.1.2.2.1.2.1.1.2.2.4.2.2.2.2.3.3 གསུམ་པ་བདག་རྟག་པ་བྱེད་པ་པོར་མི་རུང་བ་: title attested in the source but not near pointer [[2005]] (found near line 2001) — possible cursor loss
+- 3.2.1.2.2.1.2.1.1.2.2.4.2.2.2.3 གསུམ་པ་བདག་མེད་རྟོགས་པའི་ཤེས་རབ་གྲོལ་ལམ་: title attested in the source but not near pointer [[2009]] (found near line 1995) — possible cursor loss
+- 3.2.1.2.2.1.2.1.1.2.2.4.2.2.3.2.2 གཉིས་པ་དཀའ་ཐུབ་ཀྱིས་ལས་ཀྱི་ནུས་པ་འདྲེས་ཤ: title attested in the source but not near pointer [[2015]] (found near line 2011) — possible cursor loss
+- 3.2.1.2.2.1.2.1.1.2.2.4.2.2.3.2.3 གསུམ་པ་ལས་སྲེད་སྤང་བྱར་མཚུངས་པ་དགག་པ་: title attested in the source but not near pointer [[2021]] (found near line 2011) — possible cursor loss
+- 3.2.1.2.2.1.2.1.2 གཉིས་པ་དེ་ལས་བདེ་གཤེགས་: title attested in the source but not near pointer [[2023]] (found near line 1815) — possible cursor loss
+- 3.2.1.2.2.1.2.1.3 གསུམ་པ་དེ་ལས་སྟོན་པ་: title attested in the source but not near pointer [[2025]] (found near line 1815) — possible cursor loss
+- 3.2.1.2.2.1.2.1.4 བཞི་པ་དེ་ལས་བརྩེ་བ་འགྲུབ་པའི་ཚུལ་: title attested in the source but not near pointer [[2027]] (found near line 1815) — possible cursor loss
+- 3.2.1.3.1.1.2.1.2 གཉིས་པ་གཞལ་བྱ་གཉིས་ཀྱི་ངོ་བོ་ངོས་གཟུང་བ་: title attested in the source but not near pointer [[2062]] (found near line 2050) — possible cursor loss
+- 3.2.1.3.1.1.2.1.2.1.1.2.2 གཉིས་པ་བདེན་གཉིས་ཀྱི་མཚན་ཉིད་དང་མཚན་གཞི་: title attested in the source but not near pointer [[2068]] (found near line 2064) — possible cursor loss
+- 3.2.1.3.1.1.2.1.2.1.1.2.3 གསུམ་པ་གྲུབ་མཐའ་གང་གི་དབང་དུ་བྱས་པ་: title attested in the source but not near pointer [[2072]] (found near line 2064) — possible cursor loss
+- 3.2.1.3.1.1.2.1.2.1.2 གཉིས་པ་དེ་ལ་རྩོད་པ་སྤང་བ་: title attested in the source but not near pointer [[2072]] (found near line 465) — possible cursor loss
+- 3.2.1.3.1.1.2.1.2.1.2.2 གཉིས་པ་ཀུན་རྫོབ་ཀྱི་མཚན་གཞི་ལ་རྩོད་པ་སྤང: title attested in the source but not near pointer [[2076]] (found near line 2072) — possible cursor loss
+- 3.2.1.3.1.1.2.1.2.1.2.3 གསུམ་པ་སྐྲ་ཤད་སོགས་སྤྱི་མཚན་དུ་ཐལ་བ་སྤང་: title attested in the source but not near pointer [[2080]] (found near line 2072) — possible cursor loss
+- 3.2.1.3.1.1.2.1.2.2 གཉིས་པ་རྒྱས་བཤད་: title attested in the source but not near pointer [[2086]] (found near line 126) — possible cursor loss
+- 3.2.1.3.1.1.2.1.2.2.1.1.1.1.2.2.2 གཉིས་པ་འབྲེལ་མེད་བརྗོད་པ་དགག་པ་: title attested in the source but not near pointer [[2096]] (found near line 2090) — possible cursor loss
+- 3.2.1.3.1.1.2.1.2.2.1.1.1.1.2.2.3 གསུམ་པ་དོན་དང་འབྲེལ་བ་བརྗོད་པ་དགག་པ་: title attested in the source but not near pointer [[2096]] (found near line 2090) — possible cursor loss
+- 3.2.1.3.1.1.2.1.2.2.1.1.1.1.3 གསུམ་པ་སྤྱི་ཡན་གར་བ་དེར་མ་གྲུབ་པ་: title attested in the source but not near pointer [[2098]] (found near line 2086) — possible cursor loss
+- 3.2.1.3.1.1.2.1.2.2.1.1.1.2 གཉིས་པ་སྐྱོན་སྤོང་དགག་པ་: title attested in the source but not near pointer [[2102]] (found near line 2086) — possible cursor loss
+- 3.2.1.3.1.1.2.1.2.2.1.1.2 གཉིས་པ་སྒྲའི་བརྗོད་བྱ་དོན་དམ་པར་དེ་ཉིད་ད: title attested in the source but not near pointer [[2102]] (found near line 2086) — possible cursor loss
+- 3.2.1.3.1.1.2.1.2.2.1.1.2.2 གཉིས་པ་དེས་གྲུབ་པའི་དོན་: title attested in the source but not near pointer [[2106]] (found near line 489) — possible cursor loss
+- 3.2.1.3.1.1.2.1.2.2.1.1.3 གསུམ་པ་བརྗོད་དུ་ཡོད་པའི་ལན་དགག་པ་: title attested in the source but not near pointer [[2112]] (found near line 2086) — possible cursor loss
+- 3.2.1.3.1.1.2.1.2.2.1.2 གཉིས་པ་རིགས་པ་གཞན་གྱིས་དགག་པ་: title attested in the source but not near pointer [[2116]] (found near line 1168) — possible cursor loss
+- 3.2.1.3.1.1.2.1.2.2.1.2.2.1 དང་པོ་གསལ་བ་དང་རྫས་གཅིག་དང་ཐ་དད་བརྟགས་ལ་: title attested in the source but not near pointer [[2123]] (found near line 2118) — possible cursor loss
+- 3.2.1.3.1.1.2.1.2.2.1.2.2.2 གཉིས་པ་འབྲས་བུ་ཡིན་མིན་བརྟགས་ལ་དགག་: title attested in the source but not near pointer [[2125]] (found near line 2120) — possible cursor loss
+- 3.2.1.3.1.1.2.1.2.2.1.2.2.3 གསུམ་པ་བརྡ་ལ་ལྟོས་པའི་རྟགས་ཀྱིས་དགག་: title attested in the source but not near pointer [[2127]] (found near line 2121) — possible cursor loss
+- 3.2.1.3.1.1.2.1.2.2.1.2.2.4 བཞི་པ་ཤེས་པ་ལ་ཡན་གར་བར་མི་སྣང་བའི་རྟགས་ཀ: title attested in the source but not near pointer [[2129]] (found near line 2123) — possible cursor loss
+- 3.2.1.3.1.1.2.1.2.2.2 གཉིས་པ་རང་མཚན་དངོས་པོར་བསྟན་པ་: title attested in the source but not near pointer [[2133]] (found near line 2086) — possible cursor loss
+- 3.2.1.3.1.1.2.1.2.2.3 གསུམ་པ་སྤྱི་མཚན་གྱི་དབྱེ་བ་: title attested in the source but not near pointer [[2133]] (found near line 2086) — possible cursor loss
+- 3.2.1.3.1.1.2.1.3 གསུམ་པ་རང་མཚན་ཁོ་ན་གཞལ་བྱར་བཞག་པའི་དགོངས: title attested in the source but not near pointer [[2137]] (found near line 2050) — possible cursor loss
+- 3.2.1.3.1.1.2.1.3.2 གཉིས་པ་དེ་ལ་རྩོད་པ་སྤང་བ་: title attested in the source but not near pointer [[2151]] (found near line 465) — possible cursor loss
+- 3.2.1.3.1.1.2.1.3.2.2 གཉིས་པ་རིགས་པ་དང་འགལ་བ་སྤང་བ་: title attested in the source but not near pointer [[2157]] (found near line 1650) — possible cursor loss
+- 3.2.1.3.1.1.2.3 གསུམ་པ་མཇུག་བསྡུ་བ་: title attested in the source but not near pointer [[2165]] (found near line 235) — possible cursor loss
+- 3.2.1.3.1.1.2.3.2.2 གཉིས་པ་རྗེས་དཔག་ཚད་མ་ངེས་པར་ཁས་ལེན་དགོས་: title attested in the source but not near pointer [[2175]] (found near line 2167) — possible cursor loss
+- 3.2.1.3.1.1.2.3.2.3 གསུམ་པ་མི་ལེན་ན་ཧ་ཅང་ཐལ་བ་བསྟན་པ་: title attested in the source but not near pointer [[2179]] (found near line 2167) — possible cursor loss
+- 3.2.1.3.1.2 གཉིས་པ་དེར་མ་ངེས་པའི་རྩོད་སྤང་: title attested in the source but not near pointer [[2186]] (found near line 2046) — possible cursor loss
+- 3.2.1.3.1.2.2.1.1.2 གཉིས་པ་འཕྲོས་དོན་རྒྱས་པར་བཤད་པ་: title attested in the source but not near pointer [[2195]] (found near line 2188) — possible cursor loss
+- 3.2.1.3.1.2.2.1.1.2.2.2.2 གཉིས་པ་དགག་པའི་རྗེས་དཔག་འབྲེལ་བའི་ཚུལ་: title attested in the source but not near pointer [[2207]] (found near line 2199) — possible cursor loss
+- 3.2.1.3.1.2.2.1.1.2.2.2.2.2 གཉིས་པ་ལྟར་སྣང་: title attested in the source but not near pointer [[2213]] (found near line 63) — possible cursor loss
+- 3.2.1.3.1.2.2.1.1.2.2.2.2.3 གསུམ་པ་འགལ་དམིགས་རྟགས་སུ་སྦྱོར་བའི་ཡུལ་བ: title attested in the source but not near pointer [[2217]] (found near line 2207) — possible cursor loss
+- 3.2.1.3.1.2.2.1.1.2.2.2.3 གསུམ་པ་དེ་དག་གི་རྒྱུ་མཚན་: title attested in the source but not near pointer [[2217]] (found near line 2199) — possible cursor loss
+- 3.2.1.3.1.2.2.1.1.3 གསུམ་པ་དོན་བསྡུ་བ་: title attested in the source but not near pointer [[2223]] (found near line 217) — possible cursor loss
+- 3.2.1.3.1.2.2.1.2 གཉིས་པ་རགས་པའི་མི་རྟག་པ་མངོན་སུམ་ཚད་མས་ར: title attested in the source but not near pointer [[2223]] (found near line 2188) — possible cursor loss
+- 3.2.1.3.1.2.2.1.2.2.2 གཉིས་པ་རྩོད་པ་སྤང་བ་: title attested in the source but not near pointer [[2231]] (found near line 465) — possible cursor loss
+- 3.2.1.3.1.2.2.1.2.3 གསུམ་པ་ཁ་དོག་མ་དམིགས་པའི་རྟགས་ལས་མི་རྟག་: title attested in the source but not near pointer [[2233]] (found near line 2223) — possible cursor loss
+- 3.2.1.3.1.2.2.1.3 གསུམ་པ་གཞན་དག་གི་མི་རྟག་པ་དགག་པ་: title attested in the source but not near pointer [[2233]] (found near line 2188) — possible cursor loss
+- 3.2.1.3.1.2.2.1.3.2 གཉིས་པ་རང་ལུགས་ཀྱི་མཇུག་བསྡུ་བ་: title attested in the source but not near pointer [[2239]] (found near line 2233) — possible cursor loss
+- 3.2.1.3.1.2.2.2 གཉིས་པ་ཁྱད་པར་ངོ་ཤེས་ཀྱི་བློ་ཚད་མ་ཕུང་སུ: title attested in the source but not near pointer [[2239]] (found near line 2188) — possible cursor loss
+- 3.2.1.3.1.2.2.2.2 གཉིས་པ་རང་གི་ལུགས་: title attested in the source but not near pointer [[2243]] (found near line 690) — possible cursor loss
+- 3.2.1.3.1.2.2.2.3 གསུམ་པ་རྩོད་སྤང་: title attested in the source but not near pointer [[2243]] (found near line 153) — possible cursor loss
+- 3.2.1.3.2.1.1.1.1 དང་པོ་སྒྲུབ་བྱེད་དགོད་: title attested in the source but not near pointer [[2250]] (found near line 1640) — possible cursor loss
+- 3.2.1.3.2.1.1.1.1.2.2 གཉིས་པ་མཐོང་རྟོག་གཅིག་ཏུ་འདོད་པ་དགག་པ་: title attested in the source but not near pointer [[2260]] (found near line 2252) — possible cursor loss
+- 3.2.1.3.2.1.1.1.1.2.2.2.2.2 གཉིས་པ་དཔེ་དགག་པ་: title attested in the source but not near pointer [[2272]] (found near line 1851) — possible cursor loss
+- 3.2.1.3.2.1.1.1.2 གཉིས་པ་ཞར་བྱུང་གཞན་གྱི་སྒྲུབ་བྱེད་དགག་: title attested in the source but not near pointer [[2272]] (found near line 2247) — possible cursor loss
+- 3.2.1.3.2.1.1.1.2.2 གཉིས་པ་དེས་གཞན་ཡང་ཁེགས་པ་: title attested in the source but not near pointer [[2276]] (found near line 2272) — possible cursor loss
+- 3.2.1.3.2.1.1.1.3 གསུམ་པ་རང་གི་སྒྲུབ་བྱེད་གཞན་བསྟན་པ་: title attested in the source but not near pointer [[2276]] (found near line 2248) — possible cursor loss
+- 3.2.1.3.2.1.1.1.3.1.2 གཉིས་པ་རྟགས་དགོད་: title attested in the source but not near pointer [[2280]] (found near line 396) — possible cursor loss
+- 3.2.1.3.2.1.1.1.3.1.3 གསུམ་པ་ཕྱོགས་ཆོས་སྒྲུབ་པ་: title attested in the source but not near pointer [[2280]] (found near line 1239) — possible cursor loss
+- 3.2.1.3.2.1.1.1.3.1.3.2.3 གསུམ་པ་རྗོད་བྱེད་སྒྲ་བརྗོད་བྱ་དོན་གཞན་གྱ: title attested in the source but not near pointer [[2288]] (found near line 2282) — possible cursor loss
+- 3.2.1.3.2.1.1.1.3.1.3.2.3.2 གཉིས་པ་ཁྱད་ཆོས་དོན་གཞན་དགོས་ན་རིགས་པ་ཅན་: title attested in the source but not near pointer [[2292]] (found near line 2288) — possible cursor loss
+- 3.2.1.3.2.1.1.1.3.1.3.2.3.3 གསུམ་པ་དངོས་མིང་དང་བཏགས་མིང་གི་ཁྱད་པར་: title attested in the source but not near pointer [[2296]] (found near line 2288) — possible cursor loss
+- 3.2.1.3.2.1.1.1.3.1.3.3 གསུམ་པ་རིགས་དོན་གཞན་མེད་ཀྱང་གཅིག་གི་སྒྲ་: title attested in the source but not near pointer [[2298]] (found near line 2280) — possible cursor loss
+- 3.2.1.3.2.1.1.1.3.1.3.3.2.2 གཉིས་པ་སྒྲའི་བརྗོད་བྱ་ངོས་གཟུང་བ་: title attested in the source but not near pointer [[2310]] (found near line 2300) — possible cursor loss
+- 3.2.1.3.2.1.1.1.3.1.3.3.2.2.2 གཉིས་པ་འདོད་པའི་ཕྱོགས་བཞག་པ་: title attested in the source but not near pointer [[2314]] (found near line 2310) — possible cursor loss
+- 3.2.1.3.2.1.1.1.3.1.3.3.2.2.3 གསུམ་པ་སྒྲས་གཞན་སེལ་བརྗོད་དགོས་པའི་རྒྱུ་: title attested in the source but not near pointer [[2316]] (found near line 2310) — possible cursor loss
+- 3.2.1.3.2.1.1.1.3.1.3.3.3 གསུམ་པ་དོན་བསྡུ་བ་: title attested in the source but not near pointer [[2318]] (found near line 217) — possible cursor loss
+- 3.2.1.3.2.1.1.2.1.2 གཉིས་པ་འདས་པ་དྲན་པ་མི་སྲིད་པར་ཐལ་བ་: title attested in the source but not near pointer [[2326]] (found near line 2322) — possible cursor loss
+- 3.2.1.3.2.1.1.2.1.3 གསུམ་པ་རང་མཚན་མཐོང་བའི་བློ་མི་སྲིད་པར་ཐལ: title attested in the source but not near pointer [[2334]] (found near line 2322) — possible cursor loss
+- 3.2.1.3.2.1.1.2.2 གཉིས་པ་དོན་བསྡུ་བ་: title attested in the source but not near pointer [[2342]] (found near line 217) — possible cursor loss
+- 3.2.1.3.2.1.2.1.2 གཉིས་པ་རྟོག་བྲལ་ལ་ལུང་འགལ་སྤང་བ་: title attested in the source but not near pointer [[2350]] (found near line 2344) — possible cursor loss
+- 3.2.1.3.2.1.2.1.2.2.2.2.2.2 གཉིས་པ་བློ་མ་འཁྲུལ་བ་ལ་སྣ་ཚོགས་སུ་སྣང་བའ: title attested in the source but not near pointer [[2362]] (found near line 2358) — possible cursor loss
+- 3.2.1.3.2.1.2.1.2.2.2.2.2.2.2 གཉིས་པ་དོན་བསྡུས་ནས་དབང་ཤེས་རྟོག་མེད་དུ་: title attested in the source but not near pointer [[2366]] (found near line 2362) — possible cursor loss
+- 3.2.1.3.2.1.2.1.2.3 གསུམ་པ་མདོའི་དགོངས་པ་རྒྱས་པར་བཤད་པ་: title attested in the source but not near pointer [[2366]] (found near line 2350) — possible cursor loss
+- 3.2.1.3.2.1.2.1.2.3.1.2.1.2 གཉིས་པ་རྒྱས་པར་བཤད་པ་: title attested in the source but not near pointer [[2374]] (found near line 116) — possible cursor loss
+- 3.2.1.3.2.1.2.1.2.3.1.2.1.2.1.3 གསུམ་པ་དེས་གྲུབ་པའི་དོན་: title attested in the source but not near pointer [[2380]] (found near line 489) — possible cursor loss
+- 3.2.1.3.2.1.2.1.2.3.1.2.1.2.1.3.1.2.2 གཉིས་པ་དོན་དམ་པའི་བདེན་པ་ཇི་ལྟར་ཉམས་སུ་བ: title attested in the source but not near pointer [[2394]] (found near line 2380) — possible cursor loss
+- 3.2.1.3.2.1.2.1.2.3.1.2.1.2.1.3.2 གཉིས་པ་གཉིས་སྣང་འཁྲུལ་བར་གྲུབ་པ་: title attested in the source but not near pointer [[2396]] (found near line 2380) — possible cursor loss
+- 3.2.1.3.2.1.2.1.2.3.1.2.1.2.1.3.3 གསུམ་པ་གཟུང་འཛིན་རྫས་ཐ་དད་ཀྱི་རང་བཞིན་གྱ: title attested in the source but not near pointer [[2398]] (found near line 2380) — possible cursor loss
+- 3.2.1.3.2.1.2.1.2.3.1.2.1.2.2 གཉིས་པ་དོན་ཁས་བླངས་པའི་དབང་དུ་བྱས་ནས་དེའ: title attested in the source but not near pointer [[2400]] (found near line 2374) — possible cursor loss
+- 3.2.1.3.2.1.2.1.2.3.1.2.1.3 གསུམ་པ་རྩོད་པ་སྤང་བ་: title attested in the source but not near pointer [[2404]] (found near line 465) — possible cursor loss
+- 3.2.1.3.2.1.2.1.2.3.1.2.1.3.3 གསུམ་པ་ཐུབ་པས་ཕྱི་རོལ་གྱི་དོན་གསུང་བར་མི: title attested in the source but not near pointer [[2408]] (found near line 2404) — possible cursor loss
+- 3.2.1.3.2.1.2.1.2.3.1.2.2 གཉིས་པ་དོན་ཁས་བླངས་པའི་དབང་དུ་བྱས་ནས་ལན་: title attested in the source but not near pointer [[2412]] (found near line 2368) — possible cursor loss
+- 3.2.1.3.2.1.2.1.2.3.1.2.2.2 གཉིས་པ་ཧ་ཅང་ཐལ་བ་སྤང་བ་: title attested in the source but not near pointer [[2416]] (found near line 1907) — possible cursor loss
+- 3.2.1.3.2.1.2.1.2.3.2 གཉིས་པ་ཡན་ལག་ཅན་དོན་གཞན་མེད་ན་ཅིག་ཅར་དུ་: title attested in the source but not near pointer [[2418]] (found near line 2366) — possible cursor loss
+- 3.2.1.3.2.1.2.1.2.3.2.2 གཉིས་པ་དངོས་པོ་རྫས་གཞན་མཐོང་ཡང་བློ་རྣམ་པ: title attested in the source but not near pointer [[2422]] (found near line 2418) — possible cursor loss
+- 3.2.1.3.2.1.2.1.2.3.2.3 གསུམ་པ་ཅིག་ཅར་དུ་མ་འཛིན་པ་གྲངས་ཅན་གྱི་ལུ: title attested in the source but not near pointer [[2424]] (found near line 2418) — possible cursor loss
+- 3.2.1.3.2.1.2.1.3 གསུམ་པ་ལྡོག་པ་དུ་མ་དང་སྤྱི་དོན་གཞན་དབང་ཤ: title attested in the source but not near pointer [[2424]] (found near line 2344) — possible cursor loss
+- 3.2.1.3.2.1.2.2.2.1.3 གསུམ་པ་དེ་ལ་རྩོད་པ་སྤང་བ་: title attested in the source but not near pointer [[2443]] (found near line 465) — possible cursor loss
+- 3.2.1.3.2.1.2.2.2.2 གཉིས་པ་ཚིག་དོན་སོ་སོར་བཤད་པ་: title attested in the source but not near pointer [[2449]] (found near line 2432) — possible cursor loss
+- 3.2.1.3.2.1.2.2.2.2.2 གཉིས་པ་གཉིས་པའི་ལན་: title attested in the source but not near pointer [[2455]] (found near line 2449) — possible cursor loss
+- 3.2.1.3.2.1.2.2.3 གསུམ་པ་དེ་ལ་རྩོད་པ་སྤང་བ་: title attested in the source but not near pointer [[2455]] (found near line 465) — possible cursor loss
+- 3.2.1.3.2.1.2.3.2.1.2.1.2 གཉིས་པ་མྱོང་བྱེད་གཞན་གྱིས་མྱོང་བ་དགག་པ་: title attested in the source but not near pointer [[2467]] (found near line 2463) — possible cursor loss
+- 3.2.1.3.2.1.2.3.2.1.2.1.2.1.3 གསུམ་པ་དེའི་ལན་དགག་པ་: title attested in the source but not near pointer [[2471]] (found near line 503) — possible cursor loss
+- 3.2.1.3.2.1.2.3.2.1.2.1.2.1.3.3 གསུམ་པ་བདེ་བ་རྐྱང་པ་འཛིན་པ་མི་འཐད་: title attested in the source but not near pointer [[2475]] (found near line 2471) — possible cursor loss
+- 3.2.1.3.2.1.2.3.2.1.2.1.2.1.3.4 བཞི་པ་དོན་གཅིག་པུ་འཛིན་ན་བདེ་བ་འཛིན་པར་འ: title attested in the source but not near pointer [[2475]] (found near line 2471) — possible cursor loss
+- 3.2.1.3.2.1.2.3.2.1.2.1.2.2 གཉིས་པ་ཅིག་ཅར་འཇུག་པ་ལ་དེ་དགག་པ་: title attested in the source but not near pointer [[2475]] (found near line 2467) — possible cursor loss
+- 3.2.1.3.2.1.2.3.2.2 གཉིས་པ་ཕྱིའི་བེམ་པོར་འདོད་པ་དགག་པ་: title attested in the source but not near pointer [[2481]] (found near line 2461) — possible cursor loss
+- 3.2.1.3.2.1.2.3.2.2.2 གཉིས་པ་སེམས་ཀྱི་བདག་ཉིད་དུ་གྲུབ་པ་: title attested in the source but not near pointer [[2489]] (found near line 2481) — possible cursor loss
+- 3.2.1.3.2.1.2.3.2.2.2.2.3 གསུམ་པ་སེམས་སེམས་བྱུང་ལ་མཚུངས་པ་སྤང་བ་: title attested in the source but not near pointer [[2493]] (found near line 2489) — possible cursor loss
+- 3.2.1.3.2.1.2.4.1.3 གསུམ་པ་མཚན་གཞི་གྲུབ་པ་: title attested in the source but not near pointer [[2512]] (found near line 2508) — possible cursor loss
+- 3.2.1.3.2.1.2.4.2 གཉིས་པ་ཚིག་དོན་སོ་སོར་བཤད་པ་: title attested in the source but not near pointer [[2512]] (found near line 2432) — possible cursor loss
+- 3.2.1.3.2.1.2.4.2.2 གཉིས་པ་མཚན་ཉིད་: title attested in the source but not near pointer [[2519]] (found near line 88) — possible cursor loss
+- 3.2.1.3.2.1.2.4.2.2.1.2 གཉིས་པ་དོན་བསྡུ་བ་: title attested in the source but not near pointer [[2523]] (found near line 217) — possible cursor loss
+- 3.2.1.3.2.1.2.4.2.2.2 གཉིས་པ་མ་འཁྲུལ་བའི་དོན་: title attested in the source but not near pointer [[2523]] (found near line 2342) — possible cursor loss
+- 3.2.1.3.2.1.2.4.2.3 གསུམ་པ་རྟོག་བྲལ་གྱི་དོན་བྱེ་བྲག་ཏུ་བཤད་པ: title attested in the source but not near pointer [[2523]] (found near line 2512) — possible cursor loss
+- 3.2.1.3.2.1.2.4.2.3.2.2 གཉིས་པ་ཚིག་དོན་: title attested in the source but not near pointer [[2533]] (found near line 77) — possible cursor loss
+- 3.2.1.3.2.2.2.1.2 གཉིས་པ་རྒྱས་བཤད་: title attested in the source but not near pointer [[2542]] (found near line 126) — possible cursor loss
+- 3.2.1.3.2.2.2.2 གཉིས་པ་རྟོག་མེད་ལྟར་སྣང་ལོགས་སུ་བཀར་བའི་: title attested in the source but not near pointer [[2546]] (found near line 2538) — possible cursor loss
+- 3.2.1.3.2.2.2.2.2 གཉིས་པ་དམིགས་གསལ་གྱི་དོན་གཞན་དུ་རྟོག་པ་ད: title attested in the source but not near pointer [[2555]] (found near line 2546) — possible cursor loss
+- 3.2.1.3.2.2.2.2.2.1.2 གཉིས་པ་མ་སྦྱར་བའི་རིགས་པས་དགག་པ་: title attested in the source but not near pointer [[2566]] (found near line 2555) — possible cursor loss
+- 3.2.1.3.2.2.2.2.2.2 གཉིས་པ་གསལ་སྣང་ཅན་གྱི་ཤེས་པ་ཁ་ཅིག་རྟོག་མ: title attested in the source but not near pointer [[2568]] (found near line 2555) — possible cursor loss
+- 3.2.1.3.3.1.2 གཉིས་པ་གཞན་དག་གི་འདོད་པ་དགོད་པ་: title attested in the source but not near pointer [[2574]] (found near line 2570) — possible cursor loss
+- 3.2.1.3.3.1.3 གསུམ་པ་རང་གི་ལུགས་བཞག་པ་: title attested in the source but not near pointer [[2576]] (found near line 2570) — possible cursor loss
+- 3.2.1.3.3.2 གཉིས་པ་ཡན་ལག་གི་དོན་: title attested in the source but not near pointer [[2594]] (found near line 1523) — possible cursor loss
+- 3.2.1.3.3.2.1.2.1.2 གཉིས་པ་རྒྱས་བཤད་: title attested in the source but not near pointer [[2600]] (found near line 126) — possible cursor loss
+- 3.2.1.3.3.2.1.2.1.2.2 གཉིས་པ་གཞན་ལུགས་དགག་པ་: title attested in the source but not near pointer [[2610]] (found near line 2600) — possible cursor loss
+- 3.2.1.3.3.2.1.2.1.2.2.2 གཉིས་པ་རྒྱས་བཤད་: title attested in the source but not near pointer [[2614]] (found near line 126) — possible cursor loss
+- 3.2.1.3.3.2.1.2.1.2.3 གསུམ་པ་རྩོད་པ་སྤང་བ་: title attested in the source but not near pointer [[2629]] (found near line 465) — possible cursor loss
+- 3.2.1.3.3.2.1.2.2.1.2 གཉིས་པ་ཕྱི་རོལ་ལྟར་སྣང་བ་དང་འགལ་བ་སྤང་བ་: title attested in the source but not near pointer [[2643]] (found near line 2633) — possible cursor loss
+- 3.2.1.3.3.2.1.2.2.1.2.1.3 གསུམ་པ་དེ་ལ་འགལ་བ་སྤང་བ་: title attested in the source but not near pointer [[2647]] (found near line 2643) — possible cursor loss
+- 3.2.1.3.3.2.1.2.2.1.2.2 གཉིས་པ་དེར་སྣང་འཁྲུལ་ཤེས་སུ་བསྟན་པ་: title attested in the source but not near pointer [[2649]] (found near line 2643) — possible cursor loss
+- 3.2.1.3.3.2.1.2.2.1.2.3 གསུམ་པ་རང་རིག་འབྲས་བུར་གྲུབ་པ་: title attested in the source but not near pointer [[2653]] (found near line 2643) — possible cursor loss
+- 3.2.1.3.3.2.1.2.2.2 གཉིས་པ་ཕྱི་རོལ་རིག་པ་ལ་གནོད་བྱེད་ཀྱི་གཏན: title attested in the source but not near pointer [[2653]] (found near line 2633) — possible cursor loss
+- 3.2.1.3.3.2.1.2.2.2.2 གཉིས་པ་ཕྱི་རོལ་དོན་ལ་གནོད་པའི་རྟགས་དགོད་: title attested in the source but not near pointer [[2657]] (found near line 2653) — possible cursor loss
+- 3.2.1.3.3.2.1.2.2.2.3 གསུམ་པ་དེས་གྲུབ་པའི་དོན་: title attested in the source but not near pointer [[2661]] (found near line 489) — possible cursor loss
+- 3.2.1.3.3.2.1.2.3 གསུམ་པ་ཚད་འབྲས་ཀྱི་རྣམ་གཞག་གསུམ་པ་: title attested in the source but not near pointer [[2665]] (found near line 2594) — possible cursor loss
+- 3.2.1.3.3.2.1.2.3.1.1.3.2 གཉིས་པ་གཞལ་བྱ་ལ་དཔྱད་པ་: title attested in the source but not near pointer [[2673]] (found near line 2667) — possible cursor loss
+- 3.2.1.3.3.2.1.2.3.1.2 གཉིས་པ་ཡན་ལག་གི་དོན་: title attested in the source but not near pointer [[2677]] (found near line 1523) — possible cursor loss
+- 3.2.1.3.3.2.1.2.3.1.2.2 གཉིས་པ་དེ་ལ་རྩོད་པ་སྤང་བ་: title attested in the source but not near pointer [[2685]] (found near line 465) — possible cursor loss
+- 3.2.1.3.3.2.1.2.3.1.2.2.3 གསུམ་པ་རང་རིག་འབྲས་བུ་ཡིན་པའི་དོན་བཤད་པ་: title attested in the source but not near pointer [[2691]] (found near line 2685) — possible cursor loss
+- 3.2.1.3.3.2.1.2.3.1.2.3 གསུམ་པ་གཞལ་བྱ་ལ་དཔྱད་པ་: title attested in the source but not near pointer [[2691]] (found near line 2667) — possible cursor loss
+- 3.2.1.3.3.2.1.2.3.2 གཉིས་པ་ཕྱི་རོལ་གྱི་དོན་མེད་ཀྱང་རྣམ་གཞག་ད: title attested in the source but not near pointer [[2693]] (found near line 2665) — possible cursor loss
+- 3.2.1.3.3.2.1.2.3.2.2 གཉིས་པ་གཟུང་འཛིན་རིག་གསུམ་ཐ་དད་པའི་ཆ་བདེ: title attested in the source but not near pointer [[2697]] (found near line 2693) — possible cursor loss
+- 3.2.1.3.3.2.1.2.3.2.3 གསུམ་པ་རྣམ་རིག་པའི་ཚད་འབྲས་འཐད་པར་བསྟན་པ: title attested in the source but not near pointer [[2701]] (found near line 2693) — possible cursor loss
+- 3.2.1.3.3.2.2.1.1.1.1.2 གཉིས་པ་ཇི་ལྟར་འཆད་པའི་ཚུལ་: title attested in the source but not near pointer [[2721]] (found near line 2709) — possible cursor loss
+- 3.2.1.3.3.2.2.1.1.1.1.2.2 གཉིས་པ་རྣམ་མེད་མི་འཐད་པ་: title attested in the source but not near pointer [[2728]] (found near line 2721) — possible cursor loss
+- 3.2.1.3.3.2.2.1.1.1.1.3 གསུམ་པ་ལུང་དེ་ལ་བརྟེན་ནས་རྣམ་འགྲེལ་མཛད་པ: title attested in the source but not near pointer [[2734]] (found near line 2709) — possible cursor loss
+- 3.2.1.3.3.2.2.1.1.1.1.3.2.2 གཉིས་པ་མེད་པའི་གནོད་བྱེད་སྤང་བ་: title attested in the source but not near pointer [[2744]] (found near line 2736) — possible cursor loss
+- 3.2.1.3.3.2.2.1.1.1.1.3.3 གསུམ་པ་དོན་བསྡུ་བ་: title attested in the source but not near pointer [[2754]] (found near line 217) — possible cursor loss
+- 3.2.1.3.3.2.2.1.1.2.2.3 གསུམ་པ་ལས་དབང་ལ་བརྟེན་པའི་ལན་དགག་པ་: title attested in the source but not near pointer [[2772]] (found near line 2766) — possible cursor loss
+- 3.2.1.3.3.2.2.1.1.2.3 གསུམ་པ་དོན་བསྡུ་བ་: title attested in the source but not near pointer [[2776]] (found near line 217) — possible cursor loss
+- 3.2.1.3.3.2.2.2.2.1.1.1.2.2.3 གསུམ་པ་འདྲ་བ་ཉིད་བརྟགས་ལ་དགག་པ་: title attested in the source but not near pointer [[2792]] (found near line 2788) — possible cursor loss
+- 3.2.1.3.3.2.2.2.2.1.1.2 གཉིས་པ་དཀར་སོགས་གསལ་བ་ལ་བརྟགས་ལ་དགག་: title attested in the source but not near pointer [[2796]] (found near line 2786) — possible cursor loss
+- 3.2.1.3.3.2.2.2.2.1.1.2.2.2 གཉིས་པ་གསལ་བྱེད་རང་གི་བདག་ཉིད་ཡིན་ན་རང་ར: title attested in the source but not near pointer [[2804]] (found near line 2796) — possible cursor loss
+- 3.2.1.3.3.2.2.2.2.1.1.3 གསུམ་པ་རང་རིག་མེད་ན་ཧ་ཅང་ཐལ་བ་: title attested in the source but not near pointer [[2804]] (found near line 2786) — possible cursor loss
+- 3.2.1.3.3.2.2.2.2.1.1.3.3.2 གཉིས་པ་དེའི་ལན་དགག་པ་: title attested in the source but not near pointer [[2810]] (found near line 503) — possible cursor loss
+- 3.2.1.3.3.2.2.2.2.1.2 གཉིས་པ་རང་བློ་ལྐོག་གྱུར་དུ་འདོད་པ་དགག་པ་: title attested in the source but not near pointer [[2818]] (found near line 2786) — possible cursor loss
+- 3.2.1.3.3.2.2.2.2.1.2.2.1.3 གསུམ་པ་རང་བློའི་ཆོས་རྟགས་སུ་མི་རུང་བ་: title attested in the source but not near pointer [[2826]] (found near line 2818) — possible cursor loss
+- 3.2.1.3.3.2.2.2.2.1.2.2.2 གཉིས་པ་རང་བློ་ལྐོག་ཏུ་གྱུར་ན་འབྲེལ་བ་ངེས: title attested in the source but not near pointer [[2830]] (found near line 2818) — possible cursor loss
+- 3.2.1.3.3.2.2.2.2.1.2.2.2.3 གསུམ་པ་བློ་རྫས་གཞན་གྱིས་མྱོང་བ་ལ་གནོད་པ་: title attested in the source but not near pointer [[2834]] (found near line 2830) — possible cursor loss
+- 3.2.1.3.3.2.2.2.2.1.2.2.2.3.3 གསུམ་པ་དེས་ན་རང་རིག་ངེས་པར་ཁས་ལེན་དགོས་པ: title attested in the source but not near pointer [[2838]] (found near line 2834) — possible cursor loss
+- 3.2.1.3.3.2.2.2.2.2.2 གཉིས་པ་རྒྱས་བཤད་: title attested in the source but not near pointer [[2842]] (found near line 126) — possible cursor loss
+- 3.2.1.3.3.2.2.2.2.2.2.1.2 གཉིས་པ་དེའི་ལན་དགག་པ་: title attested in the source but not near pointer [[2846]] (found near line 503) — possible cursor loss
+- 3.2.1.3.3.2.2.2.2.2.2.1.2.2 གཉིས་པ་དུ་མས་ཉན་བློ་དུ་མ་བསྐྱེད་པའི་ཕྱོག: title attested in the source but not near pointer [[2852]] (found near line 2848) — possible cursor loss
+- 3.2.1.3.3.2.2.2.2.2.2.1.2.2.1.2.2.2 གཉིས་པ་ཡིད་ཤེས་ཀྱིས་མཚམས་སྦྱར་བ་མི་འཐད་: title attested in the source but not near pointer [[2862]] (found near line 2854) — possible cursor loss
+- 3.2.1.3.3.2.2.2.2.2.2.1.2.2.1.2.2.3 གསུམ་པ་གཉིས་ཀ་འདུས་ནས་ཡིན་པ་མི་འཐད་པ་: title attested in the source but not near pointer [[2862]] (found near line 2854) — possible cursor loss
+- 3.2.1.3.3.2.2.2.2.2.2.1.2.2.1.2.2.3.2 གཉིས་པ་དེས་གཞན་ཡང་ཁེགས་པ་: title attested in the source but not near pointer [[2868]] (found near line 2272) — possible cursor loss
+- 3.2.1.3.3.2.2.2.2.2.2.1.2.2.2 གཉིས་པ་ཅིག་ཅར་སྐྱེ་བ་དགག་པ་: title attested in the source but not near pointer [[2870]] (found near line 2852) — possible cursor loss
+- 3.2.1.3.3.2.2.2.2.2.2.1.2.2.2.2 གཉིས་པ་མྱོང་བྱེད་རྫས་གཞན་རིམ་གྱིས་འབྱུང་: title attested in the source but not near pointer [[2874]] (found near line 2870) — possible cursor loss
+- 3.2.1.3.3.2.2.2.2.2.2.2 གཉིས་པ་དེ་ཉིད་ཀྱི་གཞུང་འཛུགས་པར་བཞེད་ནས་: title attested in the source but not near pointer [[2876]] (found near line 2842) — possible cursor loss
+- 3.2.1.3.3.2.2.2.2.2.2.2.1.3 གསུམ་པ་དེའི་ལན་དགག་པ་: title attested in the source but not near pointer [[2882]] (found near line 503) — possible cursor loss
+- 3.2.1.3.3.2.2.2.2.2.2.2.1.3.1.1.1.2.2 གཉིས་པ་དེ་ལ་རྩོད་སྤང་: title attested in the source but not near pointer [[2888]] (found near line 169) — possible cursor loss
+- 3.2.1.3.3.2.2.2.2.2.2.2.1.3.1.1.2 གཉིས་པ་རྒྱུ་ཡིན་ཡང་གཟུང་ཡུལ་མིན་པ་དགག་པ་: title attested in the source but not near pointer [[2892]] (found near line 2882) — possible cursor loss
+- 3.2.1.3.3.2.2.2.2.2.2.2.1.3.1.2 གཉིས་པ་དོན་བསྡུ་བ་: title attested in the source but not near pointer [[2902]] (found near line 217) — possible cursor loss
+- 3.2.1.3.3.2.2.2.2.2.2.2.1.3.2 གཉིས་པ་དོན་དང་རྣམ་ཤེས་སྔ་མ་ཅིག་ཅར་འཛིན་པ: title attested in the source but not near pointer [[2904]] (found near line 2882) — possible cursor loss
+- 3.2.1.3.3.2.2.2.2.2.2.2.2 གཉིས་པ་རིགས་པ་གཞན་བསྟན་པ་: title attested in the source but not near pointer [[2906]] (found near line 1849) — possible cursor loss
+- 3.2.2.1.1.1.2 གཉིས་པ་རང་དོན་ལེའུ་དང་གཞན་དོན་ལེའུའི་དགོ: title attested in the source but not near pointer [[2918]] (found near line 2914) — possible cursor loss
+- 3.2.2.1.1.1.3 གསུམ་པ་གཞན་དོན་རྗེས་དཔག་གི་མཚན་ཉིད་བཤད་པ: title attested in the source but not near pointer [[2920]] (found near line 2914) — possible cursor loss
+- 3.2.2.1.1.2 གཉིས་པ་ཡན་ལག་གི་དོན་: title attested in the source but not near pointer [[2929]] (found near line 1523) — possible cursor loss
+- 3.2.2.1.1.2.1.2.1.2.1.2 གཉིས་པ་གྲངས་ཅན་རང་ལ་གྲུབ་པའི་སྒྲུབ་བྱེད་: title attested in the source but not near pointer [[2941]] (found near line 2933) — possible cursor loss
+- 3.2.2.1.1.2.1.2.1.2.1.3 གསུམ་པ་ཁས་བླངས་ཙམ་སྒྲུབ་བྱེད་ཡིན་ན་ཧ་ཅང་: title attested in the source but not near pointer [[2947]] (found near line 2933) — possible cursor loss
+- 3.2.2.1.1.2.1.2.1.2.2 གཉིས་པ་དེས་བསྒྲུབ་པར་བྱ་བའི་དོན་ལ་བརྟགས་: title attested in the source but not near pointer [[2947]] (found near line 2933) — possible cursor loss
+- 3.2.2.1.1.2.1.2.2 གཉིས་པ་རང་གི་ཐལ་འགྱུར་ལ་མཚུངས་པ་སྤང་བ་: title attested in the source but not near pointer [[2951]] (found near line 2931) — possible cursor loss
+- 3.2.2.1.1.2.2 གཉིས་པ་དོན་ཞེས་སྨོས་པའི་དགོས་པ་: title attested in the source but not near pointer [[2959]] (found near line 2929) — possible cursor loss
+- 3.2.2.1.1.2.3 གསུམ་པ་གསལ་བྱེད་སྨོས་པའི་དགོས་པ་: title attested in the source but not near pointer [[2961]] (found near line 2929) — possible cursor loss
+- 3.2.2.1.1.2.3.2 གཉིས་པ་སྒྲུབ་བྱེད་སྟོན་པའི་ནུས་པ་ཡོད་མེད: title attested in the source but not near pointer [[2965]] (found near line 2961) — possible cursor loss
+- 3.2.2.1.1.2.3.3 གསུམ་པ་རྩོད་པ་སྤང་བ་: title attested in the source but not near pointer [[2973]] (found near line 465) — possible cursor loss
+- 3.2.2.1.1.2.3.3.2 གཉིས་པ་རིགས་པ་དང་འགལ་བ་སྤང་བ་: title attested in the source but not near pointer [[2983]] (found near line 1650) — possible cursor loss
+- 3.2.2.1.1.2.3.3.2.2 གཉིས་པ་རང་གི་ཕྱོགས་ཀྱི་མཚན་ཉིད་ལ་མཚུངས་པ: title attested in the source but not near pointer [[2991]] (found near line 2983) — possible cursor loss
+- 3.2.2.1.1.2.3.3.2.3 གསུམ་པ་འགྲེལ་བྱེད་གཞན་གྱི་རྩོད་ལན་འབྲེལ་: title attested in the source but not near pointer [[2997]] (found near line 2983) — possible cursor loss
+- 3.2.2.1.2.1.1.1.2 གཉིས་པ་མཐའ་དཔྱད་པ་: title attested in the source but not near pointer [[3010]] (found near line 169) — possible cursor loss
+- 3.2.2.1.2.1.1.2.1.1.2 གཉིས་པ་དེ་མིན་ན་ཧ་ཅང་ཐལ་བ་: title attested in the source but not near pointer [[3030]] (found near line 3016) — possible cursor loss
+- 3.2.2.1.2.1.1.2.1.2 གཉིས་པ་རྣམ་བཅད་ཀྱི་དགོས་པ་: title attested in the source but not near pointer [[3036]] (found near line 723) — possible cursor loss
+- 3.2.2.1.2.1.1.2.1.2.1.2 གཉིས་པ་རང་ལ་མཚུངས་པ་སྤང་བ་: title attested in the source but not near pointer [[3040]] (found near line 467) — possible cursor loss
+- 3.2.2.1.2.1.1.2.1.2.2 གཉིས་པ་མི་འདོད་པའི་ཚོགས་སྤྱི་དོན་གཞན་བཀག: title attested in the source but not near pointer [[3042]] (found near line 3036) — possible cursor loss
+- 3.2.2.1.2.1.1.2.2.1.2.1.1.2 གཉིས་པ་རྒྱས་པར་བཤད་པ་: title attested in the source but not near pointer [[3056]] (found near line 116) — possible cursor loss
+- 3.2.2.1.2.1.1.2.2.1.2.1.1.2.2 གཉིས་པ་ལུང་གིས་གནོད་པའི་ཡུལ་ངོས་གཟུང་བ་: title attested in the source but not near pointer [[3062]] (found near line 3058) — possible cursor loss
+- 3.2.2.1.2.1.1.2.2.1.2.1.1.2.3 གསུམ་པ་དེའི་ལན་དགག་པ་: title attested in the source but not near pointer [[3066]] (found near line 503) — possible cursor loss
+- 3.2.2.1.2.1.1.2.2.1.2.1.1.2.3.1.2 གཉིས་པ་ལུང་དོན་བཀག་ཀྱང་མི་འཁྲུལ་བའི་སྒྲུ: title attested in the source but not near pointer [[3070]] (found near line 3066) — possible cursor loss
+- 3.2.2.1.2.1.1.2.2.1.2.1.1.2.3.1.3 གསུམ་པ་ལུང་དོན་བཀག་པ་རྒོལ་བའི་སྐྱོན་དུ་འ: title attested in the source but not near pointer [[3072]] (found near line 3068) — possible cursor loss
+- 3.2.2.1.2.1.1.2.2.1.2.1.1.2.3.2 གཉིས་པ་དོན་བསྡུ་བ་: title attested in the source but not near pointer [[3076]] (found near line 217) — possible cursor loss
+- 3.2.2.1.2.1.1.2.2.1.2.1.1.2.3.3 གསུམ་པ་རྩོད་པ་སྤང་བ་: title attested in the source but not near pointer [[3078]] (found near line 465) — possible cursor loss
+- 3.2.2.1.2.1.1.2.2.1.2.1.1.2.3.3.2 གཉིས་པ་ལུང་དོན་ལ་གནོད་པ་རྟགས་ཀྱི་སྐྱོན་ད: title attested in the source but not near pointer [[3082]] (found near line 3078) — possible cursor loss
+- 3.2.2.1.2.1.1.2.2.1.2.2.3 གསུམ་པ་ཆོས་ཅན་རང་མཚན་བསྒྲུབ་བྱ་མིན་པར་ཤེ: title attested in the source but not near pointer [[3098]] (found near line 3092) — possible cursor loss
+- 3.2.2.1.2.1.1.2.2.1.3 གསུམ་པ་ཕྱོགས་ཀྱི་མཚན་ཉིད་བསྟན་པའི་དགོས་པ: title attested in the source but not near pointer [[3110]] (found near line 3046) — possible cursor loss
+- 3.2.2.1.2.1.1.2.2.2 གཉིས་པ་ཞར་བྱུང་ཚིག་ཕྲད་ཀྱི་དོན་བཤད་པ་: title attested in the source but not near pointer [[3120]] (found near line 3046) — possible cursor loss
+- 3.2.2.1.2.1.1.2.3.1.2 གཉིས་པ་རྒྱས་བཤད་: title attested in the source but not near pointer [[3136]] (found near line 126) — possible cursor loss
+- 3.2.2.1.2.1.1.2.3.1.2.1.1.2 གཉིས་པ་འཐད་པའི་ཕྱོགས་ངོས་གཟུང་བ་: title attested in the source but not near pointer [[3140]] (found near line 3136) — possible cursor loss
+- 3.2.2.1.2.1.1.2.3.1.2.1.1.3 གསུམ་པ་བསལ་བྱ་སེལ་ཚུལ་: title attested in the source but not near pointer [[3142]] (found near line 3012) — possible cursor loss
+- 3.2.2.1.2.1.1.2.3.1.2.1.1.4 བཞི་པ་དེ་ལས་ལྡོག་པ་འཆད་པ་སུན་དབྱུང་བ་: title attested in the source but not near pointer [[3144]] (found near line 3136) — possible cursor loss
+- 3.2.2.1.2.1.1.2.3.1.2.1.2 གཉིས་པ་ཡན་ལག་གི་དོན་: title attested in the source but not near pointer [[3148]] (found near line 1523) — possible cursor loss
+- 3.2.2.1.2.1.1.2.3.1.2.1.2.1.2 གཉིས་པ་ལུང་གིས་གནོད་པའི་ཡུལ་ངོས་གཟུང་བ་: title attested in the source but not near pointer [[3156]] (found near line 3058) — possible cursor loss
+- 3.2.2.1.2.1.1.2.3.1.2.1.2.1.2.2 གཉིས་པ་ཤིན་ཏུ་ལྐོག་གྱུར་གྱིས་སྒྲུབ་པའི་ས: title attested in the source but not near pointer [[3162]] (found near line 3156) — possible cursor loss
+- 3.2.2.1.2.1.1.2.3.1.2.1.2.1.2.2.3 གསུམ་པ་རང་ཚིག་བསྟན་བཅོས་ལས་ལོགས་སུ་བཤད་པ: title attested in the source but not near pointer [[3173]] (found near line 3162) — possible cursor loss
+- 3.2.2.1.2.1.1.2.3.1.2.1.2.1.2.3 གསུམ་པ་དེའི་ལན་དགག་པ་: title attested in the source but not near pointer [[3173]] (found near line 503) — possible cursor loss
+- 3.2.2.1.2.1.1.2.3.1.2.2.2 གཉིས་པ་ཡན་ལག་གི་དོན་: title attested in the source but not near pointer [[3185]] (found near line 1523) — possible cursor loss
+- 3.2.2.1.2.1.1.2.3.1.2.2.2.1.2.3 གསུམ་པ་དེ་ལུང་དང་སྦྱར་ཏེ་བཤད་པ་: title attested in the source but not near pointer [[3189]] (found near line 3185) — possible cursor loss
+- 3.2.2.1.2.1.1.2.3.1.2.2.2.1.2.3.2.1.3 གསུམ་པ་ལུང་གི་དོན་གཞན་བཤད་པ་: title attested in the source but not near pointer [[3195]] (found near line 3191) — possible cursor loss
+- 3.2.2.1.2.1.1.2.3.1.2.2.2.1.2.3.2.1.3.2 གཉིས་པ་རི་བོང་ཅན་དངོས་དབང་གིས་ཟླ་བའི་སྒྲ: title attested in the source but not near pointer [[3199]] (found near line 3195) — possible cursor loss
+- 3.2.2.1.2.1.1.2.3.1.2.2.2.1.2.3.2.2 གཉིས་པ་ལུང་གི་དཔེར་བརྗོད་ལ་བརྒལ་བའི་ལན་: title attested in the source but not near pointer [[3206]] (found near line 3191) — possible cursor loss
+- 3.2.2.1.2.1.1.2.3.1.2.2.2.1.2.3.2.2.2 གཉིས་པ་ཟླ་བ་ཡིན་ཏེ།ཞེས་པའི་དཔེ་ལ་རྩོད་པའ: title attested in the source but not near pointer [[3210]] (found near line 3206) — possible cursor loss
+- 3.2.2.1.2.1.1.2.3.1.2.2.2.3 གསུམ་པ་རྗེས་དཔག་ལས་ཐ་དད་དུ་བསྟན་པའི་རྒྱུ: title attested in the source but not near pointer [[3224]] (found near line 3185) — possible cursor loss
+- 3.2.2.1.2.1.1.2.3.1.2.3.3 གསུམ་པ་མཉན་བྱ་སྨོས་པའི་དགོས་པ་: title attested in the source but not near pointer [[3232]] (found near line 3228) — possible cursor loss
+- 3.2.2.1.2.1.1.2.3.2.1.2 གཉིས་པ་རྣམ་བཅད་ཀྱི་དགོས་པ་: title attested in the source but not near pointer [[3240]] (found near line 723) — possible cursor loss
+- 3.2.2.1.2.1.1.2.3.2.1.2.2 གཉིས་པ་རྩོད་སྤང་: title attested in the source but not near pointer [[3246]] (found near line 153) — possible cursor loss
+- 3.2.2.1.2.1.1.2.3.2.1.2.3 གསུམ་པ་དེ་རིགས་གཞན་ལའང་མཚུངས་པར་བསྟན་པ་: title attested in the source but not near pointer [[3254]] (found near line 3240) — possible cursor loss
+- 3.2.2.1.2.1.1.2.3.2.1.3 གསུམ་པ་དོན་བསྡུ་བ་: title attested in the source but not near pointer [[3258]] (found near line 217) — possible cursor loss
+- 3.2.2.1.2.1.1.2.3.2.2 གཉིས་པ་ཁྱད་གཞི་མ་གྲུབ་པ་སོགས་ཕྱོགས་སྐྱོན: title attested in the source but not near pointer [[3260]] (found near line 3236) — possible cursor loss
+- 3.2.2.1.2.1.1.2.3.3.2.3 གསུམ་པ་དེས་དེ་ལ་ཇི་ལྟར་གནོད་པའི་ཚུལ་: title attested in the source but not near pointer [[3272]] (found near line 3268) — possible cursor loss
+- 3.2.2.1.2.1.1.2.3.3.2.3.1.2 གཉིས་པ་དེའི་ལན་དགག་པ་: title attested in the source but not near pointer [[3278]] (found near line 503) — possible cursor loss
+- 3.2.2.1.2.1.1.2.3.3.2.3.2 གཉིས་པ་དྲི་ལ་སོགས་པའི་ཡོན་ཏན་དགག་པ་: title attested in the source but not near pointer [[3284]] (found near line 3272) — possible cursor loss
+- 3.2.2.1.2.1.1.2.3.3.3 གསུམ་པ་དེས་གཞན་ཡང་རྟོགས་པར་བྱ་བ་: title attested in the source but not near pointer [[3286]] (found near line 3266) — possible cursor loss
+- 3.2.2.1.2.1.2.2 གཉིས་པ་དེའི་ལན་དགག་པ་: title attested in the source but not near pointer [[3301]] (found near line 503) — possible cursor loss
+- 3.2.2.1.2.1.2.2.2 གཉིས་པ་ལས་ལ་བྱེད་པ་པོའི་རྐྱེན་ཡོད་པས་བསྒ: title attested in the source but not near pointer [[3305]] (found near line 3301) — possible cursor loss
+- 3.2.2.1.2.1.2.3 གསུམ་པ་བརྟགས་ལ་དགག་པ་: title attested in the source but not near pointer [[3309]] (found near line 1002) — possible cursor loss
+- 3.2.2.1.2.1.2.3.2 གཉིས་པ་ངེས་གཟུང་གི་སྦྱར་ས་ལ་བརྟག་པ་: title attested in the source but not near pointer [[3318]] (found near line 3309) — possible cursor loss
+- 3.2.2.1.2.1.3.2.2.2 གཉིས་པ་དེ་ཡང་རྟགས་སུ་མི་རིགས་པ་: title attested in the source but not near pointer [[3330]] (found near line 3326) — possible cursor loss
+- 3.2.2.1.2.1.3.2.2.2.2 གཉིས་པ་སྒྲ་མ་ཡིན་པ་ཐམས་ཅད་མ་ཡིན་པ་རྟགས་ས: title attested in the source but not near pointer [[3334]] (found near line 3330) — possible cursor loss
+- 3.2.2.1.2.1.3.2.2.2.2.2.1.2 གཉིས་པ་རྒྱས་བཤད་: title attested in the source but not near pointer [[3338]] (found near line 126) — possible cursor loss
+- 3.2.2.1.2.1.3.2.2.2.2.2.2 གཉིས་པ་བྱེ་བྲག་ལ་རྩོད་སྤང་: title attested in the source but not near pointer [[3340]] (found near line 3334) — possible cursor loss
+- 3.2.2.1.2.2.2.2 གཉིས་པ་ཕྱོགས་ཆོས་ཅན་དགུར་དབྱེ་བའི་དགོས་པ: title attested in the source but not near pointer [[3361]] (found near line 3355) — possible cursor loss
+- 3.2.2.1.2.2.2.2.1.2 གཉིས་པ་ཚིག་དོན་: title attested in the source but not near pointer [[3367]] (found near line 77) — possible cursor loss
+- 3.2.2.1.2.2.2.2.2 གཉིས་པ་བཤད་པ་: title attested in the source but not near pointer [[3367]] (found near line 77) — possible cursor loss
+- 3.2.2.1.2.2.2.2.2.1.3 གསུམ་པ་གཉིས་ཀ་སྨོས་པའི་དགོས་པ་: title attested in the source but not near pointer [[3373]] (found near line 3369) — possible cursor loss
+- 3.2.2.1.2.2.2.2.2.2 གཉིས་པ་ཁྱད་པར་ཐུན་མོང་མ་ཡིན་པ་སྨོས་པའི་ད: title attested in the source but not near pointer [[3379]] (found near line 3367) — possible cursor loss
+- 3.2.2.1.2.2.2.2.2.2.1.2 གཉིས་པ་མི་མཐུན་ཕྱོགས་ལ་བརྟགས་ལ་དགག་: title attested in the source but not near pointer [[3385]] (found near line 3379) — possible cursor loss
+- 3.2.2.1.2.2.2.2.2.2.1.3 གསུམ་པ་བྱེ་བྲག་པའི་ཐལ་བ་མ་ངེས་པར་བསྟན་པ་: title attested in the source but not near pointer [[3387]] (found near line 3379) — possible cursor loss
+- 3.2.2.1.2.2.2.2.2.2.2.2.1.2.2 གཉིས་པ་དངོས་མེད་ལ་ཐ་སྙད་རྒྱུན་ཆད་པར་ཐལ་བ: title attested in the source but not near pointer [[3401]] (found near line 3395) — possible cursor loss
+- 3.2.2.1.2.2.2.2.2.2.2.2.1.2.3 གསུམ་པ་རང་ལ་མཚུངས་པ་སྤང་བ་: title attested in the source but not near pointer [[3405]] (found near line 467) — possible cursor loss
+- 3.2.2.1.2.2.2.2.2.2.2.2.1.2.3.2 གཉིས་པ་རང་མཚན་ཡིན་པ་དགག་པ་: title attested in the source but not near pointer [[3411]] (found near line 3405) — possible cursor loss
+- 3.2.2.1.2.2.2.2.2.2.2.2.1.2.3.3 གསུམ་པ་སྒྲ་དོན་ལ་དགག་སྒྲུབ་བྱེད་པའི་ཚུལ་: title attested in the source but not near pointer [[3417]] (found near line 3405) — possible cursor loss
+- 3.2.2.1.2.2.2.2.2.2.2.2.1.2.3.3.2 གཉིས་པ་དེ་ལ་ཐ་སྙད་པའི་ཚད་མས་མི་གནོད་པ་: title attested in the source but not near pointer [[3424]] (found near line 3417) — possible cursor loss
+- 3.2.2.1.2.2.2.2.2.2.2.2.1.2.3.3.3 གསུམ་པ་ཚད་མ་གཞན་ལ་མི་ལྟོས་པར་སྣང་ཡུལ་ལ་འ: title attested in the source but not near pointer [[3428]] (found near line 3417) — possible cursor loss
+- 3.2.2.1.2.2.2.2.2.2.2.2.2.1.2 གཉིས་པ་གསོན་ལུས་བདག་བཅས་སུ་མི་འགྲུབ་པ་: title attested in the source but not near pointer [[3434]] (found near line 3430) — possible cursor loss
+- 3.2.2.1.2.2.2.2.2.2.2.2.2.2 གཉིས་པ་དེ་གྲུབ་ཀྱང་བདག་བཅས་སུ་མི་འགྲུབ་པ: title attested in the source but not near pointer [[3434]] (found near line 3428) — possible cursor loss
+- 3.2.2.1.2.2.2.2.2.2.2.3.2.2 གཉིས་པ་རྩོད་པ་སྤང་བ་: title attested in the source but not near pointer [[3442]] (found near line 465) — possible cursor loss
+- 3.2.2.1.2.2.2.2.2.2.2.3.3 གསུམ་པ་འབྲེལ་བ་ངེས་བྱེད་ཀྱི་ཚད་མ་བསྟན་པ་: title attested in the source but not near pointer [[3448]] (found near line 3436) — possible cursor loss
+- 3.2.2.1.2.2.2.2.2.3.2 གཉིས་པ་རང་བཞིན་མ་དམིགས་པའི་དཔེ་མི་སྟོན་པ: title attested in the source but not near pointer [[3456]] (found near line 3452) — possible cursor loss
+- 3.2.2.1.2.2.2.2.2.3.2.3 གསུམ་པ་ལོགས་སུ་མི་སྟོན་པའི་རྒྱུ་མཚན་གྱིས: title attested in the source but not near pointer [[3462]] (found near line 3456) — possible cursor loss
+- 3.2.2.1.2.2.2.2.2.3.3 གསུམ་པ་མ་དམིགས་པའི་དོན་གཏན་ལ་དབབ་པ་: title attested in the source but not near pointer [[3464]] (found near line 3452) — possible cursor loss
+- 3.2.2.1.2.2.2.2.2.3.3.1.1.3 གསུམ་པ་དེ་གྲུབ་པའི་དོན་: title attested in the source but not near pointer [[3468]] (found near line 3464) — possible cursor loss
+- 3.2.2.1.2.2.2.2.2.3.3.1.2 གཉིས་པ་དེ་ཇི་ལྟར་གྲུབ་པའི་ཚུལ་: title attested in the source but not near pointer [[3468]] (found near line 3464) — possible cursor loss
+- 3.2.2.1.2.2.2.2.2.3.3.1.3 གསུམ་པ་གཞན་དུ་ཧ་ཅང་ཐལ་བ་: title attested in the source but not near pointer [[3472]] (found near line 3464) — possible cursor loss
+- 3.2.2.1.2.2.2.2.2.3.3.3.2.3 གསུམ་པ་འགལ་བ་ངེས་བྱེད་ཀྱི་ཚད་མ་བཤད་པ་: title attested in the source but not near pointer [[3480]] (found near line 3476) — possible cursor loss
+- 3.2.2.1.2.2.2.2.2.3.3.3.2.3.2 གཉིས་པ་བལྟོས་མེད་ཀྱི་སྦྱོར་བ་བསྟན་པ་: title attested in the source but not near pointer [[3486]] (found near line 3480) — possible cursor loss
+- 3.3.2 གཉིས་པ་འདིའི་དོན་རྟོགས་པ་ཤིན་ཏུ་ཕན་ཡོན་ཆ: title attested in the source but not near pointer [[3497]] (found near line 3490) — possible cursor loss
+- pointer [[77]] is shared by 4 nodes (3, 3.1, 3.1.1, 3.1.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[116]] is shared by 4 nodes (3.2.1, 3.2.1.1, 3.2.1.1.1, 3.2.1.1.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[136]] is shared by 4 nodes (3.2.1.1.1.1.2.1, 3.2.1.1.1.1.2.2, 3.2.1.1.1.1.2.2.1, 3.2.1.1.1.1.2.2.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[155]] is shared by 3 nodes (3.2.1.1.1.2.1.3, 3.2.1.1.1.2.1.3.1, 3.2.1.1.1.2.1.3.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[169]] is shared by 3 nodes (3.2.1.1.1.2.1.3.2, 3.2.1.1.1.2.1.3.2.1, 3.2.1.1.1.2.1.3.2.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[235]] is shared by 5 nodes (3.2.1.1.1.3.1, 3.2.1.1.1.3.1.1, 3.2.1.1.1.3.1.1.1, 3.2.1.1.1.3.1.1.1.1, 3.2.1.1.1.3.1.1.1.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[334]] is shared by 3 nodes (3.2.1.1.1.3.1.2, 3.2.1.1.1.3.1.2.1, 3.2.1.1.1.3.1.2.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[384]] is shared by 6 nodes (3.2.1.1.1.3.2, 3.2.1.1.1.3.2.1, 3.2.1.1.1.3.2.1.1, 3.2.1.1.1.3.2.1.1.1, 3.2.1.1.1.3.2.1.1.1.1, 3.2.1.1.1.3.2.1.1.1.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[418]] is shared by 3 nodes (3.2.1.1.1.3.2.1.1.2.2, 3.2.1.1.1.3.2.1.1.2.2.1, 3.2.1.1.1.3.2.1.1.2.2.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[465]] is shared by 3 nodes (3.2.1.1.1.3.2.1.1.2.2.2, 3.2.1.1.1.3.2.1.1.2.2.2.1, 3.2.1.1.1.3.2.1.1.2.2.2.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[537]] is shared by 4 nodes (3.2.1.1.1.3.2.1.1.2.2.2.1.2, 3.2.1.1.1.3.2.1.1.2.2.2.1.2.1, 3.2.1.1.1.3.2.1.1.2.2.2.1.2.1.1, 3.2.1.1.1.3.2.1.1.2.2.2.1.2.1.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[557]] is shared by 3 nodes (3.2.1.1.1.3.2.1.1.2.2.2.1.2.1.1.2.2.3, 3.2.1.1.1.3.2.1.1.2.2.2.1.2.1.1.3, 3.2.1.1.1.3.2.1.1.2.2.2.1.2.1.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[574]] is shared by 3 nodes (3.2.1.1.1.3.2.1.1.2.2.2.1.2.2, 3.2.1.1.1.3.2.1.1.2.2.2.1.2.2.1, 3.2.1.1.1.3.2.1.1.2.2.2.1.2.2.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[607]] is shared by 3 nodes (3.2.1.1.1.3.2.1.1.2.2.2.1.2.2.1.5, 3.2.1.1.1.3.2.1.1.2.2.2.1.2.2.1.5.1, 3.2.1.1.1.3.2.1.1.2.2.2.1.2.2.1.5.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[676]] is shared by 3 nodes (3.2.1.1.1.3.2.1.1.2.2.2.1.2.2.2.2.3.3, 3.2.1.1.1.3.2.1.1.2.2.2.1.2.2.2.2.3.3.1, 3.2.1.1.1.3.2.1.1.2.2.2.1.2.2.2.2.3.3.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[690]] is shared by 4 nodes (3.2.1.1.1.3.2.1.1.2.2.2.1.2.3.1, 3.2.1.1.1.3.2.1.1.2.2.2.1.2.3.1.1, 3.2.1.1.1.3.2.1.1.2.2.2.1.2.3.1.1.1, 3.2.1.1.1.3.2.1.1.2.2.2.1.2.3.1.1.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[846]] is shared by 3 nodes (3.2.1.1.1.3.2.1.1.2.2.2.1.3.3.2.2.1.2, 3.2.1.1.1.3.2.1.1.2.2.2.1.3.3.2.2.1.3, 3.2.1.1.1.3.2.1.1.2.2.2.1.3.3.2.2.1.4) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[856]] is shared by 3 nodes (3.2.1.1.1.3.2.1.1.2.2.2.1.3.3.2.2.2, 3.2.1.1.1.3.2.1.1.2.2.2.1.3.3.2.2.2.1, 3.2.1.1.1.3.2.1.1.2.2.2.1.3.3.2.2.2.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[858]] is shared by 3 nodes (3.2.1.1.1.3.2.1.1.2.2.2.1.3.3.2.2.2.2.1, 3.2.1.1.1.3.2.1.1.2.2.2.1.3.3.2.2.2.2.2, 3.2.1.1.1.3.2.1.1.2.2.2.1.3.3.2.2.2.2.2.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[870]] is shared by 3 nodes (3.2.1.1.1.3.2.1.1.2.2.2.1.3.3.2.2.2.2.2.2.2, 3.2.1.1.1.3.2.1.1.2.2.2.1.3.3.2.2.3, 3.2.1.1.1.3.2.1.1.2.2.2.1.3.3.2.2.3.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[894]] is shared by 3 nodes (3.2.1.1.1.3.2.1.1.2.2.2.1.3.3.2.2.3.2, 3.2.1.1.1.3.2.1.1.2.2.2.1.3.3.2.2.3.2.1, 3.2.1.1.1.3.2.1.1.2.2.2.1.3.3.2.2.3.2.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[906]] is shared by 3 nodes (3.2.1.1.1.3.2.1.1.2.2.2.1.3.3.2.2.3.2.3, 3.2.1.1.1.3.2.1.1.2.2.2.1.3.3.2.2.3.3, 3.2.1.1.1.3.2.1.1.2.2.2.1.3.3.2.2.3.3.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[914]] is shared by 4 nodes (3.2.1.1.1.3.2.1.1.2.2.2.1.3.3.2.2.3.3.1.2, 3.2.1.1.1.3.2.1.1.2.2.2.1.3.3.2.2.3.3.1.2.1, 3.2.1.1.1.3.2.1.1.2.2.2.1.3.3.2.2.3.3.1.2.1.1, 3.2.1.1.1.3.2.1.1.2.2.2.1.3.3.2.2.3.3.1.2.1.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[928]] is shared by 3 nodes (3.2.1.1.1.3.2.1.1.2.2.2.1.3.3.2.2.3.3.1.2.1.2.2.1, 3.2.1.1.1.3.2.1.1.2.2.2.1.3.3.2.2.3.3.1.2.1.2.2.2, 3.2.1.1.1.3.2.1.1.2.2.2.1.3.3.2.2.3.3.1.2.1.2.2.2.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[932]] is shared by 3 nodes (3.2.1.1.1.3.2.1.1.2.2.2.1.3.3.2.2.3.3.1.2.1.2.2.2.1.1, 3.2.1.1.1.3.2.1.1.2.2.2.1.3.3.2.2.3.3.1.2.1.2.2.2.1.2, 3.2.1.1.1.3.2.1.1.2.2.2.1.3.3.2.2.3.3.1.2.1.2.2.2.1.2.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[982]] is shared by 3 nodes (3.2.1.1.1.3.2.1.1.2.2.2.1.3.3.2.2.3.3.2.1, 3.2.1.1.1.3.2.1.1.2.2.2.1.3.3.2.2.3.3.2.2, 3.2.1.1.1.3.2.1.1.2.2.2.1.3.3.2.2.3.3.2.2.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[986]] is shared by 3 nodes (3.2.1.1.1.3.2.1.1.2.2.2.1.3.3.2.2.3.3.2.2.2, 3.2.1.1.1.3.2.1.1.2.2.2.2, 3.2.1.1.1.3.2.1.1.2.2.2.2.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1063]] is shared by 5 nodes (3.2.1.1.1.3.2.1.2, 3.2.1.1.1.3.2.2, 3.2.1.1.1.3.2.2.1, 3.2.1.1.1.3.2.2.1.1, 3.2.1.1.1.3.2.2.1.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1087]] is shared by 3 nodes (3.2.1.1.1.3.2.2.2.1, 3.2.1.1.1.3.2.2.2.1.1, 3.2.1.1.1.3.2.2.2.1.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1103]] is shared by 3 nodes (3.2.1.1.1.3.2.2.2.1.2, 3.2.1.1.1.3.2.2.2.1.2.1, 3.2.1.1.1.3.2.2.2.1.2.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1119]] is shared by 5 nodes (3.2.1.1.1.3.2.2.2.2, 3.2.1.1.1.3.2.2.2.2.1, 3.2.1.1.1.3.2.2.2.2.1.1, 3.2.1.1.1.3.2.2.2.2.1.1.1, 3.2.1.1.1.3.2.2.2.2.1.1.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1168]] is shared by 3 nodes (3.2.1.1.1.3.2.2.2.2.1.2, 3.2.1.1.1.3.2.2.2.2.1.2.1, 3.2.1.1.1.3.2.2.2.2.1.2.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1176]] is shared by 4 nodes (3.2.1.1.1.3.2.2.2.2.1.2.1.1.1, 3.2.1.1.1.3.2.2.2.2.1.2.1.1.2, 3.2.1.1.1.3.2.2.2.2.1.2.1.1.2.1, 3.2.1.1.1.3.2.2.2.2.1.2.1.1.2.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1190]] is shared by 4 nodes (3.2.1.1.1.3.2.2.2.2.1.2.1.1.2.1.2.2, 3.2.1.1.1.3.2.2.2.2.1.2.1.1.2.2, 3.2.1.1.1.3.2.2.2.2.1.2.1.1.2.2.1, 3.2.1.1.1.3.2.2.2.2.1.2.1.1.2.2.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1217]] is shared by 3 nodes (3.2.1.1.1.3.2.2.2.2.1.2.1.2.1.1, 3.2.1.1.1.3.2.2.2.2.1.2.1.2.1.2, 3.2.1.1.1.3.2.2.2.2.1.2.1.2.1.2.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1239]] is shared by 4 nodes (3.2.1.1.1.3.2.2.2.2.1.2.1.2.2, 3.2.1.1.1.3.2.2.2.2.1.2.1.2.2.1, 3.2.1.1.1.3.2.2.2.2.1.2.1.2.2.2, 3.2.1.1.1.3.2.2.2.2.1.2.1.2.2.2.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1243]] is shared by 4 nodes (3.2.1.1.1.3.2.2.2.2.1.2.1.2.2.2.1.1, 3.2.1.1.1.3.2.2.2.2.1.2.1.2.2.2.1.2, 3.2.1.1.1.3.2.2.2.2.1.2.1.2.2.2.1.2.1, 3.2.1.1.1.3.2.2.2.2.1.2.1.2.2.2.1.2.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1251]] is shared by 3 nodes (3.2.1.1.1.3.2.2.2.2.1.2.1.2.2.2.1.2.1.2, 3.2.1.1.1.3.2.2.2.2.1.2.1.2.2.2.1.2.2, 3.2.1.1.1.3.2.2.2.2.1.2.1.2.2.2.1.2.2.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1253]] is shared by 3 nodes (3.2.1.1.1.3.2.2.2.2.1.2.1.2.2.2.1.2.2.2, 3.2.1.1.1.3.2.2.2.2.1.2.1.2.2.2.1.2.2.2.1, 3.2.1.1.1.3.2.2.2.2.1.2.1.2.2.2.1.2.2.2.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1261]] is shared by 4 nodes (3.2.1.1.1.3.2.2.2.2.1.2.1.2.2.2.1.2.2.2.2.2.1, 3.2.1.1.1.3.2.2.2.2.1.2.1.2.2.2.1.2.2.2.2.2.2, 3.2.1.1.1.3.2.2.2.2.1.2.1.2.2.2.1.2.2.2.2.2.2.1, 3.2.1.1.1.3.2.2.2.2.1.2.1.2.2.2.1.2.2.2.2.2.2.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1265]] is shared by 4 nodes (3.2.1.1.1.3.2.2.2.2.1.2.1.2.2.2.1.2.2.2.2.2.2.2.1, 3.2.1.1.1.3.2.2.2.2.1.2.1.2.2.2.1.2.2.2.2.2.2.2.2, 3.2.1.1.1.3.2.2.2.2.1.2.1.2.2.2.1.2.2.2.2.2.2.2.2.1, 3.2.1.1.1.3.2.2.2.2.1.2.1.2.2.2.1.2.2.2.2.2.2.2.2.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1291]] is shared by 3 nodes (3.2.1.1.1.3.2.2.2.2.1.2.1.2.2.2.2.1.2.3, 3.2.1.1.1.3.2.2.2.2.1.2.1.2.2.2.2.1.2.3.1, 3.2.1.1.1.3.2.2.2.2.1.2.1.2.2.2.2.1.2.3.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1307]] is shared by 5 nodes (3.2.1.1.1.3.2.2.2.2.1.2.1.2.2.2.2.2, 3.2.1.1.1.3.2.2.2.2.1.2.1.2.2.2.2.3, 3.2.1.1.1.3.2.2.2.2.1.2.1.3, 3.2.1.1.1.3.2.2.2.2.1.2.1.3.1, 3.2.1.1.1.3.2.2.2.2.1.2.1.3.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1311]] is shared by 5 nodes (3.2.1.1.1.3.2.2.2.2.1.2.1.3.1.2, 3.2.1.1.1.3.2.2.2.2.1.2.1.3.1.2.1, 3.2.1.1.1.3.2.2.2.2.1.2.1.3.1.2.1.1, 3.2.1.1.1.3.2.2.2.2.1.2.1.3.1.2.1.1.1, 3.2.1.1.1.3.2.2.2.2.1.2.1.3.1.2.1.1.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1375]] is shared by 3 nodes (3.2.1.1.1.3.2.2.2.2.1.2.1.3.3.2.2, 3.2.1.1.1.3.2.2.2.2.1.2.1.3.3.2.3, 3.2.1.1.1.3.2.2.2.2.1.2.1.3.3.3) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1379]] is shared by 4 nodes (3.2.1.1.1.3.2.2.2.2.1.2.1.3.3.3.1, 3.2.1.1.1.3.2.2.2.2.1.2.1.3.3.3.1.1, 3.2.1.1.1.3.2.2.2.2.1.2.1.3.3.3.1.2, 3.2.1.1.1.3.2.2.2.2.1.2.1.3.3.3.1.2.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1385]] is shared by 4 nodes (3.2.1.1.1.3.2.2.2.2.1.2.1.3.3.3.1.2.2, 3.2.1.1.1.3.2.2.2.2.1.2.1.3.3.3.1.2.2.1, 3.2.1.1.1.3.2.2.2.2.1.2.1.3.3.3.1.2.2.2, 3.2.1.1.1.3.2.2.2.2.1.2.1.3.3.3.1.2.2.2.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1407]] is shared by 3 nodes (3.2.1.1.1.3.2.2.2.2.1.2.1.3.3.3.1.2.3, 3.2.1.1.1.3.2.2.2.2.1.2.1.3.3.3.1.2.3.1, 3.2.1.1.1.3.2.2.2.2.1.2.1.3.3.3.1.2.3.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1449]] is shared by 3 nodes (3.2.1.1.1.3.2.2.2.2.1.2.1.3.3.3.3.3.2.1, 3.2.1.1.1.3.2.2.2.2.1.2.1.3.3.3.3.3.2.1.1, 3.2.1.1.1.3.2.2.2.2.1.2.1.3.3.3.3.3.2.1.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1463]] is shared by 3 nodes (3.2.1.1.1.3.2.2.2.2.1.2.1.3.3.3.3.3.2.1.1.3, 3.2.1.1.1.3.2.2.2.2.1.2.1.3.3.3.3.3.2.1.2, 3.2.1.1.1.3.2.2.2.2.1.2.1.3.3.3.3.3.2.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1477]] is shared by 3 nodes (3.2.1.1.1.3.2.2.2.2.1.2.1.3.3.3.3.3.2.2.2, 3.2.1.1.1.3.2.2.2.2.1.2.1.3.3.3.3.3.2.2.3, 3.2.1.1.1.3.2.2.2.2.1.2.1.3.3.3.3.3.2.2.3.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1481]] is shared by 4 nodes (3.2.1.1.1.3.2.2.2.2.1.2.1.3.3.3.3.3.2.2.3.2, 3.2.1.1.1.3.2.2.2.2.1.2.1.3.3.3.3.3.2.2.3.3, 3.2.1.1.1.3.2.2.2.2.1.2.2, 3.2.1.1.1.3.2.2.2.2.1.2.2.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1501]] is shared by 3 nodes (3.2.1.1.1.3.2.2.2.2.3, 3.2.1.1.1.3.2.2.2.2.3.1, 3.2.1.1.1.3.2.2.2.2.3.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1523]] is shared by 3 nodes (3.2.1.2, 3.2.1.2.1, 3.2.1.2.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1543]] is shared by 5 nodes (3.2.1.2.2.1.1, 3.2.1.2.2.1.1.1, 3.2.1.2.2.1.1.1.1, 3.2.1.2.2.1.1.1.1.1, 3.2.1.2.2.1.1.1.1.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1588]] is shared by 3 nodes (3.2.1.2.2.1.1.1.2.2, 3.2.1.2.2.1.1.1.2.2.1, 3.2.1.2.2.1.1.1.2.2.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1590]] is shared by 3 nodes (3.2.1.2.2.1.1.1.2.2.2.1, 3.2.1.2.2.1.1.1.2.2.2.1.1, 3.2.1.2.2.1.1.1.2.2.2.1.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1594]] is shared by 3 nodes (3.2.1.2.2.1.1.1.2.2.2.1.1.2, 3.2.1.2.2.1.1.1.2.2.2.1.2, 3.2.1.2.2.1.1.1.2.2.2.1.2.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1598]] is shared by 5 nodes (3.2.1.2.2.1.1.1.2.2.2.1.2.1.2, 3.2.1.2.2.1.1.1.2.2.2.1.2.1.2.1, 3.2.1.2.2.1.1.1.2.2.2.1.2.1.2.1.1, 3.2.1.2.2.1.1.1.2.2.2.1.2.1.2.1.1.1, 3.2.1.2.2.1.1.1.2.2.2.1.2.1.2.1.1.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1600]] is shared by 3 nodes (3.2.1.2.2.1.1.1.2.2.2.1.2.1.2.1.1.2.1, 3.2.1.2.2.1.1.1.2.2.2.1.2.1.2.1.1.2.2, 3.2.1.2.2.1.1.1.2.2.2.1.2.1.2.1.1.2.3) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1606]] is shared by 3 nodes (3.2.1.2.2.1.1.1.2.2.2.1.2.1.2.1.2.1, 3.2.1.2.2.1.1.1.2.2.2.1.2.1.2.1.2.2, 3.2.1.2.2.1.1.1.2.2.2.1.2.1.2.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1608]] is shared by 3 nodes (3.2.1.2.2.1.1.1.2.2.2.1.2.1.2.3, 3.2.1.2.2.1.1.1.2.2.2.1.2.1.2.3.1, 3.2.1.2.2.1.1.1.2.2.2.1.2.1.2.3.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1616]] is shared by 3 nodes (3.2.1.2.2.1.1.1.2.2.2.1.2.2, 3.2.1.2.2.1.1.1.2.2.2.1.2.2.1, 3.2.1.2.2.1.1.1.2.2.2.1.2.2.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1632]] is shared by 3 nodes (3.2.1.2.2.1.1.2, 3.2.1.2.2.1.1.2.1, 3.2.1.2.2.1.1.2.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1636]] is shared by 3 nodes (3.2.1.2.2.1.1.2.1.1.2.1, 3.2.1.2.2.1.1.2.1.1.2.2, 3.2.1.2.2.1.1.2.1.1.2.2.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1652]] is shared by 3 nodes (3.2.1.2.2.1.1.2.1.1.2.2.1.2.2, 3.2.1.2.2.1.1.2.1.1.2.2.1.2.2.1, 3.2.1.2.2.1.1.2.1.1.2.2.1.2.2.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1660]] is shared by 3 nodes (3.2.1.2.2.1.1.2.1.1.2.2.1.2.2.1.2.2, 3.2.1.2.2.1.1.2.1.1.2.2.1.2.2.1.2.2.1, 3.2.1.2.2.1.1.2.1.1.2.2.1.2.2.1.2.2.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1668]] is shared by 4 nodes (3.2.1.2.2.1.1.2.1.1.2.2.1.2.2.2, 3.2.1.2.2.1.1.2.1.1.2.2.1.2.2.2.1, 3.2.1.2.2.1.1.2.1.1.2.2.1.2.2.2.1.1, 3.2.1.2.2.1.1.2.1.1.2.2.1.2.2.2.1.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1670]] is shared by 4 nodes (3.2.1.2.2.1.1.2.1.1.2.2.1.2.2.2.1.1.1.1, 3.2.1.2.2.1.1.2.1.1.2.2.1.2.2.2.1.1.1.1.1, 3.2.1.2.2.1.1.2.1.1.2.2.1.2.2.2.1.1.1.1.2, 3.2.1.2.2.1.1.2.1.1.2.2.1.2.2.2.1.1.1.1.2.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1682]] is shared by 3 nodes (3.2.1.2.2.1.1.2.1.1.2.2.1.2.2.2.1.1.1.1.3.2, 3.2.1.2.2.1.1.2.1.1.2.2.1.2.2.2.1.1.1.2, 3.2.1.2.2.1.1.2.1.1.2.2.1.2.2.2.1.1.1.2.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1690]] is shared by 5 nodes (3.2.1.2.2.1.1.2.1.1.2.2.1.2.2.2.1.1.1.2.3, 3.2.1.2.2.1.1.2.1.1.2.2.1.2.2.2.1.1.1.2.3.1, 3.2.1.2.2.1.1.2.1.1.2.2.1.2.2.2.1.1.1.2.3.2, 3.2.1.2.2.1.1.2.1.1.2.2.1.2.2.2.1.1.1.2.3.3, 3.2.1.2.2.1.1.2.1.1.2.2.1.2.2.2.1.1.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1698]] is shared by 3 nodes (3.2.1.2.2.1.1.2.1.1.2.2.1.2.2.2.1.1.2.3, 3.2.1.2.2.1.1.2.1.1.2.2.1.2.2.2.1.1.2.3.1, 3.2.1.2.2.1.1.2.1.1.2.2.1.2.2.2.1.1.2.3.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1700]] is shared by 3 nodes (3.2.1.2.2.1.1.2.1.1.2.2.1.2.2.2.1.2, 3.2.1.2.2.1.1.2.1.1.2.2.1.2.2.2.1.2.1, 3.2.1.2.2.1.1.2.1.1.2.2.1.2.2.2.1.2.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1702]] is shared by 4 nodes (3.2.1.2.2.1.1.2.1.1.2.2.1.2.2.2.1.2.1.1.1, 3.2.1.2.2.1.1.2.1.1.2.2.1.2.2.2.1.2.1.1.1.1, 3.2.1.2.2.1.1.2.1.1.2.2.1.2.2.2.1.2.1.1.1.2, 3.2.1.2.2.1.1.2.1.1.2.2.1.2.2.2.1.2.1.1.1.3) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1712]] is shared by 3 nodes (3.2.1.2.2.1.1.2.1.1.2.2.1.2.2.2.1.2.1.2.2, 3.2.1.2.2.1.1.2.1.1.2.2.1.2.2.2.1.2.1.2.3, 3.2.1.2.2.1.1.2.1.1.2.2.1.2.2.2.1.2.1.2.3.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1718]] is shared by 3 nodes (3.2.1.2.2.1.1.2.1.1.2.2.1.2.2.2.1.2.1.2.3.2, 3.2.1.2.2.1.1.2.1.1.2.2.1.2.2.2.1.2.1.2.3.2.1, 3.2.1.2.2.1.1.2.1.1.2.2.1.2.2.2.1.2.1.2.3.2.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1734]] is shared by 5 nodes (3.2.1.2.2.1.1.2.1.1.2.2.1.2.2.2.1.2.2.1, 3.2.1.2.2.1.1.2.1.1.2.2.1.2.2.2.1.2.2.2, 3.2.1.2.2.1.1.2.1.1.2.2.1.2.2.2.1.2.2.2.1, 3.2.1.2.2.1.1.2.1.1.2.2.1.2.2.2.1.2.2.2.2, 3.2.1.2.2.1.1.2.1.1.2.2.1.2.2.2.1.2.2.2.2.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1767]] is shared by 3 nodes (3.2.1.2.2.1.1.2.1.1.2.2.1.2.2.3, 3.2.1.2.2.1.1.2.1.1.2.2.2, 3.2.1.2.2.1.1.2.1.1.2.2.2.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1769]] is shared by 3 nodes (3.2.1.2.2.1.1.2.1.1.2.2.2.2, 3.2.1.2.2.1.1.2.1.1.2.2.2.2.1, 3.2.1.2.2.1.1.2.1.1.2.2.2.2.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1771]] is shared by 3 nodes (3.2.1.2.2.1.1.2.1.1.2.2.2.2.1.2, 3.2.1.2.2.1.1.2.1.1.2.2.2.2.2, 3.2.1.2.2.1.1.2.1.1.2.2.2.2.2.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1773]] is shared by 4 nodes (3.2.1.2.2.1.1.2.1.1.2.2.2.2.2.2, 3.2.1.2.2.1.1.2.1.1.2.2.2.2.2.2.1, 3.2.1.2.2.1.1.2.1.1.2.2.2.2.2.2.2, 3.2.1.2.2.1.1.2.1.1.2.2.2.2.2.3) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1793]] is shared by 3 nodes (3.2.1.2.2.1.1.2.1.2.2.3.2, 3.2.1.2.2.1.1.2.1.2.2.3.3, 3.2.1.2.2.1.1.2.1.2.3) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1795]] is shared by 3 nodes (3.2.1.2.2.1.1.2.1.3, 3.2.1.2.2.1.1.2.1.3.1, 3.2.1.2.2.1.1.2.1.3.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1815]] is shared by 6 nodes (3.2.1.2.2.1.2.1, 3.2.1.2.2.1.2.1.1, 3.2.1.2.2.1.2.1.1.1, 3.2.1.2.2.1.2.1.1.2, 3.2.1.2.2.1.2.1.1.2.1, 3.2.1.2.2.1.2.1.1.2.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1823]] is shared by 3 nodes (3.2.1.2.2.1.2.1.1.2.1.3, 3.2.1.2.2.1.2.1.1.2.1.4, 3.2.1.2.2.1.2.1.1.2.1.4.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1833]] is shared by 4 nodes (3.2.1.2.2.1.2.1.1.2.2, 3.2.1.2.2.1.2.1.1.2.2.1, 3.2.1.2.2.1.2.1.1.2.2.1.1, 3.2.1.2.2.1.2.1.1.2.2.1.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1837]] is shared by 5 nodes (3.2.1.2.2.1.2.1.1.2.2.1.1.1.2.1, 3.2.1.2.2.1.2.1.1.2.2.1.1.1.2.2, 3.2.1.2.2.1.2.1.1.2.2.1.1.1.2.3, 3.2.1.2.2.1.2.1.1.2.2.1.1.1.2.3.1, 3.2.1.2.2.1.2.1.1.2.2.1.1.1.2.3.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1849]] is shared by 3 nodes (3.2.1.2.2.1.2.1.1.2.2.1.1.1.2.3.1.2.2, 3.2.1.2.2.1.2.1.1.2.2.1.1.1.2.3.1.2.3, 3.2.1.2.2.1.2.1.1.2.2.1.1.1.2.3.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1851]] is shared by 3 nodes (3.2.1.2.2.1.2.1.1.2.2.1.1.1.2.3.2.1, 3.2.1.2.2.1.2.1.1.2.2.1.1.1.2.3.2.2, 3.2.1.2.2.1.2.1.1.2.2.1.1.1.2.3.2.2.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1859]] is shared by 3 nodes (3.2.1.2.2.1.2.1.1.2.2.1.1.2.2, 3.2.1.2.2.1.2.1.1.2.2.1.1.2.2.1, 3.2.1.2.2.1.2.1.1.2.2.1.1.2.2.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1867]] is shared by 4 nodes (3.2.1.2.2.1.2.1.1.2.2.1.1.2.2.2.3.2, 3.2.1.2.2.1.2.1.1.2.2.1.2, 3.2.1.2.2.1.2.1.1.2.2.1.2.1, 3.2.1.2.2.1.2.1.1.2.2.1.2.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1869]] is shared by 4 nodes (3.2.1.2.2.1.2.1.1.2.2.1.2.3, 3.2.1.2.2.1.2.1.1.2.2.1.2.4, 3.2.1.2.2.1.2.1.1.2.2.2, 3.2.1.2.2.1.2.1.1.2.2.2.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1875]] is shared by 3 nodes (3.2.1.2.2.1.2.1.1.2.2.2.2, 3.2.1.2.2.1.2.1.1.2.2.2.3, 3.2.1.2.2.1.2.1.1.2.2.2.3.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1885]] is shared by 5 nodes (3.2.1.2.2.1.2.1.1.2.2.3, 3.2.1.2.2.1.2.1.1.2.2.3.1, 3.2.1.2.2.1.2.1.1.2.2.3.1.1, 3.2.1.2.2.1.2.1.1.2.2.3.1.1.1, 3.2.1.2.2.1.2.1.1.2.2.3.1.1.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1907]] is shared by 3 nodes (3.2.1.2.2.1.2.1.1.2.2.3.2, 3.2.1.2.2.1.2.1.1.2.2.3.2.1, 3.2.1.2.2.1.2.1.1.2.2.3.2.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1925]] is shared by 6 nodes (3.2.1.2.2.1.2.1.1.2.2.4, 3.2.1.2.2.1.2.1.1.2.2.4.1, 3.2.1.2.2.1.2.1.1.2.2.4.1.1, 3.2.1.2.2.1.2.1.1.2.2.4.1.2, 3.2.1.2.2.1.2.1.1.2.2.4.1.2.1, 3.2.1.2.2.1.2.1.1.2.2.4.1.2.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1927]] is shared by 4 nodes (3.2.1.2.2.1.2.1.1.2.2.4.1.2.1.1.1, 3.2.1.2.2.1.2.1.1.2.2.4.1.2.1.1.1.1, 3.2.1.2.2.1.2.1.1.2.2.4.1.2.1.1.1.2, 3.2.1.2.2.1.2.1.1.2.2.4.1.2.1.1.1.2.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1945]] is shared by 4 nodes (3.2.1.2.2.1.2.1.1.2.2.4.1.2.3, 3.2.1.2.2.1.2.1.1.2.2.4.2, 3.2.1.2.2.1.2.1.1.2.2.4.2.1, 3.2.1.2.2.1.2.1.1.2.2.4.2.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1949]] is shared by 3 nodes (3.2.1.2.2.1.2.1.1.2.2.4.2.1.2, 3.2.1.2.2.1.2.1.1.2.2.4.2.2, 3.2.1.2.2.1.2.1.1.2.2.4.2.2.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1951]] is shared by 4 nodes (3.2.1.2.2.1.2.1.1.2.2.4.2.2.1.1, 3.2.1.2.2.1.2.1.1.2.2.4.2.2.1.1.1, 3.2.1.2.2.1.2.1.1.2.2.4.2.2.1.1.2, 3.2.1.2.2.1.2.1.1.2.2.4.2.2.1.1.2.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1957]] is shared by 3 nodes (3.2.1.2.2.1.2.1.1.2.2.4.2.2.1.1.2.2, 3.2.1.2.2.1.2.1.1.2.2.4.2.2.1.1.2.2.1, 3.2.1.2.2.1.2.1.1.2.2.4.2.2.1.1.2.2.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[1995]] is shared by 3 nodes (3.2.1.2.2.1.2.1.1.2.2.4.2.2.1.3, 3.2.1.2.2.1.2.1.1.2.2.4.2.2.2, 3.2.1.2.2.1.2.1.1.2.2.4.2.2.2.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[2011]] is shared by 3 nodes (3.2.1.2.2.1.2.1.1.2.2.4.2.2.3, 3.2.1.2.2.1.2.1.1.2.2.4.2.2.3.1, 3.2.1.2.2.1.2.1.1.2.2.4.2.2.3.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[2046]] is shared by 4 nodes (3.2.1.3, 3.2.1.3.1, 3.2.1.3.1.1, 3.2.1.3.1.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[2062]] is shared by 4 nodes (3.2.1.3.1.1.2.1.2, 3.2.1.3.1.1.2.1.2.1, 3.2.1.3.1.1.2.1.2.1.1, 3.2.1.3.1.1.2.1.2.1.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[2086]] is shared by 5 nodes (3.2.1.3.1.1.2.1.2.2, 3.2.1.3.1.1.2.1.2.2.1, 3.2.1.3.1.1.2.1.2.2.1.1, 3.2.1.3.1.1.2.1.2.2.1.1.1, 3.2.1.3.1.1.2.1.2.2.1.1.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[2090]] is shared by 3 nodes (3.2.1.3.1.1.2.1.2.2.1.1.1.1.2.1, 3.2.1.3.1.1.2.1.2.2.1.1.1.1.2.2, 3.2.1.3.1.1.2.1.2.2.1.1.1.1.2.2.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[2098]] is shared by 3 nodes (3.2.1.3.1.1.2.1.2.2.1.1.1.1.3, 3.2.1.3.1.1.2.1.2.2.1.1.1.1.3.1, 3.2.1.3.1.1.2.1.2.2.1.1.1.1.3.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[2133]] is shared by 3 nodes (3.2.1.3.1.1.2.1.2.2.2, 3.2.1.3.1.1.2.1.2.2.3, 3.2.1.3.1.1.2.1.2.2.3.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[2186]] is shared by 4 nodes (3.2.1.3.1.2, 3.2.1.3.1.2.1, 3.2.1.3.1.2.1.1, 3.2.1.3.1.2.1.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[2188]] is shared by 4 nodes (3.2.1.3.1.2.1.3, 3.2.1.3.1.2.2, 3.2.1.3.1.2.2.1, 3.2.1.3.1.2.2.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[2223]] is shared by 3 nodes (3.2.1.3.1.2.2.1.1.3, 3.2.1.3.1.2.2.1.2, 3.2.1.3.1.2.2.1.2.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[2233]] is shared by 3 nodes (3.2.1.3.1.2.2.1.2.3, 3.2.1.3.1.2.2.1.3, 3.2.1.3.1.2.2.1.3.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[2245]] is shared by 4 nodes (3.2.1.3.2, 3.2.1.3.2.1, 3.2.1.3.2.1.1, 3.2.1.3.2.1.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[2262]] is shared by 4 nodes (3.2.1.3.2.1.1.1.1.2.2.1, 3.2.1.3.2.1.1.1.1.2.2.2, 3.2.1.3.2.1.1.1.1.2.2.2.1, 3.2.1.3.2.1.1.1.1.2.2.2.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[2272]] is shared by 3 nodes (3.2.1.3.2.1.1.1.1.2.2.2.2.2, 3.2.1.3.2.1.1.1.2, 3.2.1.3.2.1.1.1.2.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[2276]] is shared by 3 nodes (3.2.1.3.2.1.1.1.2.2, 3.2.1.3.2.1.1.1.3, 3.2.1.3.2.1.1.1.3.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[2280]] is shared by 3 nodes (3.2.1.3.2.1.1.1.3.1.2, 3.2.1.3.2.1.1.1.3.1.3, 3.2.1.3.2.1.1.1.3.1.3.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[2320]] is shared by 3 nodes (3.2.1.3.2.1.1.1.3.2, 3.2.1.3.2.1.1.1.3.2.1, 3.2.1.3.2.1.1.1.3.2.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[2334]] is shared by 3 nodes (3.2.1.3.2.1.1.2.1.3, 3.2.1.3.2.1.1.2.1.3.1, 3.2.1.3.2.1.1.2.1.3.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[2356]] is shared by 3 nodes (3.2.1.3.2.1.2.1.2.2.2.2, 3.2.1.3.2.1.2.1.2.2.2.2.1, 3.2.1.3.2.1.2.1.2.2.2.2.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[2366]] is shared by 4 nodes (3.2.1.3.2.1.2.1.2.2.2.2.2.2.2, 3.2.1.3.2.1.2.1.2.3, 3.2.1.3.2.1.2.1.2.3.1, 3.2.1.3.2.1.2.1.2.3.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[2380]] is shared by 4 nodes (3.2.1.3.2.1.2.1.2.3.1.2.1.2.1.3, 3.2.1.3.2.1.2.1.2.3.1.2.1.2.1.3.1, 3.2.1.3.2.1.2.1.2.3.1.2.1.2.1.3.1.1, 3.2.1.3.2.1.2.1.2.3.1.2.1.2.1.3.1.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[2382]] is shared by 3 nodes (3.2.1.3.2.1.2.1.2.3.1.2.1.2.1.3.1.2.1, 3.2.1.3.2.1.2.1.2.3.1.2.1.2.1.3.1.2.1.1, 3.2.1.3.2.1.2.1.2.3.1.2.1.2.1.3.1.2.1.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[2432]] is shared by 4 nodes (3.2.1.3.2.1.2.2, 3.2.1.3.2.1.2.2.1, 3.2.1.3.2.1.2.2.2, 3.2.1.3.2.1.2.2.2.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[2461]] is shared by 4 nodes (3.2.1.3.2.1.2.3, 3.2.1.3.2.1.2.3.1, 3.2.1.3.2.1.2.3.2, 3.2.1.3.2.1.2.3.2.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[2463]] is shared by 3 nodes (3.2.1.3.2.1.2.3.2.1.1, 3.2.1.3.2.1.2.3.2.1.2, 3.2.1.3.2.1.2.3.2.1.2.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[2475]] is shared by 3 nodes (3.2.1.3.2.1.2.3.2.1.2.1.2.1.3.3, 3.2.1.3.2.1.2.3.2.1.2.1.2.1.3.4, 3.2.1.3.2.1.2.3.2.1.2.1.2.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[2481]] is shared by 3 nodes (3.2.1.3.2.1.2.3.2.2, 3.2.1.3.2.1.2.3.2.2.1, 3.2.1.3.2.1.2.3.2.2.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[2483]] is shared by 3 nodes (3.2.1.3.2.1.2.3.2.2.1.2, 3.2.1.3.2.1.2.3.2.2.1.2.1, 3.2.1.3.2.1.2.3.2.2.1.2.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[2489]] is shared by 3 nodes (3.2.1.3.2.1.2.3.2.2.2, 3.2.1.3.2.1.2.3.2.2.2.1, 3.2.1.3.2.1.2.3.2.2.2.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[2519]] is shared by 3 nodes (3.2.1.3.2.1.2.4.2.2, 3.2.1.3.2.1.2.4.2.2.1, 3.2.1.3.2.1.2.4.2.2.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[2523]] is shared by 4 nodes (3.2.1.3.2.1.2.4.2.2.1.2, 3.2.1.3.2.1.2.4.2.2.2, 3.2.1.3.2.1.2.4.2.3, 3.2.1.3.2.1.2.4.2.3.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[2533]] is shared by 3 nodes (3.2.1.3.2.1.2.4.2.3.2.2, 3.2.1.3.2.2, 3.2.1.3.2.2.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[2555]] is shared by 3 nodes (3.2.1.3.2.2.2.2.2, 3.2.1.3.2.2.2.2.2.1, 3.2.1.3.2.2.2.2.2.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[2596]] is shared by 4 nodes (3.2.1.3.3.2.1.1, 3.2.1.3.3.2.1.2, 3.2.1.3.3.2.1.2.1, 3.2.1.3.3.2.1.2.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[2633]] is shared by 3 nodes (3.2.1.3.3.2.1.2.2, 3.2.1.3.3.2.1.2.2.1, 3.2.1.3.3.2.1.2.2.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[2657]] is shared by 3 nodes (3.2.1.3.3.2.1.2.2.2.2, 3.2.1.3.3.2.1.2.2.2.2.1, 3.2.1.3.3.2.1.2.2.2.2.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[2667]] is shared by 4 nodes (3.2.1.3.3.2.1.2.3.1.1, 3.2.1.3.3.2.1.2.3.1.1.1, 3.2.1.3.3.2.1.2.3.1.1.2, 3.2.1.3.3.2.1.2.3.1.1.3) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[2707]] is shared by 4 nodes (3.2.1.3.3.2.2, 3.2.1.3.3.2.2.1, 3.2.1.3.3.2.2.1.1, 3.2.1.3.3.2.2.1.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[2709]] is shared by 3 nodes (3.2.1.3.3.2.2.1.1.1.1, 3.2.1.3.3.2.2.1.1.1.1.1, 3.2.1.3.3.2.2.1.1.1.1.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[2715]] is shared by 3 nodes (3.2.1.3.3.2.2.1.1.1.1.1.2.2.1, 3.2.1.3.3.2.2.1.1.1.1.1.2.2.2, 3.2.1.3.3.2.2.1.1.1.1.1.2.2.3) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[2744]] is shared by 3 nodes (3.2.1.3.3.2.2.1.1.1.1.3.2.2, 3.2.1.3.3.2.2.1.1.1.1.3.2.2.1, 3.2.1.3.3.2.2.1.1.1.1.3.2.2.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[2766]] is shared by 3 nodes (3.2.1.3.3.2.2.1.1.2.2, 3.2.1.3.3.2.2.1.1.2.2.1, 3.2.1.3.3.2.2.1.1.2.2.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[2776]] is shared by 3 nodes (3.2.1.3.3.2.2.1.1.2.3, 3.2.1.3.3.2.2.1.1.3, 3.2.1.3.3.2.2.1.1.3.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[2786]] is shared by 5 nodes (3.2.1.3.3.2.2.2.2, 3.2.1.3.3.2.2.2.2.1, 3.2.1.3.3.2.2.2.2.1.1, 3.2.1.3.3.2.2.2.2.1.1.1, 3.2.1.3.3.2.2.2.2.1.1.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[2788]] is shared by 4 nodes (3.2.1.3.3.2.2.2.2.1.1.1.2, 3.2.1.3.3.2.2.2.2.1.1.1.2.1, 3.2.1.3.3.2.2.2.2.1.1.1.2.2, 3.2.1.3.3.2.2.2.2.1.1.1.2.2.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[2796]] is shared by 4 nodes (3.2.1.3.3.2.2.2.2.1.1.2, 3.2.1.3.3.2.2.2.2.1.1.2.1, 3.2.1.3.3.2.2.2.2.1.1.2.2, 3.2.1.3.3.2.2.2.2.1.1.2.2.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[2804]] is shared by 4 nodes (3.2.1.3.3.2.2.2.2.1.1.2.2.2, 3.2.1.3.3.2.2.2.2.1.1.3, 3.2.1.3.3.2.2.2.2.1.1.3.1, 3.2.1.3.3.2.2.2.2.1.1.3.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[2818]] is shared by 5 nodes (3.2.1.3.3.2.2.2.2.1.2, 3.2.1.3.3.2.2.2.2.1.2.1, 3.2.1.3.3.2.2.2.2.1.2.2, 3.2.1.3.3.2.2.2.2.1.2.2.1, 3.2.1.3.3.2.2.2.2.1.2.2.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[2820]] is shared by 3 nodes (3.2.1.3.3.2.2.2.2.1.2.2.1.2, 3.2.1.3.3.2.2.2.2.1.2.2.1.2.1, 3.2.1.3.3.2.2.2.2.1.2.2.1.2.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[2834]] is shared by 3 nodes (3.2.1.3.3.2.2.2.2.1.2.2.2.3, 3.2.1.3.3.2.2.2.2.1.2.2.2.3.1, 3.2.1.3.3.2.2.2.2.1.2.2.2.3.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[2852]] is shared by 4 nodes (3.2.1.3.3.2.2.2.2.2.2.1.2.2, 3.2.1.3.3.2.2.2.2.2.2.1.2.2.1, 3.2.1.3.3.2.2.2.2.2.2.1.2.2.1.1, 3.2.1.3.3.2.2.2.2.2.2.1.2.2.1.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[2882]] is shared by 4 nodes (3.2.1.3.3.2.2.2.2.2.2.2.1.3, 3.2.1.3.3.2.2.2.2.2.2.2.1.3.1, 3.2.1.3.3.2.2.2.2.2.2.2.1.3.1.1, 3.2.1.3.3.2.2.2.2.2.2.2.1.3.1.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[2914]] is shared by 4 nodes (3.2.2, 3.2.2.1, 3.2.2.1.1, 3.2.2.1.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[2929]] is shared by 3 nodes (3.2.2.1.1.2, 3.2.2.1.1.2.1, 3.2.2.1.1.2.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[2931]] is shared by 4 nodes (3.2.2.1.1.2.1.2, 3.2.2.1.1.2.1.2.1, 3.2.2.1.1.2.1.2.1.1, 3.2.2.1.1.2.1.2.1.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[2933]] is shared by 3 nodes (3.2.2.1.1.2.1.2.1.2.1, 3.2.2.1.1.2.1.2.1.2.1.1, 3.2.2.1.1.2.1.2.1.2.1.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[2941]] is shared by 3 nodes (3.2.2.1.1.2.1.2.1.2.1.2, 3.2.2.1.1.2.1.2.1.2.1.2.1, 3.2.2.1.1.2.1.2.1.2.1.2.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[2999]] is shared by 4 nodes (3.2.2.1.2, 3.2.2.1.2.1, 3.2.2.1.2.1.1, 3.2.2.1.2.1.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[3016]] is shared by 3 nodes (3.2.2.1.2.1.1.2, 3.2.2.1.2.1.1.2.1, 3.2.2.1.2.1.1.2.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[3036]] is shared by 3 nodes (3.2.2.1.2.1.1.2.1.2, 3.2.2.1.2.1.1.2.1.2.1, 3.2.2.1.2.1.1.2.1.2.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[3048]] is shared by 4 nodes (3.2.2.1.2.1.1.2.2.1.1, 3.2.2.1.2.1.1.2.2.1.2, 3.2.2.1.2.1.1.2.2.1.2.1, 3.2.2.1.2.1.1.2.2.1.2.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[3136]] is shared by 3 nodes (3.2.2.1.2.1.1.2.3.1.2, 3.2.2.1.2.1.1.2.3.1.2.1, 3.2.2.1.2.1.1.2.3.1.2.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[3148]] is shared by 3 nodes (3.2.2.1.2.1.1.2.3.1.2.1.2, 3.2.2.1.2.1.1.2.3.1.2.1.2.1, 3.2.2.1.2.1.1.2.3.1.2.1.2.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[3179]] is shared by 3 nodes (3.2.2.1.2.1.1.2.3.1.2.2, 3.2.2.1.2.1.1.2.3.1.2.2.1, 3.2.2.1.2.1.1.2.3.1.2.2.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[3185]] is shared by 5 nodes (3.2.2.1.2.1.1.2.3.1.2.2.2, 3.2.2.1.2.1.1.2.3.1.2.2.2.1, 3.2.2.1.2.1.1.2.3.1.2.2.2.1.1, 3.2.2.1.2.1.1.2.3.1.2.2.2.1.2, 3.2.2.1.2.1.1.2.3.1.2.2.2.1.2.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[3189]] is shared by 3 nodes (3.2.2.1.2.1.1.2.3.1.2.2.2.1.2.2.2, 3.2.2.1.2.1.1.2.3.1.2.2.2.1.2.3, 3.2.2.1.2.1.1.2.3.1.2.2.2.1.2.3.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[3191]] is shared by 3 nodes (3.2.2.1.2.1.1.2.3.1.2.2.2.1.2.3.2, 3.2.2.1.2.1.1.2.3.1.2.2.2.1.2.3.2.1, 3.2.2.1.2.1.1.2.3.1.2.2.2.1.2.3.2.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[3218]] is shared by 3 nodes (3.2.2.1.2.1.1.2.3.1.2.2.2.2.2, 3.2.2.1.2.1.1.2.3.1.2.2.2.2.2.1, 3.2.2.1.2.1.1.2.3.1.2.2.2.2.2.2) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[3334]] is shared by 4 nodes (3.2.2.1.2.1.3.2.2.2.2, 3.2.2.1.2.1.3.2.2.2.2.1, 3.2.2.1.2.1.3.2.2.2.2.2, 3.2.2.1.2.1.3.2.2.2.2.2.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[3355]] is shared by 3 nodes (3.2.2.1.2.2.2, 3.2.2.1.2.2.2.1, 3.2.2.1.2.2.2.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[3379]] is shared by 4 nodes (3.2.2.1.2.2.2.2.2.2, 3.2.2.1.2.2.2.2.2.2.1, 3.2.2.1.2.2.2.2.2.2.1.1, 3.2.2.1.2.2.2.2.2.2.1.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[3393]] is shared by 3 nodes (3.2.2.1.2.2.2.2.2.2.2.1, 3.2.2.1.2.2.2.2.2.2.2.2, 3.2.2.1.2.2.2.2.2.2.2.2.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[3434]] is shared by 3 nodes (3.2.2.1.2.2.2.2.2.2.2.2.2.1.2, 3.2.2.1.2.2.2.2.2.2.2.2.2.2, 3.2.2.1.2.2.2.2.2.2.2.2.3) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[3456]] is shared by 4 nodes (3.2.2.1.2.2.2.2.2.3.2, 3.2.2.1.2.2.2.2.2.3.2.1, 3.2.2.1.2.2.2.2.2.3.2.2, 3.2.2.1.2.2.2.2.2.3.2.2.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- pointer [[3464]] is shared by 3 nodes (3.2.2.1.2.2.2.2.2.3.3, 3.2.2.1.2.2.2.2.2.3.3.1, 3.2.2.1.2.2.2.2.2.3.3.1.1) — repeated-pointer collision, the extractor likely lost its cursor partway through this run
+- 3.2.1.1.1.1 'དང་པོ་གཏན་ཚིགས་ཡང་དག་གི་མཚན་ཉི': announcing text names a 3-way division but the tree gives it 2 child(ren) — verify by hand which is right
+- 3.2.1.1.1.2.1.3 'གསུམ་པ་མ་དམིགས་པའི་རྟགས་': announcing text names a 3-way division but the tree gives it 2 child(ren) — verify by hand which is right
+- 3.2.1.1.1.2.1.3.2.2 'གཉིས་པ་མཚན་གཞིའི་དབྱེ་བ་': announcing text names a 3-way division but the tree gives it 2 child(ren) — verify by hand which is right
+- 3.2.1.3.1.1.2.3 'གསུམ་པ་མཇུག་བསྡུ་བ་': announcing text names a 3-way division but the tree gives it 2 child(ren) — verify by hand which is right
+- 3.2.1.3.2.2.2 'གཉིས་པ་ཕྱེ་བའི་དགོས་པ་': announcing text names a 6-way division but the tree gives it 2 child(ren) — verify by hand which is right
+- 3.2.1.3.2.2.2.1 'དང་པོ་རྟོག་པ་མངོན་སུམ་ལྟར་སྣང་': announcing text names a 6-way division but the tree gives it 2 child(ren) — verify by hand which is right
 
 ## Notes (not counted as issues)
 
-- (info) 57 node(s) have bare-ordinal-only titles (e.g. "དང་པོ་") with no distinguishing text — title attestation skipped for these, not counted as clean or as an issue
+- (info) 4 node(s) have bare-ordinal-only titles (e.g. "དང་པོ་") with no distinguishing text — title attestation skipped for these, not counted as clean or as an issue
 
----
-issues_before: 723
-issues_after: 685
-selected_round: 1
-repair_model: gemini-3.1-pro-preview
+## Review (2026-10-14) — all flags judged expected / false positive; tree unchanged
+
+- Anchors: 1,544 / 1,544 resolved, none `[[?]]`, all in document order.
+- 586 "title attested … not near pointer": the commentary first lists a division's parts, then
+  opens each part with a bare ordinal (`གཉིས་པ་ནི།`), so the title is (correctly) not repeated at
+  the anchor. 583 of the 586 contexts start with the node's own ordinal opener (scripted check);
+  the rest were reviewed.
+- 177 "pointer shared by N nodes": stacked headings — a parent's division announcement and its
+  first child's opener on the same line, as the pass-5 convention prescribes.
+- 6 "announcing text names an N-way division": isolated repair subagent checked each against the
+  commentary — in every case the count belongs to the parent's or a child's division on the same
+  line, or to a content list (`རྟོག་པ་ལ་དྲུག་སྟེ།`, line 2538). Children counts are correct.
+- 3.2.1.3.2.1.2.4.2.2.2: part opened without an ordinal (line 2523 `དེ་ལ་སྔར་ལེའུ་གཉིས་པར་…`);
+  anchor confirmed correct.

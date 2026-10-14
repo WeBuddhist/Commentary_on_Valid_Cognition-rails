@@ -1,108 +1,37 @@
 # TOC tree QC report
 
-issues: 96
+issues: 22
 
 ## Issues
 
-- L73: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.1.1.1.3.1.2.2.1 དང་པོ་དངོས་ [[328]]
-- L136: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.1.1.1.3.2.1.1.2.2.2.1.3.2.3.1 དང་པོ་དངོས་ [[597]]
-- L143: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.1.1.1.3.2.1.1.2.2.2.2.1.3.1 དང་པོ་དངོས་ [[658]]
-- L240: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.1.1.1.3.2.1.1.2.2.2.3.3.3.3.2.2.3.3.1.2.2.2.2.2.2.2.2 གཉིས་པ་དབྱེ་བ [[914]]
-- L261: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.1.1.1.3.2.2.1 དང་པོ་དངོས་ [[?]]
-- L306: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.1.1.1.3.2.2.2.2.3.1.2.1.1.2.2.1.1 དང་པོ་རྟགས་དགོད [[1069]]
-- L323: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.1.1.1.3.2.2.2.2.3.1.2.1.2.2.2.1.1 དང་པོ་རྟགས་དགོད [[1150]]
-- L391: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.1.1.1.3.2.2.2.2.3.1.2.2.3.3.3.1 དང་པོ་དངོས་ [[?]]
-- L405: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.1.1.1.3.2.2.2.2.3.1.3 གསུམ་པ་ [[1483]]
-- L572: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.1.1.3.1.1.2.1.2.1.2.3.1 དང་པོ་དངོས་ [[2064]]
-- L593: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.1.1.3.1.1.2.1.2.2.1.1.2.1 དང་པོ་དངོས་ [[2086]]
-- L615: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.1.1.3.1.1.2.3.1 དང་པོ་དངོས་ [[?]]
-- L711: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.1.1.3.2.1.2.1.2.2.1 དང་པོ་དངོས་ [[2332]]
-- L725: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.1.1.3.2.1.2.1.3.1.2 གཉིས་པ་ལན་ [[2350]]
-- L741: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.1.1.3.2.1.2.1.3.1.2.1.3.2.1 དང་པོ་དངོས་ [[?]]
-- L759: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.1.1.3.2.1.2.2.2 གཉིས་པ་ལན་ [[2350]]
-- L850: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.1.1.3.3.2.2.2.1.1 དང་པོ་ [[2768]]
-- L853: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.1.1.3.3.2.2.2.1.1.3 གསུམ་པ་ [[2774]]
-- L856: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.1.1.3.3.2.2.2.1.1.3.3 གསུམ་པ་ [[2774]]
-- L858: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.1.1.3.3.2.2.2.1.1.3.3.2 གཉིས་པ་ [[2778]]
-- L860: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.1.1.3.3.2.2.2.1.1.3.3.2.2 གཉིས་པ་ [[2778]]
-- L861: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.1.1.3.3.2.2.2.1.2 གཉིས་པ་ [[2778]]
-- L862: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.1.1.3.3.2.2.2.1.2.1 དང་པོ་ [[?]]
-- L864: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.1.1.3.3.2.2.2.1.2.1.2 གཉིས་པ་ [[2778]]
-- L865: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.1.1.3.3.2.2.2.1.2.1.3 གསུམ་པ་ [[2786]]
-- L866: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.1.1.3.3.2.2.2.1.2.2 གཉིས་པ་ [[2786]]
-- L869: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.1.1.3.3.2.2.2.1.2.2.3 གསུམ་པ་ [[2788]]
-- L872: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.1.1.3.3.2.2.2.2.2 གཉིས་པ་ [[2820]]
-- L873: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.1.1.3.3.2.2.2.2.2.1 དང་པོ་ [[?]]
-- L875: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.1.1.3.3.2.2.2.2.2.1.2 གཉིས་པ་ [[2820]]
-- L876: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.1.1.3.3.2.2.2.2.2.1.2.1 དང་པོ་ [[?]]
-- L878: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.1.1.3.3.2.2.2.2.2.2 གཉིས་པ་ [[2820]]
-- L879: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.1.1.3.3.2.2.2.2.2.2.1 དང་པོ་ [[?]]
-- L880: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.1.1.3.3.2.2.2.2.2.2.2 གཉིས་པ་ [[2820]]
-- L882: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.1.1.3.3.2.2.2.2.2.2.2.2 གཉིས་པ་ [[2820]]
-- L885: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.1.1.3.3.2.2.2.2.2.2.2.2.3 གསུམ་པ་ [[2844]]
-- L886: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.1.1.3.3.2.2.2.3 གསུམ་པ་ [[2844]]
-- L887: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.1.1.3.3.2.2.2.3.1 དང་པོ་ [[2846]]
-- L888: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.1.1.3.3.2.2.2.3.2 གཉིས་པ་ [[2850]]
-- L889: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.1.1.3.3.2.2.2.3.2.1 དང་པོ་ [[2852]]
-- L891: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.1.1.3.3.2.2.2.3.3 གསུམ་པ་ [[2864]]
-- L892: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.1.1.3.3.2.2.2.3.3.1 དང་པོ་ [[2864]]
-- L893: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.1.1.3.3.2.2.2.3.3.1.1 དང་པོ་ [[2864]]
-- L894: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.1.1.3.3.2.2.2.3.3.1.1.1 དང་པོ་ [[2864]]
-- L895: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.1.1.3.3.2.2.2.3.3.1.1.2 གཉིས་པ་ [[2866]]
-- L899: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.1.1.3.3.2.2.2.3.3.2 གཉིས་པ་ [[2866]]
-- L901: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.2.1 དང་པོ་ [[?]]
-- L902: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.2.1.1 དང་པོ་ [[?]]
-- L903: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.2.1.2 གཉིས་པ་ [[2896]]
-- L904: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.2.1.2.1 དང་པོ་ [[?]]
-- L906: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.2.1.2.1.2 གཉིས་པ་ [[2896]]
-- L907: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.2.1.2.1.2.1 དང་པོ་ [[?]]
-- L908: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.2.1.2.1.2.2 གཉིས་པ་ [[2896]]
-- L909: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.2.1.2.1.2.2.1 དང་པོ་ [[?]]
-- L910: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.2.1.2.1.2.2.1.1 དང་པོ་ [[?]]
-- L911: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.2.1.2.1.2.2.1.2 གཉིས་པ་ [[2896]]
-- L912: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.2.1.2.1.2.2.2 གཉིས་པ་ [[2896]]
-- L913: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.2.1.2.2 གཉིས་པ་ [[2896]]
-- L919: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.2.2.1 དང་པོ་ [[2981]]
-- L920: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.2.2.1.1 དང་པོ་ [[2981]]
-- L921: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.2.2.1.1.1 དང་པོ་ [[2981]]
-- L923: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.2.2.1.1.2.1 དང་པོ་ [[?]]
-- L924: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.2.2.1.1.2.1.1 དང་པོ་ [[?]]
-- L925: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.2.2.1.1.2.1.2 གཉིས་པ་ [[2998]]
-- L926: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.2.2.1.1.2.1.2.1 དང་པོ་ [[2998]]
-- L928: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.2.2.1.1.2.2.1 དང་པོ་ [[?]]
-- L930: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.2.2.1.1.2.2.1.2 གཉིས་པ་ [[3028]]
-- L931: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.2.2.1.1.2.2.1.2.1 དང་པོ་ [[?]]
-- L932: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.2.2.1.1.2.2.1.2.1.1 དང་པོ་ [[?]]
-- L933: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.2.2.1.1.2.2.1.2.1.2 གཉིས་པ་ [[3028]]
-- L936: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.2.2.1.1.2.2.1.2.1.2.3 གསུམ་པ་ [[3044]]
-- L937: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.2.2.1.1.2.2.1.2.1.2.3.1 དང་པོ་ [[?]]
-- L939: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.2.2.1.1.2.2.1.2.1.2.3.3 གསུམ་པ་ [[3044]]
-- L941: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.2.2.1.1.2.2.1.3 གསུམ་པ་ [[3044]]
-- L947: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.2.2.1.1.2.3.1.2 གཉིས་པ་ [[3118]]
-- L948: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.2.2.1.1.2.3.1.2.1 དང་པོ་ [[?]]
-- L953: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.2.2.1.1.2.3.1.2.1.1.4 བཞི་པ་ [[?]]
-- L954: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.2.2.1.1.2.3.1.2.1.2 གཉིས་པ་ [[3118]]
-- L955: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.2.2.1.1.2.3.1.2.1.2.1 དང་པོ་ [[?]]
-- L957: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.2.2.1.1.2.3.1.2.1.2.1.2 གཉིས་པ་ [[3118]]
-- L960: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.2.2.1.1.2.3.1.2.2.1 དང་པོ་ [[?]]
-- L964: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.2.2.1.1.2.3.1.2.2.2 གཉིས་པ་ [[3161]]
-- L965: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.2.2.1.1.2.3.1.2.2.2.1 དང་པོ་ [[?]]
-- L966: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.2.2.1.1.2.3.1.2.2.2.2 གཉིས་པ་ [[3161]]
-- L968: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.2.2.1.1.2.3.1.2.2.2.2.2 གཉིས་པ་ [[3161]]
-- L969: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.2.2.1.1.2.3.1.2.2.2.2.3 གསུམ་པ་ [[3165]]
-- L970: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.2.2.1.1.2.3.1.2.2.2.3 གསུམ་པ་ [[3165]]
-- L974: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.2.2.1.1.2.3.1.2.3.3 གསུམ་པ་ [[3210]]
-- L976: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.2.2.1.1.2.3.2.1 དང་པོ་ [[?]]
-- L977: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.2.2.1.1.2.3.2.2 གཉིས་པ་ [[3218]]
-- L980: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.2.2.1.1.2.3.3.2 གཉིས་པ་ [[3250]]
-- L981: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.2.2.1.1.2.3.3.3 གསུམ་པ་ [[3254]]
-- L1064: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.2.2.2.2.2.2.2.3.2.2.1 དང་པོ་དངོས་ [[3438]]
-- children of 3.2.1.1.1.3.2.1: numbered [1, 3, 4], expected [1, 2, 3]
-- children of 3.2.1.1.3.2.1.2.3.2.1.2.1.2.1.3: numbered [3, 4], expected [1, 2]
-- children of 4: numbered [2, 3], expected [1, 2]
+- L10: ordinal 3 (གསུམ་པ) not attested for this title in candidates/enumerations (source attaches: 2)  ->  3.1.1.3 གསུམ་པ་ཚིག་དོན་
+- L32: ordinal 1 (དང་པོ) not attested for this title in candidates/enumerations (source attaches: 2)  ->  3.2.1.1.1.2.1.3.1.1 དང་པོ་ཚིག་དོན་
+- L38: ordinal 1 (དང་པོ) not attested for this title in candidates/enumerations (source attaches: 2)  ->  3.2.1.1.1.2.1.3.2.2.1 དང་པོ་ཚིག་དོན་
+- L53: ordinal 1 (དང་པོ) not attested for this title in candidates/enumerations (source attaches: 2)  ->  3.2.1.1.1.3.1.1.1.1 དང་པོ་ཚིག་དོན་
+- L115: ordinal 1 (དང་པོ) not attested for this title in candidates/enumerations (source attaches: 2)  ->  3.2.1.1.1.3.2.1.1.2.2.2.1.1.2.3.1.1 དང་པོ་རྒྱས་བཤད་
+- L149: ordinal 3 (གསུམ་པ) not attested for this title in candidates/enumerations (source attaches: 2)  ->  3.2.1.1.1.3.2.1.1.2.2.2.1.2.2.2.1.3 གསུམ་པ་ཚིག་དོན་
+- L238: ordinal 1 (དང་པོ) not attested for this title in candidates/enumerations (source attaches: 2)  ->  3.2.1.1.1.3.2.1.1.2.2.2.1.3.3.2.2.3.3.1.2.1.2.2.2.1.1 དང་པོ་ཚིག་དོན་
+- L256: ordinal 1 (དང་པོ) not attested for this title in candidates/enumerations (source attaches: 2)  ->  3.2.1.1.1.3.2.1.1.2.2.2.2.1 དང་པོ་ཚིག་དོན་
+- L280: ordinal 1 (དང་པོ) not attested for this title in candidates/enumerations (source attaches: 2)  ->  3.2.1.1.1.3.2.2.2.1.2.1.1 དང་པོ་ཚིག་དོན་
+- L292: ordinal 1 (དང་པོ) not attested for this title in candidates/enumerations (source attaches: 2)  ->  3.2.1.1.1.3.2.2.2.2.1.1.1.2.2.1 དང་པོ་ཚད་མར་གྱུར་པའི་ལུང་ངོས་གཟུང་བ་
+- L397: ordinal 3 (གསུམ་པ) not attested for this title in candidates/enumerations (source attaches: 2)  ->  3.2.1.1.1.3.2.2.2.2.1.2.1.3.3.3.1.2.3 གསུམ་པ་བཀག་པ་ལ་གནོད་པ་སྤང་བ་
+- L691: ordinal 1 (དང་པོ) not attested for this title in candidates/enumerations (source attaches: 2)  ->  3.2.1.2.2.1.2.1.1.2.2.3.1.1.1 དང་པོ་ཚིག་དོན་
+- L772: ordinal 3 (གསུམ་པ) not attested for this title in candidates/enumerations (source attaches: 2)  ->  3.2.1.2.2.1.2.1.1.2.2.4.2.2.2.2.3 གསུམ་པ་བཀག་པ་ལ་གནོད་པ་སྤང་བ་
+- L800: ordinal 1 (དང་པོ) not attested for this title in candidates/enumerations (source attaches: 2)  ->  3.2.1.3.1.1.2.1.2.1.1.1 དང་པོ་ཚིག་དོན་
+- L892: ordinal 3 (གསུམ་པ) not attested for this title in candidates/enumerations (source attaches: 2)  ->  3.2.1.3.1.2.2.2.3 གསུམ་པ་རྩོད་སྤང་
+- L914: ordinal 2 (གཉིས་པ) not attested for this title in candidates/enumerations (source attaches: 1)  ->  3.2.1.3.2.1.1.1.3.1.2 གཉིས་པ་རྟགས་དགོད་
+- L927: ordinal 1 (དང་པོ) not attested for this title in candidates/enumerations (source attaches: 2)  ->  3.2.1.3.2.1.1.1.3.1.3.3.2.1 དང་པོ་རྩོད་སྤང་
+- L975: ordinal 1 (དང་པོ) not attested for this title in candidates/enumerations (source attaches: 2)  ->  3.2.1.3.2.1.2.1.2.3.1.2.1.2.1.3.1.1 དང་པོ་ཚིག་དོན་
+- L1107: ordinal 1 (དང་པོ) not attested for this title in candidates/enumerations (source attaches: 2)  ->  3.2.1.3.3.2.1.2.2.2.2.1 དང་པོ་ཚིག་དོན་
+- L1154: ordinal 1 (དང་པོ) not attested for this title in candidates/enumerations (source attaches: 2)  ->  3.2.1.3.3.2.2.1.1.1.1.3.2.1.1 དང་པོ་ཚིག་དོན་
+- L1304: ordinal 1 (དང་པོ) not attested for this title in candidates/enumerations (source attaches: 2)  ->  3.2.2.1.2.1.1.1.1 དང་པོ་ཚིག་དོན་
+- L1370: ordinal 3 (གསུམ་པ) not attested for this title in candidates/enumerations (source attaches: 2)  ->  3.2.2.1.2.1.1.2.3.1.2.2.1.3 གསུམ་པ་གྲགས་པའི་དབྱེ་བ་
 
----
-issues_before: 152
-issues_after: 96
-selected_round: 1
-repair_model: gemini-3.1-pro-preview
+## Repair round 1 (2026-10-14) — no change
+
+Isolated repair subagent (pass4-qc-repair.md) reviewed all 22 flags: every one is an
+"ordinal not attested" false positive — the checker accepts an ordinal only from a candidate
+SECTION_TITLE, not from the item's position in its parent's enumeration. In each case the
+tree's ordinal equals the item's position in the parent's verbatim enumeration (spot-checked:
+L10 `དགོས་པ་དང༌། བསྡུས་པ་དང༌། ཚིག་དོན་ནོ`, L914 `ཁྱབ་པ་སྒྲུབ། རྟགས་དགོད། ཕྱོགས་ཆོས་སྒྲུབ་པ`).
+Tree unchanged. issues_before: 22 · issues_after: 22 (all judged false positives — for human review).

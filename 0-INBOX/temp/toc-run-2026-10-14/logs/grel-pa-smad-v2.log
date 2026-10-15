@@ -1,0 +1,13 @@
+Input:        D:\Work\OpenPecha\Commentary_on_Valid_Cognition-rails\1-SOURCES\Commentaries\ཚད་མ་རྣམ་འགྲེལ་གྱི་འགྲེལ་པ། སྨད་ཆ།.md
+Commentary:   grel-pa-smad-v2
+Lines:        4213  ->  34 chunks (size=150, overlap=25)
+Model:        gemini-3.8-flash
+Staging dir:  D:\Work\OpenPecha\Commentary_on_Valid_Cognition-rails\0-INBOX\temp\TOC-grel-pa-smad-v2\candidates
+Candidates:   D:\Work\OpenPecha\Commentary_on_Valid_Cognition-rails\0-INBOX\temp\TOC-grel-pa-smad-v2\toc-candidates-grel-pa-smad-v2.md
+Enum folder:  D:\Work\OpenPecha\Commentary_on_Valid_Cognition-rails\0-INBOX\temp\TOC-grel-pa-smad-v2\enumerations  (one file per chunk)
+TOC tree:     D:\Work\OpenPecha\Commentary_on_Valid_Cognition-rails\0-INBOX\temp\TOC-grel-pa-smad-v2\toc-tree-grel-pa-smad-v2.md
+
+Pass 1 — section candidates:
+  chunk_000 (lines 1–150)  → Gemini ...
+    ! chunk attempt 1/8 overloaded (503/429): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Your billing account has exceeded its monthly spending cap. Please go to AI Studio at https://ai.studio/billing to manage your billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#tier-spend-caps. ', 'status': 'RESOURCE_EXHAUSTED'}}; retrying in 10s...
+    ! chunk attempt 2/8 overloaded (503/429): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Your billing account has exceeded its monthly spending cap. Please go to AI Studio at https://ai.studio/billing to manage your billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#tier-spend-caps. ', 'status': 'RESOURCE_EXHAUSTED'}}; retrying in 20s...

@@ -1,18 +1,14 @@
 # TOC tree QC report
 
-issues: 6
+issues: 8
 
 ## Issues
 
-- L283: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.3.1.2.2.2.2.2 གཉིས་པ་ལན་ [[2121]]
-- L326: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.3.3.1.1.1 དང་པོ་དངོས་ [[2458]]
-- L396: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.3.3.2.1.1.1.1.1.1.2.1 དང་པོ་དངོས་ [[?]]
-- L428: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.3.3.2.1.1.1.2.2.2.1 དང་པོ་དངོས་ [[?]]
-- L648: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.3.4.2.1.1.2.2.1 དང་པོ་དངོས་ [[?]]
-- L673: title not attested in candidates/enumerations (coverage 0%) — possible hallucination  ->  3.3.4.2.1.1.2.2.2.2 གཉིས་པ་ལན་ [[5307]]
-
----
-issues_before: 100
-issues_after: 6
-selected_round: 3
-repair_model: gemini-3.1-pro-preview
+- L51: ordinal 1 (དང་པོ) not attested for this title in candidates/enumerations (source attaches: 2)  ->  3.2.1.2.2.2.1.1 དང་པོ་གཞན་ལུགས་དགག་པ་
+- L55: ordinal 1 (དང་པོ) not attested for this title in candidates/enumerations (source attaches: 2)  ->  3.2.1.2.2.2.3.1 དང་པོ་གཞན་ལུགས་དགག་པ་
+- L252: ordinal 1 (དང་པོ) not attested for this title in candidates/enumerations (source attaches: 2)  ->  3.2.2.1.1.1.2.1.2.1.2.1 དང་པོ་སྒྲུབ་བྱེད་ལྟར་སྣང་དུ་བསྟན་པ་
+- L429: ordinal 1 (དང་པོ) not attested for this title in candidates/enumerations (source attaches: 2)  ->  3.2.2.2.1.2.4.2.1.1.1.1.1.2.2.2.2.1 དང་པོ་གཞན་ལུགས་དགག་པ་
+- L466: ordinal 1 (དང་པོ) not attested for this title in candidates/enumerations (source attaches: 2)  ->  3.2.2.2.2.1.1.1.1.2.1 དང་པོ་རྒྱས་བཤད་
+- L551: ordinal 1 (དང་པོ) not attested for this title in candidates/enumerations (source attaches: 2)  ->  3.2.2.2.4.2.1.1 དང་པོ་མདོ་དོན་ཚིག་དོན་གྱི་སྒོ་ནས་འཆད་པ་
+- L646: ordinal 1 (དང་པོ) not attested for this title in candidates/enumerations (source attaches: 2)  ->  3.2.2.3.1.2.1.2.1.2.1 དང་པོ་གཞན་ལུགས་དགག་པ་
+- L715: ordinal 1 (དང་པོ) not attested for this title in candidates/enumerations (source attaches: 2)  ->  3.2.2.3.2.1.1.1.2.3.1.2.1.1 དང་པོ་སྤྱིའི་དོན་

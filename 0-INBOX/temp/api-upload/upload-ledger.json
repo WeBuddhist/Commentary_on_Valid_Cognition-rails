@@ -1,0 +1,98 @@
+{
+ "རྣམ་འགྲེལ་ཐར་ལམ་གསལ་བྱེད།": {
+  "file": "1-SOURCES/Commentaries/རྣམ་འགྲེལ་ཐར་ལམ་གསལ་བྱེད།.md",
+  "receipts": [
+   {
+    "step": "text",
+    "text_id": "OJO3wA7VlvRXfIznQLcmd",
+    "at": "2026-10-14T22:53:31"
+   },
+   {
+    "step": "edition",
+    "edition_id": "o5qA9CDmlYx2D8dTmb0C4",
+    "at": "2026-10-14T22:53:36",
+    "segments": 1616
+   },
+   {
+    "step": "toc",
+    "toc_id": "3PrBBHPZoB3UlfCBcbT0P",
+    "at": "2026-10-14T22:53:37"
+   }
+  ],
+  "text_id": "OJO3wA7VlvRXfIznQLcmd",
+  "edition_id": "o5qA9CDmlYx2D8dTmb0C4",
+  "toc_id": "3PrBBHPZoB3UlfCBcbT0P"
+ },
+ "ཚད་མ་རྣམ་འགྲེལ་གྱི་འགྲེལ་པ། སྨད་ཆ།": {
+  "file": "1-SOURCES/Commentaries/ཚད་མ་རྣམ་འགྲེལ་གྱི་འགྲེལ་པ། སྨད་ཆ།.md",
+  "receipts": [
+   {
+    "step": "text",
+    "text_id": "ORSHbVa9jiUJCfAAWis9Y",
+    "at": "2026-10-15T00:58:03"
+   },
+   {
+    "step": "edition",
+    "edition_id": "bV9GfwxqHiE52tuSEqAoz",
+    "at": "2026-10-15T00:58:08",
+    "segments": 1904
+   },
+   {
+    "step": "toc",
+    "toc_id": "fWJMeFSs9g6fCB4wdVvMf",
+    "at": "2026-10-15T00:58:09"
+   }
+  ],
+  "text_id": "ORSHbVa9jiUJCfAAWis9Y",
+  "edition_id": "bV9GfwxqHiE52tuSEqAoz",
+  "toc_id": "fWJMeFSs9g6fCB4wdVvMf"
+ },
+ "ཚད་མ་རྣམ་འགྲེལ་གྱི་འགྲེལ་པ་ལེགས་བཤད་སྣང་བའི་གཏེར།": {
+  "file": "1-SOURCES/Commentaries/ཚད་མ་རྣམ་འགྲེལ་གྱི་འགྲེལ་པ་ལེགས་བཤད་སྣང་བའི་གཏེར།.md",
+  "receipts": [
+   {
+    "step": "text",
+    "text_id": "EfL2TV7vsXyHDjPIrsNcM",
+    "at": "2026-10-15T06:56:18"
+   },
+   {
+    "step": "edition",
+    "edition_id": "nOQDk8pGjG8zQd5mLQORm",
+    "at": "2026-10-15T06:56:25",
+    "segments": 2747
+   },
+   {
+    "step": "toc",
+    "toc_id": "4AwdjePC6od3nb98BPmj8",
+    "at": "2026-10-15T06:56:27"
+   }
+  ],
+  "text_id": "EfL2TV7vsXyHDjPIrsNcM",
+  "edition_id": "nOQDk8pGjG8zQd5mLQORm",
+  "toc_id": "4AwdjePC6od3nb98BPmj8"
+ },
+ "དཀའ་འགྲེལ་དགོངས་པ་རབ་གསལ།": {
+  "file": "1-SOURCES/Commentaries/དཀའ་འགྲེལ་དགོངས་པ་རབ་གསལ།.md",
+  "receipts": [
+   {
+    "step": "text",
+    "text_id": "1QvWFrZ1h2qsvPyOxwi2y",
+    "at": "2026-10-15T07:13:24"
+   },
+   {
+    "step": "edition",
+    "edition_id": "u7InwsyFrT2Y5u6ldMgUN",
+    "at": "2026-10-15T07:13:29",
+    "segments": 2376
+   },
+   {
+    "step": "toc",
+    "toc_id": "t1n0aaaIHLSfi9oo4jxDq",
+    "at": "2026-10-15T07:13:30"
+   }
+  ],
+  "text_id": "1QvWFrZ1h2qsvPyOxwi2y",
+  "edition_id": "u7InwsyFrT2Y5u6ldMgUN",
+  "toc_id": "t1n0aaaIHLSfi9oo4jxDq"
+ }
+}

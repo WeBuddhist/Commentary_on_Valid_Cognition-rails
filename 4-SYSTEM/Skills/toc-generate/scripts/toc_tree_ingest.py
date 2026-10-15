@@ -65,8 +65,10 @@ from collections import Counter
 # Constants
 # ---------------------------------------------------------------------------
 
-HEADING_LEVELS = {1: "##", 2: "###", 3: "####", 4: "#####"}
-DEFAULT_HEADING = "######"
+# Tree depth 1 -> "##", one more "#" per level, with NO cap at six (annotation-conventions §2):
+# depth 6 -> "#######". Markdown renders only six levels, so a heading deeper than
+# six also wraps its title in **bold** (display only; the parser drops the **).
+MAX_RENDERED_LEVEL = 6
 
 
 # ---------------------------------------------------------------------------
@@ -74,7 +76,7 @@ DEFAULT_HEADING = "######"
 # ---------------------------------------------------------------------------
 
 def depth_to_heading(depth: int) -> str:
-    return HEADING_LEVELS.get(depth, DEFAULT_HEADING)
+    return "#" * (depth + 1)
 
 
 def decimal_to_block_id(decimal_id: str) -> str:
@@ -175,7 +177,10 @@ def cmd_parse(args):
 
 def heading_line(node: dict) -> str:
     hashes = depth_to_heading(node["depth"])
-    return f"{hashes} {node['label']} {node['block_id']}"
+    label = node["label"]
+    if len(hashes) > MAX_RENDERED_LEVEL and not (label.startswith("**") and label.endswith("**")):
+        label = f"**{label}**"
+    return f"{hashes} {label} {node['block_id']}"
 
 
 def cmd_ingest(args):

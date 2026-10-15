@@ -385,8 +385,8 @@ segments in the entry's decimal number (`4-SYSTEM/Guidelines/annotation-conventi
 | `1.3.2` | 3 | `####` | `^1-3-2-0` |
 | `1.3.2.2` | 4 | `#####` | `^1-3-2-2-0` |
 | `1.3.2.2.2` | 5 | `######` | `^1-3-2-2-2-0` |
-| `1.3.2.2.2.2` | 6 | `######` + `**bold**` title | `^1-3-2-2-2-2-0` |
-| `1.3.2.2.2.2.1.1.1` | 9 | `######` + `**bold**` title | `^1-3-2-2-2-2-1-1-1-0` |
+| `1.3.2.2.2.2` | 6 | `#######` + `**bold**` title | `^1-3-2-2-2-2-0` |
+| `1.3.2.2.2.2.1.1.1` | 9 | `##########` + `**bold**` title | `^1-3-2-2-2-2-1-1-1-0` |
 
 **The block ID is the full decimal path, segments joined with `-`, then `-0`
 appended. No zero-padding and no segment cap** — depth follows the tree exactly.
@@ -401,9 +401,8 @@ This is the normal shape of a hand-made or page-pointer tree, so it is the rule 
 states explicitly below. Decide which shape you have by comparing the depth-1 entry
 against the file's `#` title line, and say which in the report.
 
-Markdown renders only `#` through `######`. Nodes deeper than six keep `######`,
-wrap the heading title in `**bold**` so the extra depth stays visible, and rely on
-the full-path block ID as the authoritative record of position. Apply this
+Heading levels have no cap at six: one more `#` per level (`#######`, `########`, …), and a heading deeper than six also wraps its title in `**bold**` (Markdown renders only six levels; the parser reads depth from the `#` count and drops the `**`). The `#` count therefore always equals the
+block ID's segment count (`toc_tree_ingest.py` writes it so). Apply this
 mechanically, however deep the tree goes — no need to check with the human
 contributor.
 
@@ -552,8 +551,8 @@ the entry's number, with the depth-1 entry excluded because it is the file's `#`
 | `1.2.2.1` | 4 | `####` | `^1-2-2-1-0` |
 | `1.2.2.1.1` | 5 | `#####` | `^1-2-2-1-1-0` |
 | `1.2.2.1.1.1` | 6 | `######` | `^1-2-2-1-1-1-0` |
-| `1.2.2.1.1.3.1` | 7 | `######` + **bold** (see below) | `^1-2-2-1-1-3-1-0` |
-| `1.2.2.1.1.3.1.1` | 8 | `######` + **bold** (see below) | `^1-2-2-1-1-3-1-1-0` |
+| `1.2.2.1.1.3.1` | 7 | `#######` + **bold** (see below) | `^1-2-2-1-1-3-1-0` |
+| `1.2.2.1.1.3.1.1` | 8 | `########` + **bold** (see below) | `^1-2-2-1-1-3-1-1-0` |
 
 > **Block IDs — the one deliberate change from the original `TOC-to-HEADING` skill.**
 > That skill wrote bare headings (`## དང་པོ་མདོར་བསྟན་པ།`) with no block ID.
@@ -670,7 +669,7 @@ separated from the next by a blank line too:
 - [ ] Every heading carries its full-decimal-path block ID with the `-0` slot (`4-SYSTEM/Guidelines/annotation-conventions.md` §2)
 - [ ] Blank line present above and below every heading, including between stacked headings
 - [ ] No existing prose deleted, reordered, or retyped — paragraph splits (Rule 5) preserve both resulting fragments verbatim
-- [ ] Any TOC depth beyond 6 used `######` with the heading text wrapped in `**bold**`
+- [ ] Any TOC depth beyond 6 used one more `#` per level, with the heading text wrapped in `**bold**`
 - [ ] File re-read after edits to confirm correct order and spacing
 
 ---

@@ -134,10 +134,9 @@ kinds of markup and nothing else:
 | 3 | `####` | `#### <title> ^N-N-N-0` |
 | 4 | `#####` | `##### <title> ^N-N-N-N-0` |
 | 5 | `######` | `###### <title> ^N-N-N-N-N-0` |
-| 6+ | `######` | `###### <title> ^N-…-N-0` (block ID extends as needed) |
+| 6+ | one more `#` per level | `####### **<title>** ^N-…-N-0` (bold beyond six) |
 
-Markdown has only 6 heading levels. For depth 6+, keep `######` and let the
-block ID carry the nesting. `<title>` is the short section name (the
+Heading levels have no cap at six: one more `#` per level (`#######`, `########`, …), and a heading deeper than six also wraps its title in `**bold**` (Markdown renders only six levels; the parser reads depth from the `#` count and drops the `**`). The `#` count always equals the number of block-ID segments. `<title>` is the short section name (the
 announced term), not the full ordinal phrase — e.g. `བཤད་པ།`, not
 `གཉིས་པ་བཤད་པ།`.
 

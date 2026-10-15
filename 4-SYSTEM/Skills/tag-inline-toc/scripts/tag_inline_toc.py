@@ -78,8 +78,9 @@ def unwrap_links(text: str) -> str:
 
 
 def heading_level(depth: int) -> str:
-    """depth 1 -> '##', depth 2 -> '###', ... capped at 6 '#'s (###### )."""
-    return "#" * min(depth + 1, 6)
+    """depth 1 -> '##', depth 2 -> '###', ... one more '#' per level, no cap at six
+    (annotation-conventions §2). Titles deeper than six are wrapped in **bold** by the caller."""
+    return "#" * (depth + 1)
 
 
 # --------------------------------------------------------------------------- #
@@ -258,7 +259,10 @@ def render(source: str, annot: dict) -> tuple[str, dict]:
             },
             f"section ^{block_id} body",
         )
-        heading_line = f"{heading_level(sec['depth'])} {title} ^{block_id}"
+        hashes = heading_level(sec['depth'])
+        if len(hashes) > 6 and not (title.startswith("**") and title.endswith("**")):
+            title = f"**{title}**"
+        heading_line = f"{hashes} {title} ^{block_id}"
         edits_for(body_idx).headings.append(heading_line)
         n_headings += 1
 

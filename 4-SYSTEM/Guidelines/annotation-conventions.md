@@ -75,7 +75,7 @@ original content in that section always starts at `1`.
 | 4 | `####` | Sub-section | `^N-N-N-0` | `#### 1.2.3 Sub-section ^1-2-3-0` |
 | 5 | `#####` | Sub-sub-section | `^N-N-N-N-0` | `##### 1.2.3.1 … ^1-2-3-1-0` |
 | 6 | `######` | Fifth-level node | `^N-N-N-N-N-0` | `###### 1.2.3.1.1 … ^1-2-3-1-1-0` |
-| 7+ | `######` + `**bold**` title | Deeper nodes | full path + `-0` | `###### **1.2.3.1.1.4 …** ^1-2-3-1-1-4-0` |
+| 7+ | one more `#` per level + `**bold**` title | Deeper nodes | full path + `-0` | `####### **1.2.3.1.1.4 …** ^1-2-3-1-1-4-0` |
 
 ```markdown
 ## 0. Introduction ^0-0
@@ -102,11 +102,18 @@ Rules:
   merge or truncate a deep tree to fit a shorter ID.
 - **Markdown heading level follows tree depth.** `##` is the text's top-level
   division (chapter, or the first level of a commentary's *sa bcad*); each
-  deeper tree level adds one `#`. Markdown stops at `######` (six), so nodes
-  deeper than that keep `######`, wrap the heading title in `**bold**` to make
-  the extra depth visible, and rely on the full-path block ID for the real
-  depth. The block ID, not the number of `#`, is the authoritative record of a
-  heading's position in the tree.
+  deeper tree level adds one `#`, **with no cap at six**: a depth-7 node is
+  written `#######`, depth 8 `########`, and so on. Because Markdown renders
+  only six levels, a heading deeper than six also wraps its title in
+  `**bold**` — display only; the parser drops the `**` from the TOC title and
+  reads the depth from the number of `#`. The number of `#` and the number of
+  segments in the block ID therefore always agree.
+
+  ```markdown
+  ###### h6 ^1-1-1-1-1-0
+  ####### **h7** ^1-1-1-1-1-1-0
+  ######## **h8** ^1-1-1-1-1-1-1-0
+  ```
 - When a TOC file's depth-1 entry is the work's own title (which is already
   the file's `#` line), that entry is excluded from insertion and its children
   start at `##`. Otherwise the tree's depth-1 nodes are the `##` headings.

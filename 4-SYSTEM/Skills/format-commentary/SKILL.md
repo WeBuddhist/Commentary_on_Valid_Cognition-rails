@@ -85,15 +85,13 @@ slot.**
 | 4 | `####` | Sub-section | `^N-N-N-0` |
 | 5 | `#####` | Sub-sub-section | `^N-N-N-N-0` |
 | 6 | `######` | Fifth-level node | `^N-N-N-N-N-0` |
-| 7+ | `######` + `**bold**` title | Deeper nodes | full path + `-0` |
+| 7+ | one more `#` per level (`#######`, …) + `**bold**` title | Deeper nodes | full path + `-0` |
 
 - The first `##` section immediately following the title is numbered `0`
   (e.g. `## 0. མཆོད་བརྗོད། ^0-0`); subsequent sections are `1.`, `2.`, …
 - **There is no segment cap.** A node at `1.2.2.1.1.4` in the tree gets
   `^1-2-2-1-1-4-0`. Never flatten, merge, or truncate a deep tree to fit a
-  shorter ID. Markdown stops at `######`; depth beyond six is carried by the
-  block ID, with the heading title wrapped in `**bold**` so the extra depth is
-  visible.
+  shorter ID. Heading levels have no cap at six: one more `#` per level (`#######`, `########`, …), and a heading deeper than six also wraps its title in `**bold**` (Markdown renders only six levels; the parser reads depth from the `#` count and drops the `**`).
 - **Every heading takes a block ID**, written inline at the end of the heading
   line. (An older version of this skill said the opposite — "do NOT add block
   IDs to any heading level". That rule is retired; a parser expecting `^N-0`

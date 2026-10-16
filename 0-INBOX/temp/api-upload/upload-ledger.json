@@ -65,11 +65,23 @@
     "step": "toc",
     "toc_id": "4AwdjePC6od3nb98BPmj8",
     "at": "2026-10-15T06:56:27"
+   },
+   {
+    "step": "toc-replace",
+    "toc_id": "mrq2PCtMjZvY7nRkMNgiK",
+    "old": "4AwdjePC6od3nb98BPmj8",
+    "at": "2026-10-16T10:29:23"
    }
   ],
   "text_id": "EfL2TV7vsXyHDjPIrsNcM",
   "edition_id": "nOQDk8pGjG8zQd5mLQORm",
-  "toc_id": "4AwdjePC6od3nb98BPmj8"
+  "toc_id": "mrq2PCtMjZvY7nRkMNgiK",
+  "replaced_tocs": [
+   {
+    "toc_id": "4AwdjePC6od3nb98BPmj8",
+    "replaced_at": "2026-10-16T10:29:23"
+   }
+  ]
  },
  "དཀའ་འགྲེལ་དགོངས་པ་རབ་གསལ།": {
   "file": "1-SOURCES/Commentaries/དཀའ་འགྲེལ་དགོངས་པ་རབ་གསལ།.md",
@@ -89,10 +101,22 @@
     "step": "toc",
     "toc_id": "t1n0aaaIHLSfi9oo4jxDq",
     "at": "2026-10-15T07:13:30"
+   },
+   {
+    "step": "toc-replace",
+    "toc_id": "RdS1yO4mrMzXWSEA11Bpw",
+    "old": "t1n0aaaIHLSfi9oo4jxDq",
+    "at": "2026-10-16T10:29:19"
    }
   ],
   "text_id": "1QvWFrZ1h2qsvPyOxwi2y",
   "edition_id": "u7InwsyFrT2Y5u6ldMgUN",
-  "toc_id": "t1n0aaaIHLSfi9oo4jxDq"
+  "toc_id": "RdS1yO4mrMzXWSEA11Bpw",
+  "replaced_tocs": [
+   {
+    "toc_id": "t1n0aaaIHLSfi9oo4jxDq",
+    "replaced_at": "2026-10-16T10:29:19"
+   }
+  ]
  }
 }

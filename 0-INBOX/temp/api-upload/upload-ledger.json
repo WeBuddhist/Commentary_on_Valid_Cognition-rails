@@ -121,6 +121,12 @@
     "toc_id": "RdS1yO4mrMzXWSEA11Bpw",
     "old": "t1n0aaaIHLSfi9oo4jxDq",
     "at": "2026-10-16T10:29:19"
+   },
+   {
+    "step": "alignment",
+    "aligned_to_edition_id": "35KZRPj0d3oErozfsTCJ8",
+    "at": "2026-10-16T13:29:00",
+    "pairs": 2572
    }
   ],
   "text_id": "1QvWFrZ1h2qsvPyOxwi2y",
@@ -131,6 +137,7 @@
     "toc_id": "t1n0aaaIHLSfi9oo4jxDq",
     "replaced_at": "2026-10-16T10:29:19"
    }
-  ]
+  ],
+  "aligned_to_edition_id": "35KZRPj0d3oErozfsTCJ8"
  }
 }

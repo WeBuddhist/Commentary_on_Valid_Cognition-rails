@@ -17,11 +17,18 @@
     "step": "toc",
     "toc_id": "3PrBBHPZoB3UlfCBcbT0P",
     "at": "2026-10-14T22:53:37"
+   },
+   {
+    "step": "alignment",
+    "aligned_to_edition_id": "35KZRPj0d3oErozfsTCJ8",
+    "at": "2026-10-16T10:49:01",
+    "pairs": 2525
    }
   ],
   "text_id": "OJO3wA7VlvRXfIznQLcmd",
   "edition_id": "o5qA9CDmlYx2D8dTmb0C4",
-  "toc_id": "3PrBBHPZoB3UlfCBcbT0P"
+  "toc_id": "3PrBBHPZoB3UlfCBcbT0P",
+  "aligned_to_edition_id": "35KZRPj0d3oErozfsTCJ8"
  },
  "ཚད་མ་རྣམ་འགྲེལ་གྱི་འགྲེལ་པ། སྨད་ཆ།": {
   "file": "1-SOURCES/Commentaries/ཚད་མ་རྣམ་འགྲེལ་གྱི་འགྲེལ་པ། སྨད་ཆ།.md",

@@ -1,0 +1,40 @@
+rows: 1725 from 9 parts
+  P1: 128 rows {'lemma': 127, 'proof': 1}
+  P2: 180 rows {'lemma': 168, 'proof': 9, 'gloss': 3}
+  P3: 111 rows {'lemma': 104, 'gloss': 2, 'proof': 5}
+  P4: 161 rows {'lemma': 143, 'gloss': 9, 'proof': 9}
+  P5: 186 rows {'lemma': 181, 'proof': 4, 'gloss': 1}
+  P6: 253 rows {'gloss': 6, 'lemma': 244, 'proof': 3}
+  P7: 257 rows {'lemma': 248, 'gloss': 6, 'proof': 3}
+  P8: 268 rows {'lemma': 248, 'proof': 3, 'gloss': 17}
+  P9: 181 rows {'gloss': 8, 'lemma': 172, 'proof': 1}
+
+== root coverage ==
+  ch I: 0/3 placed; missing 3: I-1 I-2 I-3
+  ch 1: 2/354 placed; missing 352: 1-1 1-2 1-3 1-4 1-5 1-6 1-7 1-8 1-9 1-10 1-11 1-12 1-13 1-14 1-15 1-16 1-17 1-18 1-19 1-20 1-21 1-22 1-23 1-24 1-25 1-26 1-27 1-28 1-29 1-30 1-31 1-32 1-33 1-34 1-35 1-36 1-37 1-38 1-39 1-40 1-41 1-42 1-43 1-44 1-45 1-46 1-47 1-48 1-49 1-50 1-51 1-52 1-53 1-54 1-55 1-56 1-57 1-58 1-59 1-60 …
+  ch 2: 326/327 placed; missing 1: 2-167
+  ch 3: 670/671 placed; missing 1: 3-222
+  ch 4: 346/348 placed; missing 2: 4-346 4-347
+  ch a: 0/9 placed; missing 9: a-1 a-2 a-3 a-4 a-5 a-6 a-7 a-8 a-9
+
+== dropped strong seeds (>= 12 syllables, single candidate in that block) ==
+  L1005 ^2-228 (14 syl) placed at ['1002'] | ཏེ་འདི་ལྟར་གང་གི་རང་བཞིན་འཇིག་མེད་པ་དེ་ལ་མཁས་རྣམས་རྟག་ཅེས་བརྗོད་དོ་གང
+  L1336 ^2-307 (14 syl) placed at ['1332'] | བདེ་དང་ང་དང་ངའི་ཞེས་སོགས་ཡང་དག་མིན་པ་རྣམ་བཅུ་དྲུག་2-597
+  L1594 ^3-48 (12 syl) placed at ['1588'] | ནུས་པ་ལ་གཙོ་བོ་ལ་སོགས་པའི་མཉན་པ་སྐྱེ་བོས་བྱས་པ་ཡིན་གྲངས་ཅན
+  L1741 ^3-87 (12 syl) placed at ['1739'] | ཆོད་པ་ལ་སོགས་ཡོད་ན་ཡང་དབང་སྐྱེས་བློ་ནི་སྐྱེ་བར་འགྱུར་3-148
+  L2079 ^3-195 (14 syl) placed at ['2075'] | ཁ་དོག་དབྱིབས་ཡིག་རྣམ་པ་ཡིས་སྟོང་པ་བ་ལང་ཉིད་དུ་བརྗོད་3-301
+  L2641 ^3-371 (14 syl) placed at ['2637'] | དེ་ལ་རབ་རིབ་འབའ་ཞིག་ནི་ཉེར་གནོད་མཚོན་པར་བྱེད་པ་ཡིན་3-546
+  L4002 ^4-220 (21 syl) placed at ['4000'] | དེ་ལྟ་བུར་གྱུར་མ་གྲུབ་ཕྱིར་ཀུན་རྫོབ་པ་ཡི་དངོས་རྣམས་ལ་དེ་ཉིད་གཞན་ཉིད་འག
+  L4212 ^4-304 (14 syl) placed at ['4210'] | འབྲས་བུའི་རང་བཞིན་ཐ་དད་རྣམས་རྒྱུ་རྣམས་ལས་ནི་བྱུང་བའི་ཕྱིར་4-318
+  total 8
+
+== gloss rows that have a verbatim seed (-> lemma) ==
+  total 0
+
+== order: root blocks placed out of root order (per chapter, by first placement) ==
+  ch 1: 2 blocks, 1 backward jumps > 3 blocks: [('1-224', '1-208', 224, 2147)]
+  ch 2: 326 blocks, 0 backward jumps > 3 blocks: []
+  ch 3: 670 blocks, 0 backward jumps > 3 blocks: []
+  ch 4: 346 blocks, 0 backward jumps > 3 blocks: []
+
+wrote merged.tsv

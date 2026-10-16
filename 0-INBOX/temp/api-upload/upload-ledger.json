@@ -78,6 +78,12 @@
     "toc_id": "mrq2PCtMjZvY7nRkMNgiK",
     "old": "4AwdjePC6od3nb98BPmj8",
     "at": "2026-10-16T10:29:23"
+   },
+   {
+    "step": "alignment",
+    "aligned_to_edition_id": "35KZRPj0d3oErozfsTCJ8",
+    "at": "2026-10-16T11:09:14",
+    "pairs": 2927
    }
   ],
   "text_id": "EfL2TV7vsXyHDjPIrsNcM",
@@ -88,7 +94,8 @@
     "toc_id": "4AwdjePC6od3nb98BPmj8",
     "replaced_at": "2026-10-16T10:29:23"
    }
-  ]
+  ],
+  "aligned_to_edition_id": "35KZRPj0d3oErozfsTCJ8"
  },
  "དཀའ་འགྲེལ་དགོངས་པ་རབ་གསལ།": {
   "file": "1-SOURCES/Commentaries/དཀའ་འགྲེལ་དགོངས་པ་རབ་གསལ།.md",
